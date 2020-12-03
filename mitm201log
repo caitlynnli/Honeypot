@@ -1,0 +1,68 @@
+2020-10-21 06:10:51.943 - [Info] MITM Version: 1.26
+2020-10-21 06:10:51.958 - [Info] Auto Access Enabled: true
+2020-10-21 06:10:51.959 - [Debug] [Init] Auto Access Barrier: true
+2020-10-21 06:10:52.016 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-21 18:44:33.369 - [Debug] [Connection] Attacker connected: 10.105.171.115 | Client Identification: SSH-2.0-OpenSSH_8.1
+2020-10-21 18:44:33.448 - [Debug] [Auth] Attacker 10.105.171.115 trying to authenticate with "none"
+2020-10-21 18:44:33.448 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-21 18:44:35.033 - [Debug] [Auth] Attacker 10.105.171.115 trying to authenticate with "password"
+2020-10-21 18:44:35.034 - [Debug] [Auto Access] Attacker: 10.105.171.115, Threshold: 1, Attempts: 1
+2020-10-21 18:44:35.035 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-21 18:44:35.035 - [Debug] [Auto Access] Adding the following credentials: "root:pass"
+2020-10-21 18:44:35.208 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-21 18:44:35.208 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-21 18:44:35.247 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-21 18:44:36.797 - [Debug] [SHELL] Opened shell for attacker
+2020-10-21 18:44:39.971 - [Debug] [SHELL] Attacker Keystroke: l
+2020-10-21 18:44:40.083 - [Debug] [SHELL] Attacker Keystroke: s
+2020-10-21 18:44:40.206 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2020-10-21 18:44:40.209 - [Debug] [SHELL] line from reader: ls
+2020-10-21 18:44:40.209 - [Debug] [SHELL] Keystroke buffer: 108,115,13
+2020-10-21 18:44:48.698 - [Debug] [SHELL] Attacker Keystroke: c
+2020-10-21 18:44:49.412 - [Debug] [SHELL] Attacker Keystroke: d
+2020-10-21 18:44:49.729 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2020-10-21 18:44:50.002 - [Debug] [SHELL] Attacker Keystroke: /
+2020-10-21 18:44:50.229 - [Debug] [SHELL] Attacker Keystroke: h
+2020-10-21 18:44:50.391 - [Debug] [SHELL] Attacker Keystroke: o
+2020-10-21 18:44:50.491 - [Debug] [SHELL] Attacker Keystroke: m
+2020-10-21 18:44:50.642 - [Debug] [SHELL] Attacker Keystroke: e
+2020-10-21 18:44:50.761 - [Debug] [SHELL] Attacker Keystroke: /
+2020-10-21 18:44:51.081 - [Debug] [SHELL] Attacker Keystroke: r
+2020-10-21 18:44:51.190 - [Debug] [SHELL] Attacker Keystroke: o
+2020-10-21 18:44:51.350 - [Debug] [SHELL] Attacker Keystroke: o
+2020-10-21 18:44:51.459 - [Debug] [SHELL] Attacker Keystroke: t
+2020-10-21 18:44:51.813 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2020-10-21 18:44:51.815 - [Debug] [SHELL] line from reader: cd /home/root
+2020-10-21 18:44:51.816 - [Debug] [SHELL] Keystroke buffer: 99,100,32,47,104,111,109,101,47,114,111,111,116,13
+2020-10-21 18:44:54.152 - [Debug] [SHELL] Attacker Keystroke: l
+2020-10-21 18:44:54.289 - [Debug] [SHELL] Attacker Keystroke: s
+2020-10-21 18:44:54.435 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2020-10-21 18:44:54.436 - [Debug] [SHELL] line from reader: ls
+2020-10-21 18:44:54.437 - [Debug] [SHELL] Keystroke buffer: 108,115,13
+2020-10-21 18:44:59.065 - [Debug] [SHELL] Attacker Keystroke: e
+2020-10-21 18:44:59.228 - [Debug] [SHELL] Attacker Keystroke: c
+2020-10-21 18:44:59.368 - [Debug] [SHELL] Attacker Keystroke: h
+2020-10-21 18:44:59.454 - [Debug] [SHELL] Attacker Keystroke: o
+2020-10-21 18:44:59.557 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2020-10-21 18:44:59.674 - [Debug] [SHELL] Attacker Keystroke: h
+2020-10-21 18:44:59.789 - [Debug] [SHELL] Attacker Keystroke: i
+2020-10-21 18:45:00.012 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2020-10-21 18:45:00.014 - [Debug] [SHELL] line from reader: echo hi
+2020-10-21 18:45:00.014 - [Debug] [SHELL] Keystroke buffer: 101,99,104,111,32,104,105,13
+2020-10-21 18:45:01.486 - [Debug] [SHELL] Attacker Keystroke: l
+2020-10-21 18:45:01.564 - [Debug] [SHELL] Attacker Keystroke: s
+2020-10-21 18:45:01.691 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2020-10-21 18:45:01.692 - [Debug] [SHELL] line from reader: ls
+2020-10-21 18:45:01.692 - [Debug] [SHELL] Keystroke buffer: 108,115,13
+2020-10-21 18:45:03.132 - [Debug] [SHELL] Attacker Keystroke: e
+2020-10-21 18:45:03.381 - [Debug] [SHELL] Attacker Keystroke: x
+2020-10-21 18:45:03.529 - [Debug] [SHELL] Attacker Keystroke: i
+2020-10-21 18:45:03.660 - [Debug] [SHELL] Attacker Keystroke: t
+2020-10-21 18:45:03.884 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2020-10-21 18:45:03.886 - [Debug] [SHELL] line from reader: exit
+2020-10-21 18:45:03.886 - [Debug] [SHELL] Keystroke buffer: 101,120,105,116,13
+2020-10-21 18:45:03.896 - [Debug] [SHELL] Honeypot ended shell
+2020-10-21 18:45:03.906 - [Debug] [SHELL] Attacker ended the shell
+2020-10-21 18:45:03.908 - [Debug] [Connection] Attacker closed connection
+2020-10-21 18:45:03.923 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-21 18:45:03.924 - [Debug] [LXC] Container's OpenSSH server closed connection
