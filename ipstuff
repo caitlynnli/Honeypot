@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ip addr add 128.8.238.71/26 dev enp4s1
+ip addr add 128.8.238.76/26 dev enp4s1
+ip addr add 128.8.238.78/26 dev enp4s1
+ip addr add 128.8.37.107/27 dev enp4s1
+
+ip route add default via 128.8.238.65 table s1
+ip rule add from 172.20.0.201 table s1
+ip rule add from 172.20.0.202 table s1
+ip rule add from 172.20.0.203 table s1
