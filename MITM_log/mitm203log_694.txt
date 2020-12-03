@@ -1,0 +1,27 @@
+2020-11-03 14:37:41.677 - [Info] MITM Version: 1.26
+2020-11-03 14:37:41.681 - [Info] Auto Access Enabled: true
+2020-11-03 14:37:41.681 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 14:37:41.695 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-03 14:39:47.465 - [Debug] [Connection] Attacker connected: 205.185.115.228 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-03 14:39:47.543 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 14:50:34.475 - [Debug] [Connection] Attacker connected: 63.225.4.136 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-03 14:50:40.314 - [Debug] [Auth] Attacker 63.225.4.136 trying to authenticate with "password"
+2020-11-03 14:50:40.315 - [Debug] [Auto Access] Attacker: 63.225.4.136, Threshold: 1, Attempts: 1
+2020-11-03 14:50:40.315 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 14:50:40.315 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-03 14:50:40.431 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 14:50:40.431 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-03 14:50:50.269 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 14:50:50.377 - [Debug] [Connection] Attacker connected: 63.225.4.136 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-03 14:50:55.084 - [Debug] [Auth] Attacker 63.225.4.136 trying to authenticate with "password"
+2020-11-03 14:50:55.084 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 14:50:55.085 - [Debug] [Auth] Attacker: 63.225.4.136 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 14:50:55.363 - [Debug] [Auth] Attacker 63.225.4.136 trying to authenticate with "password"
+2020-11-03 14:50:55.363 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 14:50:55.364 - [Debug] [Auth] Attacker: 63.225.4.136 has so far made 2 attempts. Remaining: 4 attempts
+2020-11-03 14:50:55.668 - [Debug] [Auth] Attacker 63.225.4.136 trying to authenticate with "password"
+2020-11-03 14:50:55.669 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 14:50:55.669 - [Debug] [Auth] Attacker: 63.225.4.136 has so far made 3 attempts. Remaining: 3 attempts
+2020-11-03 14:50:55.936 - [Info] Exiting...
+2020-11-03 14:50:55.936 - [Debug] Cleaning up...
+No auth in progress

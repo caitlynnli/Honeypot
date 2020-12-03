@@ -1,0 +1,26 @@
+2020-11-03 12:13:48.307 - [Info] MITM Version: 1.26
+2020-11-03 12:13:48.311 - [Info] Auto Access Enabled: true
+2020-11-03 12:13:48.311 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 12:13:48.323 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-03 12:14:47.942 - [Debug] [Connection] Attacker connected: 115.77.91.197 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-03 12:14:49.666 - [Debug] [Auth] Attacker 115.77.91.197 trying to authenticate with "none"
+2020-11-03 12:14:49.666 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:14:50.249 - [Debug] [Auth] Attacker 115.77.91.197 trying to authenticate with "password"
+2020-11-03 12:14:50.250 - [Debug] [Auto Access] Attacker: 115.77.91.197, Threshold: 1, Attempts: 1
+2020-11-03 12:14:50.250 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 12:14:50.250 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-03 12:14:50.355 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 12:14:50.355 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-03 12:15:00.248 - [Debug] [Connection] Client error on ssh server
+2020-11-03 12:15:00.248 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:15:02.367 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-OpenSSH_6.0p
+2020-11-03 12:15:03.351 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-11-03 12:15:03.352 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:15:03.790 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-11-03 12:15:03.791 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 12:15:03.791 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:15:04.052 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:15:05.154 - [Debug] [Connection] Attacker connected: 115.77.91.197 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-03 12:15:05.789 - [Info] Exiting...
+2020-11-03 12:15:05.789 - [Debug] Cleaning up...
+No auth in progress

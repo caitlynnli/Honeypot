@@ -1,0 +1,25 @@
+2020-11-06 19:56:22.444 - [Info] MITM Version: 1.26
+2020-11-06 19:56:22.448 - [Info] Auto Access Enabled: true
+2020-11-06 19:56:22.448 - [Debug] [Init] Auto Access Barrier: true
+2020-11-06 19:56:22.463 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-06 20:09:43.592 - [Debug] [Connection] Attacker connected: 102.165.30.29 | Client Identification: SSH-2.0-ZGrab ZGrab SSH Survey
+2020-11-06 20:09:45.602 - [Debug] [Connection] Attacker closed the connection
+2020-11-06 21:11:45.627 - [Debug] [Connection] Attacker connected: 174.28.245.28 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-06 21:11:49.150 - [Debug] [Auth] Attacker 174.28.245.28 trying to authenticate with "password"
+2020-11-06 21:11:49.151 - [Debug] [Auto Access] Attacker: 174.28.245.28, Threshold: 1, Attempts: 1
+2020-11-06 21:11:49.151 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-06 21:11:49.151 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-06 21:11:49.251 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-06 21:11:49.252 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-06 21:11:49.274 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-06 21:11:49.668 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2020-11-06 21:11:51.361 - [Debug] [Connection] Attacker closed connection
+2020-11-06 21:11:51.366 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-06 21:11:51.367 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-06 21:11:51.438 - [Debug] [Connection] Attacker connected: 174.28.245.28 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-06 21:11:55.337 - [Debug] [Auth] Attacker 174.28.245.28 trying to authenticate with "password"
+2020-11-06 21:11:55.338 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-06 21:11:55.339 - [Debug] [Auth] Attacker: 174.28.245.28 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-06 21:11:55.539 - [Debug] [Connection] Attacker closed the connection
+2020-11-06 21:16:50.488 - [Info] Exiting...
+2020-11-06 21:16:50.489 - [Debug] Cleaning up...

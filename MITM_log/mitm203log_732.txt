@@ -1,0 +1,39 @@
+2020-11-04 07:01:55.759 - [Info] MITM Version: 1.26
+2020-11-04 07:01:55.763 - [Info] Auto Access Enabled: true
+2020-11-04 07:01:55.763 - [Debug] [Init] Auto Access Barrier: true
+2020-11-04 07:01:55.777 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-04 07:18:12.042 - [Debug] [Connection] Attacker connected: 199.19.226.83 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-04 07:18:12.119 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 07:19:20.652 - [Debug] [Connection] Attacker connected: 120.224.50.233 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-11-04 07:19:23.219 - [Debug] [Auth] Attacker 120.224.50.233 trying to authenticate with "password"
+2020-11-04 07:19:23.220 - [Debug] [Auto Access] Attacker: 120.224.50.233, Threshold: 1, Attempts: 1
+2020-11-04 07:19:23.220 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-04 07:19:23.220 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-04 07:19:23.327 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-04 07:19:23.327 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-04 07:19:33.219 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 07:19:33.492 - [Debug] [Connection] Attacker connected: 120.224.50.233 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-11-04 07:19:35.177 - [Debug] [Auth] Attacker 120.224.50.233 trying to authenticate with "password"
+2020-11-04 07:19:35.177 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 07:19:35.178 - [Debug] [Auth] Attacker: 120.224.50.233 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-04 07:19:35.715 - [Debug] [Auth] Attacker 120.224.50.233 trying to authenticate with "password"
+2020-11-04 07:19:35.716 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 07:19:35.716 - [Debug] [Auth] Attacker: 120.224.50.233 has so far made 2 attempts. Remaining: 4 attempts
+2020-11-04 07:19:36.252 - [Debug] [Auth] Attacker 120.224.50.233 trying to authenticate with "password"
+2020-11-04 07:19:36.253 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 07:19:36.253 - [Debug] [Auth] Attacker: 120.224.50.233 has so far made 3 attempts. Remaining: 3 attempts
+2020-11-04 07:19:36.788 - [Debug] [Auth] Attacker 120.224.50.233 trying to authenticate with "password"
+2020-11-04 07:19:36.789 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 07:19:36.789 - [Debug] [Auth] Attacker: 120.224.50.233 has so far made 4 attempts. Remaining: 2 attempts
+2020-11-04 07:19:37.326 - [Debug] [Auth] Attacker 120.224.50.233 trying to authenticate with "password"
+2020-11-04 07:19:37.327 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 07:19:37.327 - [Debug] [Auth] Attacker: 120.224.50.233 has so far made 5 attempts. Remaining: 1 attempts
+2020-11-04 07:19:37.865 - [Debug] [Auth] Attacker 120.224.50.233 trying to authenticate with "password"
+2020-11-04 07:19:37.865 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 07:19:37.865 - [Debug] [Auth] Attacker: 120.224.50.233 has so far made 6 attempts. Remaining: 0 attempts
+2020-11-04 07:19:37.866 - [Debug] [Connection] Max Login Attempts Reached - Closing connection on attacker
+2020-11-04 07:19:37.866 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 07:19:38.402 - [Debug] [Connection] Attacker connected: 120.224.50.233 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-11-04 07:19:38.808 - [Info] Exiting...
+2020-11-04 07:19:38.808 - [Debug] Cleaning up...
+No auth in progress

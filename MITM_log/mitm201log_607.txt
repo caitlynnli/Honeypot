@@ -1,0 +1,20 @@
+2020-11-11 18:17:28.012 - [Info] MITM Version: 1.26
+2020-11-11 18:17:28.016 - [Info] Auto Access Enabled: true
+2020-11-11 18:17:28.017 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 18:17:28.031 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-11 18:17:46.207 - [Debug] [Connection] Attacker connected: 120.53.108.58 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 18:17:48.482 - [Debug] [Auth] Attacker 120.53.108.58 trying to authenticate with "password"
+2020-11-11 18:17:48.483 - [Debug] [Auto Access] Attacker: 120.53.108.58, Threshold: 1, Attempts: 1
+2020-11-11 18:17:48.483 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 18:17:48.486 - [Debug] [Auto Access] Adding the following credentials: "mythtv:mythtv"
+2020-11-11 18:17:48.688 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 18:17:48.688 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-11 18:17:58.494 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 18:18:03.544 - [Debug] [Connection] Attacker connected: 157.245.249.158 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 18:18:03.707 - [Debug] [Auth] Attacker 157.245.249.158 trying to authenticate with "password"
+2020-11-11 18:18:03.707 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-11 18:18:03.708 - [Debug] [Auth] Attacker: 157.245.249.158 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-11 18:18:03.775 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 18:18:06.072 - [Info] Exiting...
+2020-11-11 18:18:06.072 - [Debug] Cleaning up...
+No auth in progress

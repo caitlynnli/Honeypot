@@ -1,0 +1,24 @@
+2020-11-04 07:24:59.763 - [Info] MITM Version: 1.26
+2020-11-04 07:24:59.767 - [Info] Auto Access Enabled: true
+2020-11-04 07:24:59.767 - [Debug] [Init] Auto Access Barrier: true
+2020-11-04 07:24:59.781 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-04 07:36:05.440 - [Debug] [Connection] Attacker connected: 162.142.125.34 | Client Identification: SSH-2.0-Go
+2020-11-04 07:36:20.436 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 09:16:56.788 - [Debug] [Connection] Attacker connected: 74.120.14.35 | Client Identification: SSH-2.0-Go
+2020-11-04 09:17:11.788 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 11:15:52.236 - [Debug] [Connection] Attacker connected: 121.140.205.129 | Client Identification: SSH-2.0-PuTTY
+2020-11-04 11:15:53.832 - [Debug] [Auth] Attacker 121.140.205.129 trying to authenticate with "none"
+2020-11-04 11:15:53.833 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-04 11:15:54.303 - [Debug] [Auth] Attacker 121.140.205.129 trying to authenticate with "password"
+2020-11-04 11:15:54.303 - [Debug] [Auto Access] Attacker: 121.140.205.129, Threshold: 1, Attempts: 1
+2020-11-04 11:15:54.304 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-04 11:15:54.304 - [Debug] [Auto Access] Adding the following credentials: "root:admin"
+2020-11-04 11:15:54.405 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-04 11:15:54.406 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-04 11:15:54.428 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-04 11:16:55.498 - [Debug] [Connection] Client error on ssh server
+2020-11-04 11:16:55.499 - [Debug] [Connection] Attacker closed connection
+2020-11-04 11:16:55.504 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-04 11:16:55.504 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-04 11:20:55.760 - [Info] Exiting...
+2020-11-04 11:20:55.761 - [Debug] Cleaning up...

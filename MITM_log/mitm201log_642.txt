@@ -1,0 +1,23 @@
+2020-11-11 21:59:22.945 - [Info] MITM Version: 1.26
+2020-11-11 21:59:22.950 - [Info] Auto Access Enabled: true
+2020-11-11 21:59:22.950 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 21:59:22.963 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-11 21:59:49.471 - [Debug] [Connection] Attacker connected: 106.13.36.10 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 21:59:51.878 - [Debug] [Auth] Attacker 106.13.36.10 trying to authenticate with "password"
+2020-11-11 21:59:51.879 - [Debug] [Auto Access] Attacker: 106.13.36.10, Threshold: 1, Attempts: 1
+2020-11-11 21:59:51.879 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 21:59:51.879 - [Debug] [Auto Access] Adding the following credentials: "ceph:ceph"
+2020-11-11 21:59:52.107 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 21:59:52.107 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-11 21:59:54.673 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-11 21:59:55.030 - [Debug] [Connection] Attacker connected: 92.220.61.122 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 21:59:56.607 - [Debug] [Connection] Attacker connected: 106.13.36.10 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 21:59:59.537 - [Debug] [Auth] Attacker 106.13.36.10 trying to authenticate with "password"
+2020-11-11 21:59:59.538 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-11 21:59:59.538 - [Debug] [Auth] Attacker: 106.13.36.10 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-11 22:00:00.149 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 22:00:00.708 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-11 22:04:55.983 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-11 22:04:55.983 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-11 22:04:56.036 - [Info] Exiting...
+2020-11-11 22:04:56.036 - [Debug] Cleaning up...

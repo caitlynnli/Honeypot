@@ -1,0 +1,31 @@
+2020-10-25 17:52:32.421 - [Info] MITM Version: 1.26
+2020-10-25 17:52:32.427 - [Info] Auto Access Enabled: true
+2020-10-25 17:52:32.428 - [Debug] [Init] Auto Access Barrier: true
+2020-10-25 17:52:32.451 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-25 17:55:11.413 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-PuTTY_Release_0.61
+2020-10-25 17:55:12.594 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-25 17:55:12.594 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-25 17:55:12.883 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-25 17:55:12.884 - [Debug] [Auto Access] Attacker: 193.105.134.45, Threshold: 1, Attempts: 1
+2020-10-25 17:55:12.884 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-25 17:55:12.884 - [Debug] [Auto Access] Adding the following credentials: "ubnt:ubnt"
+2020-10-25 17:55:13.235 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-25 17:55:13.235 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-25 17:55:28.529 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-25 17:55:29.655 - [Debug] [Connection] Attacker closed connection
+2020-10-25 17:55:29.711 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-25 17:55:29.712 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-25 17:58:01.778 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-paramiko_1.10.1
+2020-10-25 17:58:02.978 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-25 17:58:02.979 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-25 17:58:03.269 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-25 17:58:03.271 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-25 17:58:03.272 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-25 17:58:03.560 - [Debug] [Connection] Attacker closed the connection
+2020-10-25 17:59:22.261 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-Granados-1.0
+2020-10-25 17:59:23.604 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-25 17:59:23.605 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-25 17:59:23.889 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-25 17:59:23.890 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-25 17:59:23.891 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-25 17:59:24.179 - [Debug] [Connection] Attacker closed the connection

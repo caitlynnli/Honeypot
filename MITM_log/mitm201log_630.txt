@@ -1,0 +1,26 @@
+2020-11-11 20:42:28.360 - [Info] MITM Version: 1.26
+2020-11-11 20:42:28.365 - [Info] Auto Access Enabled: true
+2020-11-11 20:42:28.365 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 20:42:28.378 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-11 20:43:17.171 - [Debug] [Connection] Attacker connected: 49.234.91.78 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 20:43:21.529 - [Debug] [Auth] Attacker 49.234.91.78 trying to authenticate with "password"
+2020-11-11 20:43:21.530 - [Debug] [Auto Access] Attacker: 49.234.91.78, Threshold: 1, Attempts: 1
+2020-11-11 20:43:21.530 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 20:43:21.530 - [Debug] [Auto Access] Adding the following credentials: "user:toor"
+2020-11-11 20:43:21.738 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 20:43:21.738 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-11 20:43:25.392 - [Debug] [Connection] Attacker connected: 106.13.36.10 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 20:43:27.169 - [Debug] [Auth] Attacker 106.13.36.10 trying to authenticate with "password"
+2020-11-11 20:43:27.170 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-11 20:43:27.170 - [Debug] [Auth] Attacker: 106.13.36.10 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-11 20:43:27.774 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 20:43:27.818 - [Debug] [Connection] Attacker connected: 162.142.125.54 | Client Identification: SSH-2.0-Go
+2020-11-11 20:43:29.575 - [Debug] [Connection] Attacker connected: 92.220.61.122 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 20:43:30.345 - [Debug] [Auth] Attacker 92.220.61.122 trying to authenticate with "password"
+2020-11-11 20:43:30.345 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-11 20:43:30.346 - [Debug] [Auth] Attacker: 92.220.61.122 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-11 20:43:30.605 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 20:43:33.539 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 20:43:39.286 - [Info] Exiting...
+2020-11-11 20:43:39.286 - [Debug] Cleaning up...
+No auth in progress

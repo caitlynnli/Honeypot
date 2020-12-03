@@ -1,0 +1,79 @@
+2020-10-22 20:55:01.776 - [Info] MITM Version: 1.26
+2020-10-22 20:55:01.783 - [Info] Auto Access Enabled: true
+2020-10-22 20:55:01.783 - [Debug] [Init] Auto Access Barrier: true
+2020-10-22 20:55:01.808 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-23 05:41:01.107 - [Debug] [Connection] Attacker connected: 129.2.19.206 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-23 05:41:03.847 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "keyboard-interactive"
+2020-10-23 05:41:03.848 - [Debug] [Auth] Attacker authentication error: Keyboard-interactive is not supported
+2020-10-23 05:41:03.850 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-23 05:41:04.447 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "password"
+2020-10-23 05:41:04.450 - [Debug] [Auto Access] Attacker: 129.2.19.206, Threshold: 1, Attempts: 1
+2020-10-23 05:41:04.450 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-23 05:41:04.450 - [Debug] [Auto Access] Adding the following credentials: "LIBRSYSISVC:fbsn-WVNdHuaE4uS!GT7mEJa"
+2020-10-23 05:41:05.004 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-23 05:41:05.005 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-23 05:41:05.068 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-23 05:41:06.822 - [Debug] [SHELL] Opened shell for attacker
+2020-10-23 05:41:07.042 - [Debug] [SHELL] Attacker Keystroke: PS1='__SysAidSSh2__:$'[LF]
+2020-10-23 05:41:07.047 - [Debug] [SHELL] line from reader: PS1='__SysAidSSh2__:$'
+2020-10-23 05:41:07.047 - [Debug] [SHELL] Keystroke buffer: 80,83,49,61,39,95,95,83,121,115,65,105,100,83,83,104,50,95,95,58,36,39,10
+2020-10-23 05:41:07.244 - [Debug] [SHELL] Attacker Keystroke: hostname[LF]
+2020-10-23 05:41:07.245 - [Debug] [SHELL] line from reader: hostname
+2020-10-23 05:41:07.245 - [Debug] [SHELL] Keystroke buffer: 104,111,115,116,110,97,109,101,10
+2020-10-23 05:41:07.749 - [Debug] [SHELL] Attacker Keystroke: uname[Space]-a[LF]
+2020-10-23 05:41:07.750 - [Debug] [SHELL] line from reader: uname -a
+2020-10-23 05:41:07.750 - [Debug] [SHELL] Keystroke buffer: 117,110,97,109,101,32,45,97,10
+2020-10-23 05:41:07.951 - [Debug] [SHELL] Attacker Keystroke: cat[Space]/etc/*-release[LF]
+2020-10-23 05:41:07.953 - [Debug] [SHELL] line from reader: cat /etc/*-release
+2020-10-23 05:41:07.953 - [Debug] [SHELL] Keystroke buffer: 99,97,116,32,47,101,116,99,47,42,45,114,101,108,101,97,115,101,10
+2020-10-23 05:41:08.154 - [Debug] [SHELL] Attacker Keystroke: sudo[Space]echo[Space]ok[LF]
+2020-10-23 05:41:08.155 - [Debug] [SHELL] line from reader: sudo echo ok
+2020-10-23 05:41:08.155 - [Debug] [SHELL] Keystroke buffer: 115,117,100,111,32,101,99,104,111,32,111,107,10
+2020-10-23 05:41:08.356 - [Debug] [SHELL] Attacker Keystroke: fbsn-WVNdHuaE4uS!GT7mEJa[LF]
+2020-10-23 05:41:08.360 - [Debug] [SHELL] line from reader: fbsn-WVNdHuaE4uS!GT7mEJa
+2020-10-23 05:41:08.360 - [Debug] [SHELL] Keystroke buffer: 102,98,115,110,45,87,86,78,100,72,117,97,69,52,117,83,33,71,84,55,109,69,74,97,10
+2020-10-23 05:41:08.458 - [Debug] [SHELL] Attacker ended the shell
+2020-10-23 05:41:08.485 - [Debug] [Connection] Attacker closed connection
+2020-10-23 05:41:08.499 - [Debug] [Connection] Attacker connected: 129.2.19.206 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-23 05:41:08.524 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-23 05:41:08.525 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-23 05:41:08.526 - [Debug] [SHELL] Honeypot ended shell
+2020-10-23 05:41:11.235 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "keyboard-interactive"
+2020-10-23 05:41:11.235 - [Debug] [Auth] Attacker authentication error: Keyboard-interactive is not supported
+2020-10-23 05:41:11.236 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-23 05:41:11.836 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "password"
+2020-10-23 05:41:11.837 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-23 05:41:11.838 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 2 attempts. Remaining: 4 attempts
+2020-10-23 05:41:12.440 - [Debug] [Connection] Attacker closed the connection
+2020-10-23 05:41:12.451 - [Debug] [Connection] Attacker connected: 129.2.19.206 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-23 05:41:15.539 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "keyboard-interactive"
+2020-10-23 05:41:15.540 - [Debug] [Auth] Attacker authentication error: Keyboard-interactive is not supported
+2020-10-23 05:41:15.540 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-23 05:41:16.142 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "password"
+2020-10-23 05:41:16.142 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-23 05:41:16.143 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 2 attempts. Remaining: 4 attempts
+2020-10-23 05:41:16.745 - [Debug] [Connection] Attacker closed the connection
+2020-10-23 05:41:16.755 - [Debug] [Connection] Attacker connected: 129.2.19.206 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-23 05:41:19.498 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "keyboard-interactive"
+2020-10-23 05:41:19.499 - [Debug] [Auth] Attacker authentication error: Keyboard-interactive is not supported
+2020-10-23 05:41:19.499 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-23 05:41:20.101 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "password"
+2020-10-23 05:41:20.102 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-23 05:41:20.104 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 2 attempts. Remaining: 4 attempts
+2020-10-23 05:41:20.704 - [Debug] [Connection] Attacker closed the connection
+2020-10-23 05:41:20.714 - [Debug] [Connection] Attacker connected: 129.2.19.206 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-23 05:41:24.050 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "keyboard-interactive"
+2020-10-23 05:41:24.050 - [Debug] [Auth] Attacker authentication error: Keyboard-interactive is not supported
+2020-10-23 05:41:24.051 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-23 05:41:24.652 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "password"
+2020-10-23 05:41:24.653 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-23 05:41:24.654 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 2 attempts. Remaining: 4 attempts
+2020-10-23 05:41:25.256 - [Debug] [Connection] Attacker closed the connection
+2020-10-23 05:41:25.267 - [Debug] [Connection] Attacker connected: 129.2.19.206 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-23 05:41:28.041 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "keyboard-interactive"
+2020-10-23 05:41:28.041 - [Debug] [Auth] Attacker authentication error: Keyboard-interactive is not supported
+2020-10-23 05:41:28.042 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-23 05:41:28.643 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "password"
+2020-10-23 05:41:28.644 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-23 05:41:28.645 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 2 attempts. Remaining: 4 attempts
+2020-10-23 05:41:29.247 - [Debug] [Connection] Attacker closed the connection

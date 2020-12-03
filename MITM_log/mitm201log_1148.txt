@@ -1,0 +1,23 @@
+2020-11-21 07:57:07.737 - [Info] MITM Version: 1.26
+2020-11-21 07:57:07.742 - [Info] Auto Access Enabled: true
+2020-11-21 07:57:07.742 - [Debug] [Init] Auto Access Barrier: true
+2020-11-21 07:57:07.759 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-21 07:57:15.249 - [Debug] [Connection] Attacker connected: 82.196.15.195 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 07:57:20.827 - [Debug] [Auth] Attacker 82.196.15.195 trying to authenticate with "password"
+2020-11-21 07:57:20.827 - [Debug] [Auto Access] Attacker: 82.196.15.195, Threshold: 1, Attempts: 1
+2020-11-21 07:57:20.827 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-21 07:57:20.829 - [Debug] [Auto Access] Adding the following credentials: "oracle:admin"
+2020-11-21 07:57:21.041 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-21 07:57:21.041 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-21 07:57:23.796 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-21 07:57:24.187 - [Debug] [Connection] Attacker connected: 82.196.15.195 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 07:57:24.808 - [Debug] [Auth] Attacker 82.196.15.195 trying to authenticate with "password"
+2020-11-21 07:57:24.808 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-21 07:57:24.809 - [Debug] [Auth] Attacker: 82.196.15.195 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-21 07:57:25.029 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 07:57:25.208 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-21 08:00:43.761 - [Debug] [Connection] Attacker closed connection
+2020-11-21 08:00:43.765 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-21 08:00:43.768 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-21 08:02:25.093 - [Info] Exiting...
+2020-11-21 08:02:25.093 - [Debug] Cleaning up...

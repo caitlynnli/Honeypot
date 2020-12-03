@@ -1,0 +1,16 @@
+2020-11-17 18:14:19.622 - [Info] MITM Version: 1.26
+2020-11-17 18:14:19.627 - [Info] Auto Access Enabled: true
+2020-11-17 18:14:19.627 - [Debug] [Init] Auto Access Barrier: true
+2020-11-17 18:14:19.643 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-17 18:37:40.310 - [Debug] [Connection] Attacker connected: 43.226.69.200 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-17 18:37:41.850 - [Debug] [Auth] Attacker 43.226.69.200 trying to authenticate with "password"
+2020-11-17 18:37:41.851 - [Debug] [Auto Access] Attacker: 43.226.69.200, Threshold: 1, Attempts: 1
+2020-11-17 18:37:41.851 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-17 18:37:41.851 - [Debug] [Auto Access] Adding the following credentials: "kerri:kerri"
+2020-11-17 18:37:42.099 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-17 18:37:42.100 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-17 18:37:54.394 - [Debug] [Connection] Attacker closed the connection
+2020-11-17 18:38:00.093 - [Info] Exiting...
+2020-11-17 18:38:00.093 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 180.167.240.222

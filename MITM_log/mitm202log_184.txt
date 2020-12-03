@@ -1,0 +1,24 @@
+2020-10-28 11:02:07.494 - [Info] MITM Version: 1.26
+2020-10-28 11:02:07.503 - [Info] Auto Access Enabled: true
+2020-10-28 11:02:07.503 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 11:02:07.580 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-28 11:05:17.251 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.10.1
+2020-10-28 11:05:18.837 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 11:05:18.838 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 11:05:19.113 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 11:05:19.115 - [Debug] [Auto Access] Attacker: 195.3.147.47, Threshold: 1, Attempts: 1
+2020-10-28 11:05:19.115 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 11:05:19.115 - [Debug] [Auto Access] Adding the following credentials: "admin:12345"
+2020-10-28 11:05:19.793 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 11:05:19.793 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-28 11:05:19.880 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 11:05:21.802 - [Debug] [Connection] Attacker closed connection
+2020-10-28 11:05:21.811 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 11:05:21.812 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 11:10:06.650 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-paramiko_1.15.1
+2020-10-28 11:10:07.842 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-28 11:10:07.842 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 11:10:08.132 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-28 11:10:08.133 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Container user is disabled
+2020-10-28 11:10:08.133 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 11:10:08.425 - [Debug] [Connection] Attacker closed the connection

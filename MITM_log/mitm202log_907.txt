@@ -1,0 +1,21 @@
+2020-11-15 16:32:48.318 - [Info] MITM Version: 1.26
+2020-11-15 16:32:48.322 - [Info] Auto Access Enabled: true
+2020-11-15 16:32:48.323 - [Debug] [Init] Auto Access Barrier: true
+2020-11-15 16:32:48.338 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-15 16:34:56.753 - [Debug] [Connection] Attacker connected: 193.46.198.200 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-15 16:34:56.956 - [Debug] [Auth] Attacker 193.46.198.200 trying to authenticate with "password"
+2020-11-15 16:34:56.957 - [Debug] [Auto Access] Attacker: 193.46.198.200, Threshold: 1, Attempts: 1
+2020-11-15 16:34:56.957 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-15 16:34:56.957 - [Debug] [Auto Access] Adding the following credentials: "2WSXZAQ1:2WSXZAQ1"
+2020-11-15 16:34:57.188 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-15 16:34:57.188 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-15 16:35:08.962 - [Debug] [Connection] Attacker closed the connection
+2020-11-15 16:35:12.251 - [Debug] [Connection] Attacker connected: 111.229.28.34 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-15 16:35:13.868 - [Debug] [Auth] Attacker 111.229.28.34 trying to authenticate with "password"
+2020-11-15 16:35:13.869 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-15 16:35:13.869 - [Debug] [Auth] Attacker: 111.229.28.34 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-15 16:35:14.418 - [Debug] [Connection] Attacker closed the connection
+2020-11-15 16:35:14.738 - [Info] Exiting...
+2020-11-15 16:35:14.738 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 77.37.162.17

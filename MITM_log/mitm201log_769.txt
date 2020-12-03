@@ -1,0 +1,28 @@
+2020-11-14 15:16:03.234 - [Info] MITM Version: 1.26
+2020-11-14 15:16:03.238 - [Info] Auto Access Enabled: true
+2020-11-14 15:16:03.238 - [Debug] [Init] Auto Access Barrier: true
+2020-11-14 15:16:03.257 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-14 15:18:45.710 - [Debug] [Connection] Attacker connected: 49.235.142.96 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-14 15:18:47.295 - [Debug] [Auth] Attacker 49.235.142.96 trying to authenticate with "password"
+2020-11-14 15:18:47.295 - [Debug] [Auto Access] Attacker: 49.235.142.96, Threshold: 1, Attempts: 1
+2020-11-14 15:18:47.296 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-14 15:18:47.296 - [Debug] [Auto Access] Adding the following credentials: "emerson:emerson"
+2020-11-14 15:18:47.507 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 15:18:47.507 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 15:18:49.679 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 15:18:54.124 - [Debug] [Connection] Attacker connected: 111.68.101.231 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-14 15:18:56.459 - [Debug] [Auth] Attacker 111.68.101.231 trying to authenticate with "password"
+2020-11-14 15:18:56.459 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 15:18:56.460 - [Debug] [Auth] Attacker: 111.68.101.231 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 15:18:57.200 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 15:19:49.742 - [Debug] [Connection] Client error on ssh server
+2020-11-14 15:19:49.743 - [Debug] [Connection] Attacker closed connection
+2020-11-14 15:19:49.746 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 15:19:49.747 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 15:23:13.022 - [Debug] [Connection] Attacker connected: 111.68.101.231 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-14 15:23:15.396 - [Debug] [Auth] Attacker 111.68.101.231 trying to authenticate with "password"
+2020-11-14 15:23:15.397 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 15:23:15.397 - [Debug] [Auth] Attacker: 111.68.101.231 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 15:23:16.132 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 15:23:50.926 - [Info] Exiting...
+2020-11-14 15:23:50.926 - [Debug] Cleaning up...

@@ -1,0 +1,42 @@
+2020-10-29 00:32:10.419 - [Info] MITM Version: 1.26
+2020-10-29 00:32:10.426 - [Info] Auto Access Enabled: true
+2020-10-29 00:32:10.426 - [Debug] [Init] Auto Access Barrier: true
+2020-10-29 00:32:10.450 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-29 00:35:26.195 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.12.4
+2020-10-29 00:35:27.778 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-29 00:35:27.779 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 00:35:28.047 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-29 00:35:28.049 - [Debug] [Auto Access] Attacker: 195.3.147.47, Threshold: 1, Attempts: 1
+2020-10-29 00:35:28.049 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-29 00:35:28.049 - [Debug] [Auto Access] Adding the following credentials: "22:master"
+2020-10-29 00:35:28.607 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 00:35:28.608 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-29 00:35:44.150 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-29 00:35:45.974 - [Debug] [Connection] Attacker closed connection
+2020-10-29 00:35:46.011 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-29 00:35:46.012 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-29 00:37:02.444 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-29 00:37:03.040 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-29 00:37:03.041 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 00:37:03.254 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-29 00:37:03.256 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-29 00:37:03.258 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 00:37:03.472 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 00:37:46.178 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-WinSCP_release_5.7.4
+2020-10-29 00:37:47.303 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-29 00:37:47.304 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 00:37:47.564 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-29 00:37:47.565 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 00:37:47.565 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 00:37:49.386 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 00:39:45.221 - [Debug] [Connection] Attacker connected: 141.98.81.154 | Client Identification: SSH-2.0-Go
+2020-10-29 00:39:45.797 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "none"
+2020-10-29 00:39:45.797 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 00:39:46.013 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "password"
+2020-10-29 00:39:46.013 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 00:39:46.014 - [Debug] [Auth] Attacker: 141.98.81.154 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 00:39:46.232 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 00:40:08.459 - [Debug] [Connection] Attacker connected: 65.49.20.68 | Client Identification: SSH-2.0-Go
+2020-10-29 00:40:09.126 - [Debug] [Auth] Attacker 65.49.20.68 trying to authenticate with "none"
+2020-10-29 00:40:09.126 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 00:40:13.424 - [Debug] [Connection] Attacker closed the connection

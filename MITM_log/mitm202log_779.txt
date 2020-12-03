@@ -1,0 +1,24 @@
+2020-11-11 09:32:24.913 - [Info] MITM Version: 1.26
+2020-11-11 09:32:24.917 - [Info] Auto Access Enabled: true
+2020-11-11 09:32:24.917 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 09:32:24.931 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-11 09:33:44.967 - [Debug] [Connection] Attacker connected: 119.45.123.92 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 09:33:48.554 - [Debug] [Auth] Attacker 119.45.123.92 trying to authenticate with "password"
+2020-11-11 09:33:48.555 - [Debug] [Auto Access] Attacker: 119.45.123.92, Threshold: 1, Attempts: 1
+2020-11-11 09:33:48.555 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 09:33:48.555 - [Debug] [Auto Access] Adding the following credentials: "poliana:poliana"
+2020-11-11 09:33:48.779 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 09:33:48.780 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-11 09:33:51.024 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-11 09:33:54.045 - [Debug] [Connection] Attacker connected: 119.45.123.92 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 09:33:59.299 - [Debug] [Auth] Attacker 119.45.123.92 trying to authenticate with "password"
+2020-11-11 09:33:59.299 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-11 09:33:59.300 - [Debug] [Auth] Attacker: 119.45.123.92 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-11 09:34:00.597 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 09:34:01.122 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-11 09:35:36.142 - [Debug] [Connection] Client error on ssh server
+2020-11-11 09:35:36.143 - [Debug] [Connection] Attacker closed connection
+2020-11-11 09:35:36.147 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-11 09:35:36.147 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-11 09:38:52.397 - [Info] Exiting...
+2020-11-11 09:38:52.397 - [Debug] Cleaning up...

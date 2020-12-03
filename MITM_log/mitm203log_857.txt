@@ -1,0 +1,19 @@
+2020-11-13 20:22:01.550 - [Info] MITM Version: 1.26
+2020-11-13 20:22:01.554 - [Info] Auto Access Enabled: true
+2020-11-13 20:22:01.555 - [Debug] [Init] Auto Access Barrier: true
+2020-11-13 20:22:01.569 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-13 20:24:23.680 - [Debug] [Connection] Attacker connected: 80.82.68.28 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-13 20:24:24.673 - [Debug] [Auth] Attacker 80.82.68.28 trying to authenticate with "password"
+2020-11-13 20:24:24.674 - [Debug] [Auto Access] Attacker: 80.82.68.28, Threshold: 1, Attempts: 1
+2020-11-13 20:24:24.674 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-13 20:24:24.674 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-13 20:24:24.789 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-13 20:24:24.789 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-13 20:24:41.729 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-13 20:24:42.142 - [Debug] [EXEC] Noninteractive mode attacker command: unset HISTORY HISTFILE HISTSAVE HISTZONE HISTORY HISTLOG WATCH ; history -n ; export HISTFILE=/dev/null ; export HISTSIZE=0; export HISTFILESIZE=0;
+2020-11-13 20:25:42.799 - [Debug] [Connection] Client error on ssh server
+2020-11-13 20:25:42.800 - [Debug] [Connection] Attacker closed connection
+2020-11-13 20:25:42.805 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-13 20:25:42.806 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-13 20:29:43.010 - [Info] Exiting...
+2020-11-13 20:29:43.010 - [Debug] Cleaning up...

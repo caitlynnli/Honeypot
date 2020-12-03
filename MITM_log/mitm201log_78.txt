@@ -1,0 +1,22 @@
+2020-10-24 20:17:24.387 - [Info] MITM Version: 1.26
+2020-10-24 20:17:24.393 - [Info] Auto Access Enabled: true
+2020-10-24 20:17:24.394 - [Debug] [Init] Auto Access Barrier: true
+2020-10-24 20:17:24.415 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-24 20:26:22.028 - [Debug] [Connection] Attacker connected: 185.2.81.183 | Client Identification: SSH-2.0-sshlib-0.1
+2020-10-24 20:26:23.510 - [Debug] [Auth] Attacker 185.2.81.183 trying to authenticate with "password"
+2020-10-24 20:26:23.512 - [Debug] [Auto Access] Attacker: 185.2.81.183, Threshold: 1, Attempts: 1
+2020-10-24 20:26:23.513 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-24 20:26:23.513 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-24 20:26:23.868 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-24 20:26:23.868 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-24 20:26:39.451 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-24 20:26:55.754 - [Debug] [Connection] Attacker closed connection
+2020-10-24 20:26:55.768 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-24 20:26:55.769 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-24 20:29:39.540 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-paramiko_1.8.1
+2020-10-24 20:29:41.065 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-24 20:29:41.065 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 20:29:41.354 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-24 20:29:41.355 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-24 20:29:41.355 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 20:29:41.645 - [Debug] [Connection] Attacker closed the connection

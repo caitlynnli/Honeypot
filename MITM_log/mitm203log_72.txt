@@ -1,0 +1,30 @@
+2020-10-24 15:30:29.167 - [Info] MITM Version: 1.26
+2020-10-24 15:30:29.175 - [Info] Auto Access Enabled: true
+2020-10-24 15:30:29.175 - [Debug] [Init] Auto Access Barrier: true
+2020-10-24 15:30:29.198 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-24 15:37:29.240 - [Debug] [Connection] Attacker connected: 189.172.10.168 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2
+2020-10-24 15:37:29.850 - [Debug] [Auth] Attacker 189.172.10.168 trying to authenticate with "none"
+2020-10-24 15:37:29.851 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 15:37:30.021 - [Debug] [Auth] Attacker 189.172.10.168 trying to authenticate with "password"
+2020-10-24 15:37:30.023 - [Debug] [Auto Access] Attacker: 189.172.10.168, Threshold: 1, Attempts: 1
+2020-10-24 15:37:30.024 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-24 15:37:30.024 - [Debug] [Auto Access] Adding the following credentials: "pi:raspberry"
+2020-10-24 15:37:30.599 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-24 15:37:30.599 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-24 15:37:30.655 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-24 15:37:30.686 - [Debug] [Connection] Attacker connected: 189.172.10.168 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2
+2020-10-24 15:37:31.018 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/UwWT67J2
+2020-10-24 15:37:31.379 - [Debug] [Auth] Attacker 189.172.10.168 trying to authenticate with "none"
+2020-10-24 15:37:31.379 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 15:37:31.542 - [Debug] [Auth] Attacker 189.172.10.168 trying to authenticate with "password"
+2020-10-24 15:37:31.543 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-24 15:37:31.544 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-24 15:37:31.631 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-24 15:37:31.988 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/UwWT67J2
+2020-10-24 15:41:54.116 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-libssh_0.4.8
+2020-10-24 15:41:55.414 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-24 15:41:55.415 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 15:41:55.693 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-24 15:41:55.694 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-24 15:41:55.695 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 15:41:55.976 - [Debug] [Connection] Attacker closed the connection

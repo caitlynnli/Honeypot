@@ -1,0 +1,23 @@
+2020-11-10 13:30:26.287 - [Info] MITM Version: 1.26
+2020-11-10 13:30:26.290 - [Info] Auto Access Enabled: true
+2020-11-10 13:30:26.291 - [Debug] [Init] Auto Access Barrier: true
+2020-11-10 13:30:26.314 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-10 15:27:36.398 - [Debug] [Connection] Attacker connected: 67.235.134.42 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-10 15:27:39.363 - [Debug] [Auth] Attacker 67.235.134.42 trying to authenticate with "password"
+2020-11-10 15:27:39.363 - [Debug] [Auto Access] Attacker: 67.235.134.42, Threshold: 1, Attempts: 1
+2020-11-10 15:27:39.364 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-10 15:27:39.364 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-10 15:27:39.471 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 15:27:39.471 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 15:27:39.493 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 15:27:39.923 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2020-11-10 15:27:41.880 - [Debug] [Connection] Attacker closed connection
+2020-11-10 15:27:41.885 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 15:27:41.885 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 15:27:41.988 - [Debug] [Connection] Attacker connected: 67.235.134.42 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-10 15:27:44.932 - [Debug] [Auth] Attacker 67.235.134.42 trying to authenticate with "password"
+2020-11-10 15:27:44.932 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-10 15:27:44.933 - [Debug] [Auth] Attacker: 67.235.134.42 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-10 15:27:45.154 - [Debug] [Connection] Attacker closed the connection
+2020-11-10 15:32:40.735 - [Info] Exiting...
+2020-11-10 15:32:40.736 - [Debug] Cleaning up...

@@ -1,0 +1,53 @@
+2020-10-26 06:05:26.789 - [Info] MITM Version: 1.26
+2020-10-26 06:05:26.795 - [Info] Auto Access Enabled: true
+2020-10-26 06:05:26.796 - [Debug] [Init] Auto Access Barrier: true
+2020-10-26 06:05:26.819 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-26 06:11:49.262 - [Debug] [Connection] Attacker connected: 190.149.175.189 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-10-26 06:11:49.676 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:11:49.679 - [Debug] [Auto Access] Attacker: 190.149.175.189, Threshold: 1, Attempts: 1
+2020-10-26 06:11:49.679 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-26 06:11:49.679 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-26 06:11:50.024 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-26 06:11:50.025 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-26 06:11:59.677 - [Debug] [Connection] Attacker closed the connection
+2020-10-26 06:11:59.731 - [Debug] [Connection] Attacker connected: 190.149.175.189 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-10-26 06:12:00.140 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:00.141 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:00.142 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 06:12:00.249 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:00.250 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:00.251 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 2 attempts. Remaining: 4 attempts
+2020-10-26 06:12:00.358 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:00.359 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:00.359 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 3 attempts. Remaining: 3 attempts
+2020-10-26 06:12:00.466 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:00.467 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:00.468 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 4 attempts. Remaining: 2 attempts
+2020-10-26 06:12:00.574 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:00.574 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:00.575 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 5 attempts. Remaining: 1 attempts
+2020-10-26 06:12:00.682 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:00.683 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:00.685 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 6 attempts. Remaining: 0 attempts
+2020-10-26 06:12:00.685 - [Debug] [Connection] Max Login Attempts Reached - Closing connection on attacker
+2020-10-26 06:12:00.687 - [Debug] [Connection] Attacker closed the connection
+2020-10-26 06:12:00.797 - [Debug] [Connection] Attacker connected: 190.149.175.189 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-10-26 06:12:01.209 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:01.210 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:01.211 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 06:12:01.317 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:01.318 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:01.318 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 2 attempts. Remaining: 4 attempts
+2020-10-26 06:12:01.425 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:01.426 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:01.426 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 3 attempts. Remaining: 3 attempts
+2020-10-26 06:12:01.532 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:01.533 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:01.534 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 4 attempts. Remaining: 2 attempts
+2020-10-26 06:12:01.640 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-26 06:12:01.640 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 06:12:01.641 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 5 attempts. Remaining: 1 attempts
+2020-10-26 06:12:01.747 - [Debug] [Connection] Attacker closed the connection
+2020-10-26 06:12:05.442 - [Info] Exiting...
+2020-10-26 06:12:05.442 - [Debug] Cleaning up...
+No auth in progress

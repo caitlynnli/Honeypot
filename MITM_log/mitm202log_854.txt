@@ -1,0 +1,22 @@
+2020-11-14 10:07:19.791 - [Info] MITM Version: 1.26
+2020-11-14 10:07:19.795 - [Info] Auto Access Enabled: true
+2020-11-14 10:07:19.795 - [Debug] [Init] Auto Access Barrier: true
+2020-11-14 10:07:19.815 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-14 10:07:23.588 - [Debug] [Connection] Attacker connected: 157.230.143.1 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-14 10:07:24.137 - [Debug] [Auth] Attacker 157.230.143.1 trying to authenticate with "password"
+2020-11-14 10:07:24.138 - [Debug] [Auto Access] Attacker: 157.230.143.1, Threshold: 1, Attempts: 1
+2020-11-14 10:07:24.138 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-14 10:07:24.138 - [Debug] [Auto Access] Adding the following credentials: "gemma:gemma123"
+2020-11-14 10:07:24.343 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 10:07:24.343 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-14 10:07:26.331 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 10:07:26.682 - [Debug] [Connection] Attacker connected: 157.230.143.1 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-14 10:07:27.224 - [Debug] [Auth] Attacker 157.230.143.1 trying to authenticate with "password"
+2020-11-14 10:07:27.225 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 10:07:27.226 - [Debug] [Auth] Attacker: 157.230.143.1 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 10:07:27.426 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 10:07:27.577 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-14 10:12:27.642 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 10:12:27.643 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 10:12:27.690 - [Info] Exiting...
+2020-11-14 10:12:27.691 - [Debug] Cleaning up...

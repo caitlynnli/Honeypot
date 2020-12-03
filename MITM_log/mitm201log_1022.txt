@@ -1,0 +1,26 @@
+2020-11-18 20:34:00.876 - [Info] MITM Version: 1.26
+2020-11-18 20:34:00.880 - [Info] Auto Access Enabled: true
+2020-11-18 20:34:00.881 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 20:34:00.893 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-18 21:02:56.494 - [Debug] [Connection] Attacker connected: 65.49.20.68 | Client Identification: SSH-2.0-Go
+2020-11-18 21:02:56.923 - [Debug] [Auth] Attacker 65.49.20.68 trying to authenticate with "none"
+2020-11-18 21:02:56.923 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-18 21:03:01.492 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 21:28:28.259 - [Debug] [Connection] Attacker connected: 182.61.104.246 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 21:28:29.717 - [Debug] [Auth] Attacker 182.61.104.246 trying to authenticate with "password"
+2020-11-18 21:28:29.718 - [Debug] [Auto Access] Attacker: 182.61.104.246, Threshold: 1, Attempts: 1
+2020-11-18 21:28:29.718 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 21:28:29.718 - [Debug] [Auto Access] Adding the following credentials: "bash:bash123"
+2020-11-18 21:28:29.936 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 21:28:29.937 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-18 21:28:31.165 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-18 21:28:32.121 - [Debug] [Connection] Attacker connected: 182.61.104.246 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 21:28:33.561 - [Debug] [Auth] Attacker 182.61.104.246 trying to authenticate with "password"
+2020-11-18 21:28:33.562 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 21:28:33.562 - [Debug] [Auth] Attacker: 182.61.104.246 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 21:28:34.051 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 21:28:34.507 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-18 21:33:32.494 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-18 21:33:32.494 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-18 21:33:32.559 - [Info] Exiting...
+2020-11-18 21:33:32.560 - [Debug] Cleaning up...

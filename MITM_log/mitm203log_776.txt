@@ -1,0 +1,23 @@
+2020-11-07 21:41:39.751 - [Info] MITM Version: 1.26
+2020-11-07 21:41:39.755 - [Info] Auto Access Enabled: true
+2020-11-07 21:41:39.755 - [Debug] [Init] Auto Access Barrier: true
+2020-11-07 21:41:39.769 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-07 22:53:33.029 - [Debug] [Connection] Attacker connected: 184.97.97.13 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 22:53:36.066 - [Debug] [Auth] Attacker 184.97.97.13 trying to authenticate with "password"
+2020-11-07 22:53:36.067 - [Debug] [Auto Access] Attacker: 184.97.97.13, Threshold: 1, Attempts: 1
+2020-11-07 22:53:36.067 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-07 22:53:36.067 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-07 22:53:36.169 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 22:53:36.170 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-07 22:53:36.193 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-07 22:53:36.606 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2020-11-07 22:53:38.634 - [Debug] [Connection] Attacker closed connection
+2020-11-07 22:53:38.639 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-07 22:53:38.639 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-07 22:53:38.734 - [Debug] [Connection] Attacker connected: 184.97.97.13 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 22:53:40.663 - [Debug] [Auth] Attacker 184.97.97.13 trying to authenticate with "password"
+2020-11-07 22:53:40.664 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 22:53:40.664 - [Debug] [Auth] Attacker: 184.97.97.13 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 22:53:40.882 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 22:58:37.529 - [Info] Exiting...
+2020-11-07 22:58:37.529 - [Debug] Cleaning up...

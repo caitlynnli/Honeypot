@@ -1,0 +1,25 @@
+2020-10-24 09:47:53.167 - [Info] MITM Version: 1.26
+2020-10-24 09:47:53.174 - [Info] Auto Access Enabled: true
+2020-10-24 09:47:53.174 - [Debug] [Init] Auto Access Barrier: true
+2020-10-24 09:47:53.197 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-24 09:48:28.910 - [Debug] [Connection] Attacker connected: 115.74.40.205 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-24 09:48:30.721 - [Debug] [Auth] Attacker 115.74.40.205 trying to authenticate with "none"
+2020-10-24 09:48:30.721 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 09:48:31.304 - [Debug] [Auth] Attacker 115.74.40.205 trying to authenticate with "password"
+2020-10-24 09:48:31.308 - [Debug] [Auto Access] Attacker: 115.74.40.205, Threshold: 1, Attempts: 1
+2020-10-24 09:48:31.308 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-24 09:48:31.308 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-24 09:48:31.473 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-24 09:48:31.473 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-24 09:48:38.498 - [Debug] [Connection] Attacker connected: 115.74.40.205 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-24 09:48:40.240 - [Debug] [Auth] Attacker 115.74.40.205 trying to authenticate with "none"
+2020-10-24 09:48:40.240 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 09:48:40.896 - [Debug] [Auth] Attacker 115.74.40.205 trying to authenticate with "password"
+2020-10-24 09:48:40.897 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-24 09:48:40.897 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-24 09:48:40.979 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-24 09:48:41.304 - [Debug] [Connection] Client error on ssh server
+2020-10-24 09:48:41.305 - [Debug] [Connection] Attacker closed the connection
+2020-10-24 09:48:46.858 - [Info] Exiting...
+2020-10-24 09:48:46.858 - [Debug] Cleaning up...
+No auth in progress

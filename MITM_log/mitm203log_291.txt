@@ -1,0 +1,24 @@
+2020-10-27 00:36:50.300 - [Info] MITM Version: 1.26
+2020-10-27 00:36:50.307 - [Info] Auto Access Enabled: true
+2020-10-27 00:36:50.308 - [Debug] [Init] Auto Access Barrier: true
+2020-10-27 00:36:50.335 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-27 00:41:42.971 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.7.7.1
+2020-10-27 00:41:44.467 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-27 00:41:44.467 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-27 00:41:44.747 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-27 00:41:44.748 - [Debug] [Auto Access] Attacker: 195.3.147.47, Threshold: 1, Attempts: 1
+2020-10-27 00:41:44.748 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-27 00:41:44.748 - [Debug] [Auto Access] Adding the following credentials: "admin:2222"
+2020-10-27 00:41:45.091 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-27 00:41:45.092 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-27 00:41:45.144 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-27 00:41:47.111 - [Debug] [Connection] Attacker closed connection
+2020-10-27 00:41:47.116 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-27 00:41:47.116 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-27 00:45:24.130 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.16.0
+2020-10-27 00:45:25.837 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-27 00:45:25.837 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-27 00:45:26.116 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-27 00:45:26.117 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-27 00:45:26.119 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 00:45:26.398 - [Debug] [Connection] Attacker closed the connection

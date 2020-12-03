@@ -1,0 +1,21 @@
+2020-11-18 11:15:53.594 - [Info] MITM Version: 1.26
+2020-11-18 11:15:53.598 - [Info] Auto Access Enabled: true
+2020-11-18 11:15:53.598 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 11:15:53.612 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-18 11:16:02.216 - [Debug] [Connection] Attacker connected: 81.71.4.235 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 11:16:03.173 - [Debug] [Connection] Attacker connected: 106.54.87.169 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 11:16:06.134 - [Debug] [Auth] Attacker 81.71.4.235 trying to authenticate with "password"
+2020-11-18 11:16:06.135 - [Debug] [Auto Access] Attacker: 81.71.4.235, Threshold: 1, Attempts: 1
+2020-11-18 11:16:06.135 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 11:16:06.135 - [Debug] [Auto Access] Adding the following credentials: "eboni:eboni"
+2020-11-18 11:16:06.362 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 11:16:06.362 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-18 11:16:08.824 - [Debug] [Auth] Attacker 106.54.87.169 trying to authenticate with "password"
+2020-11-18 11:16:08.824 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 11:16:08.825 - [Debug] [Auth] Attacker: 106.54.87.169 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 11:16:09.398 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 11:16:18.146 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 11:16:24.116 - [Info] Exiting...
+2020-11-18 11:16:24.117 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 218.89.222.16

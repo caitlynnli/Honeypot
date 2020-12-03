@@ -1,0 +1,28 @@
+2020-11-03 15:57:51.148 - [Info] MITM Version: 1.26
+2020-11-03 15:57:51.152 - [Info] Auto Access Enabled: true
+2020-11-03 15:57:51.153 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 15:57:51.166 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-03 16:04:25.641 - [Debug] [Connection] Attacker connected: 209.141.33.40 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-03 16:04:25.716 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 16:06:19.320 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.10.1
+2020-11-03 16:06:20.297 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-11-03 16:06:20.297 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 16:06:20.556 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-11-03 16:06:20.557 - [Debug] [Auto Access] Attacker: 195.3.147.47, Threshold: 1, Attempts: 1
+2020-11-03 16:06:20.557 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 16:06:20.557 - [Debug] [Auto Access] Adding the following credentials: "root:root1"
+2020-11-03 16:06:20.678 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 16:06:20.678 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-03 16:06:36.090 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-03 16:06:37.911 - [Debug] [Connection] Attacker closed connection
+2020-11-03 16:06:37.916 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-03 16:06:37.916 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-03 16:08:29.098 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-OpenSSH_5.3
+2020-11-03 16:08:30.082 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-11-03 16:08:30.082 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 16:08:30.342 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-11-03 16:08:30.343 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 16:08:30.343 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 16:08:30.602 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 16:11:37.429 - [Info] Exiting...
+2020-11-03 16:11:37.430 - [Debug] Cleaning up...

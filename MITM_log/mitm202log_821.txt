@@ -1,0 +1,31 @@
+2020-11-12 19:22:39.362 - [Info] MITM Version: 1.26
+2020-11-12 19:22:39.366 - [Info] Auto Access Enabled: true
+2020-11-12 19:22:39.366 - [Debug] [Init] Auto Access Barrier: true
+2020-11-12 19:22:39.378 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-12 19:22:43.046 - [Debug] [Connection] Attacker connected: 180.76.98.66 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 19:22:44.688 - [Debug] [Auth] Attacker 180.76.98.66 trying to authenticate with "password"
+2020-11-12 19:22:44.691 - [Debug] [Auto Access] Attacker: 180.76.98.66, Threshold: 1, Attempts: 1
+2020-11-12 19:22:44.691 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-12 19:22:44.691 - [Debug] [Auto Access] Adding the following credentials: "syslog:joinUS!@1"
+2020-11-12 19:22:44.798 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-12 19:22:44.798 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-12 19:22:46.939 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-12 19:23:47.010 - [Debug] [Connection] Client error on ssh server
+2020-11-12 19:23:47.011 - [Debug] [Connection] Attacker closed connection
+2020-11-12 19:23:47.015 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-12 19:23:47.015 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-12 19:24:51.286 - [Debug] [Connection] Attacker connected: 117.62.22.250 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 19:24:53.237 - [Debug] [Auth] Attacker 117.62.22.250 trying to authenticate with "password"
+2020-11-12 19:24:53.238 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-12 19:24:53.238 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-12 19:24:55.077 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-12 19:24:56.878 - [Debug] [Connection] Attacker connected: 117.62.22.250 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 19:24:58.503 - [Debug] [Auth] Attacker 117.62.22.250 trying to authenticate with "password"
+2020-11-12 19:24:58.503 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 19:24:58.504 - [Debug] [Auth] Attacker: 117.62.22.250 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 19:24:59.062 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 19:24:59.595 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-12 19:27:48.153 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-12 19:27:48.154 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-12 19:27:48.228 - [Info] Exiting...
+2020-11-12 19:27:48.228 - [Debug] Cleaning up...

@@ -1,0 +1,31 @@
+2020-11-16 00:39:15.601 - [Info] MITM Version: 1.26
+2020-11-16 00:39:15.605 - [Info] Auto Access Enabled: true
+2020-11-16 00:39:15.605 - [Debug] [Init] Auto Access Barrier: true
+2020-11-16 00:39:15.619 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-16 00:52:42.647 - [Debug] [Connection] Attacker connected: 176.59.98.132 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2
+2020-11-16 00:52:42.727 - [Debug] [Connection] Attacker connected: 176.59.98.132 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2
+2020-11-16 00:52:44.832 - [Debug] [Auth] Attacker 176.59.98.132 trying to authenticate with "none"
+2020-11-16 00:52:44.832 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-16 00:52:45.268 - [Debug] [Auth] Attacker 176.59.98.132 trying to authenticate with "password"
+2020-11-16 00:52:45.269 - [Debug] [Auto Access] Attacker: 176.59.98.132, Threshold: 1, Attempts: 1
+2020-11-16 00:52:45.269 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-16 00:52:45.269 - [Debug] [Auto Access] Adding the following credentials: "pi:raspberryraspberry993311"
+2020-11-16 00:52:45.533 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-16 00:52:45.533 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-16 00:52:46.912 - [Debug] [Auth] Attacker 176.59.98.132 trying to authenticate with "none"
+2020-11-16 00:52:46.912 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-16 00:52:47.325 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-16 00:52:47.663 - [Debug] [Auth] Attacker 176.59.98.132 trying to authenticate with "password"
+2020-11-16 00:52:47.664 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-16 00:52:47.664 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-16 00:52:49.440 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-16 00:53:48.397 - [Debug] [Connection] Client error on ssh server
+2020-11-16 00:53:48.398 - [Debug] [Connection] Attacker closed connection
+2020-11-16 00:53:48.402 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-16 00:53:48.403 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-16 00:53:50.398 - [Debug] [Connection] Client error on ssh server
+2020-11-16 00:53:50.399 - [Debug] [Connection] Attacker closed connection
+2020-11-16 00:53:50.403 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-16 00:53:50.403 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-16 00:57:48.646 - [Info] Exiting...
+2020-11-16 00:57:48.646 - [Debug] Cleaning up...

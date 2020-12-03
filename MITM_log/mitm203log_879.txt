@@ -1,0 +1,50 @@
+2020-11-18 05:16:07.743 - [Info] MITM Version: 1.26
+2020-11-18 05:16:07.747 - [Info] Auto Access Enabled: true
+2020-11-18 05:16:07.747 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 05:16:07.762 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-18 09:02:12.734 - [Debug] [Connection] Attacker connected: 209.141.46.241 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-18 09:02:12.814 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 10:30:41.979 - [Debug] [Connection] Attacker connected: 116.110.72.96 | Client Identification: SSH-2.0-AsyncSSH_2.1.0
+2020-11-18 10:30:43.262 - [Debug] [Auth] Attacker 116.110.72.96 trying to authenticate with "none"
+2020-11-18 10:30:43.262 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-18 10:30:43.783 - [Debug] [Auth] Attacker 116.110.72.96 trying to authenticate with "password"
+2020-11-18 10:30:43.783 - [Debug] [Auto Access] Attacker: 116.110.72.96, Threshold: 1, Attempts: 1
+2020-11-18 10:30:43.783 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 10:30:43.783 - [Debug] [Auto Access] Adding the following credentials: "ubnt:ubnt"
+2020-11-18 10:30:43.988 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 10:30:43.988 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-18 10:30:46.357 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-18 10:30:47.372 - [Debug] [Connection] Client error on ssh server
+2020-11-18 10:30:47.373 - [Debug] [Connection] Attacker closed connection
+2020-11-18 10:30:47.408 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-18 10:30:47.408 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-18 10:31:44.497 - [Debug] [Connection] Attacker connected: 116.110.72.96 | Client Identification: SSH-2.0-AsyncSSH_2.1.0
+2020-11-18 10:31:45.697 - [Debug] [Auth] Attacker 116.110.72.96 trying to authenticate with "none"
+2020-11-18 10:31:45.697 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-18 10:31:46.191 - [Debug] [Auth] Attacker 116.110.72.96 trying to authenticate with "password"
+2020-11-18 10:31:46.192 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 10:31:46.192 - [Debug] [Auth] Attacker: 116.110.72.96 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 10:31:46.684 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 10:31:49.892 - [Debug] [Connection] Attacker connected: 116.110.72.96 | Client Identification: SSH-2.0-AsyncSSH_2.1.0
+2020-11-18 10:31:51.537 - [Debug] [Auth] Attacker 116.110.72.96 trying to authenticate with "none"
+2020-11-18 10:31:51.537 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-18 10:31:51.958 - [Debug] [Connection] Attacker connected: 116.110.72.96 | Client Identification: SSH-2.0-AsyncSSH_2.1.0
+2020-11-18 10:31:51.990 - [Debug] [Auth] Attacker 116.110.72.96 trying to authenticate with "password"
+2020-11-18 10:31:51.990 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 10:31:51.990 - [Debug] [Auth] Attacker: 116.110.72.96 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 10:31:52.487 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 10:31:53.327 - [Debug] [Auth] Attacker 116.110.72.96 trying to authenticate with "none"
+2020-11-18 10:31:53.328 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-18 10:31:53.869 - [Debug] [Auth] Attacker 116.110.72.96 trying to authenticate with "password"
+2020-11-18 10:31:53.869 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 10:31:53.870 - [Debug] [Auth] Attacker: 116.110.72.96 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 10:31:54.915 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 10:31:57.113 - [Debug] [Connection] Attacker connected: 116.110.72.96 | Client Identification: SSH-2.0-AsyncSSH_2.1.0
+2020-11-18 10:31:59.283 - [Debug] [Auth] Attacker 116.110.72.96 trying to authenticate with "none"
+2020-11-18 10:31:59.283 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-18 10:31:59.739 - [Debug] [Auth] Attacker 116.110.72.96 trying to authenticate with "password"
+2020-11-18 10:31:59.739 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-18 10:31:59.740 - [Debug] [Auth] Attacker: 116.110.72.96 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 10:32:00.193 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 10:35:47.706 - [Info] Exiting...
+2020-11-18 10:35:47.706 - [Debug] Cleaning up...

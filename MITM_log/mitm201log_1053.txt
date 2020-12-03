@@ -1,0 +1,28 @@
+2020-11-20 01:23:37.636 - [Info] MITM Version: 1.26
+2020-11-20 01:23:37.641 - [Info] Auto Access Enabled: true
+2020-11-20 01:23:37.642 - [Debug] [Init] Auto Access Barrier: true
+2020-11-20 01:23:37.657 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-20 01:24:49.367 - [Debug] [Connection] Attacker connected: 58.56.140.62 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 01:24:51.092 - [Debug] [Auth] Attacker 58.56.140.62 trying to authenticate with "password"
+2020-11-20 01:24:51.093 - [Debug] [Auto Access] Attacker: 58.56.140.62, Threshold: 1, Attempts: 1
+2020-11-20 01:24:51.093 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-20 01:24:51.093 - [Debug] [Auto Access] Adding the following credentials: "redmine:r3dmin3"
+2020-11-20 01:24:51.299 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-20 01:24:51.300 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-20 01:24:53.355 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-20 01:25:53.425 - [Debug] [Connection] Client error on ssh server
+2020-11-20 01:25:53.426 - [Debug] [Connection] Attacker closed connection
+2020-11-20 01:25:53.429 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-20 01:25:53.430 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-20 01:26:09.384 - [Debug] [Connection] Attacker connected: 150.242.98.199 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 01:26:11.114 - [Debug] [Auth] Attacker 150.242.98.199 trying to authenticate with "password"
+2020-11-20 01:26:11.114 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-20 01:26:11.115 - [Debug] [Auth] Attacker: 150.242.98.199 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-20 01:26:12.853 - [Debug] [Connection] Attacker closed the connection
+2020-11-20 01:28:59.717 - [Debug] [Connection] Attacker connected: 150.242.98.199 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 01:29:02.233 - [Debug] [Auth] Attacker 150.242.98.199 trying to authenticate with "password"
+2020-11-20 01:29:02.234 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-20 01:29:02.234 - [Debug] [Auth] Attacker: 150.242.98.199 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-20 01:29:02.972 - [Debug] [Connection] Attacker closed the connection
+2020-11-20 01:29:54.595 - [Info] Exiting...
+2020-11-20 01:29:54.596 - [Debug] Cleaning up...

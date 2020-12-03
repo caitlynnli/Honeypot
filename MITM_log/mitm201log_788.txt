@@ -1,0 +1,20 @@
+2020-11-14 19:33:52.956 - [Info] MITM Version: 1.26
+2020-11-14 19:33:52.961 - [Info] Auto Access Enabled: true
+2020-11-14 19:33:52.961 - [Debug] [Init] Auto Access Barrier: true
+2020-11-14 19:33:52.976 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-14 19:36:11.548 - [Debug] [Connection] Attacker connected: 65.49.20.68 | Client Identification: SSH-2.0-Go
+2020-11-14 19:36:12.269 - [Debug] [Auth] Attacker 65.49.20.68 trying to authenticate with "none"
+2020-11-14 19:36:12.270 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-14 19:36:16.538 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 19:43:32.168 - [Debug] [Connection] Attacker connected: 161.35.26.90 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-14 19:43:32.829 - [Debug] [Auth] Attacker 161.35.26.90 trying to authenticate with "password"
+2020-11-14 19:43:32.830 - [Debug] [Auto Access] Attacker: 161.35.26.90, Threshold: 1, Attempts: 1
+2020-11-14 19:43:32.830 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-14 19:43:32.830 - [Debug] [Auto Access] Adding the following credentials: "pruebas:pruebas"
+2020-11-14 19:43:33.068 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 19:43:33.068 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 19:43:44.841 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 19:43:50.620 - [Info] Exiting...
+2020-11-14 19:43:50.620 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 91.211.124.217

@@ -1,0 +1,20 @@
+2020-11-11 13:44:50.183 - [Info] MITM Version: 1.26
+2020-11-11 13:44:50.187 - [Info] Auto Access Enabled: true
+2020-11-11 13:44:50.187 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 13:44:50.203 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-11 13:46:04.283 - [Debug] [Connection] Attacker connected: 187.106.203.217 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 13:46:05.276 - [Debug] [Auth] Attacker 187.106.203.217 trying to authenticate with "password"
+2020-11-11 13:46:05.277 - [Debug] [Auto Access] Attacker: 187.106.203.217, Threshold: 1, Attempts: 1
+2020-11-11 13:46:05.277 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 13:46:05.277 - [Debug] [Auto Access] Adding the following credentials: "ftpuser1:ftpuser1"
+2020-11-11 13:46:05.468 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 13:46:05.468 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-11 13:46:17.278 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 13:46:20.087 - [Debug] [Connection] Attacker connected: 150.109.114.58 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 13:46:21.415 - [Debug] [Auth] Attacker 150.109.114.58 trying to authenticate with "password"
+2020-11-11 13:46:21.416 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-11 13:46:21.416 - [Debug] [Auth] Attacker: 150.109.114.58 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-11 13:46:21.866 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 13:46:23.184 - [Info] Exiting...
+2020-11-11 13:46:23.184 - [Debug] Cleaning up...
+No auth in progress

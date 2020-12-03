@@ -1,0 +1,62 @@
+2020-10-29 01:59:42.679 - [Info] MITM Version: 1.26
+2020-10-29 01:59:42.686 - [Info] Auto Access Enabled: true
+2020-10-29 01:59:42.686 - [Debug] [Init] Auto Access Barrier: true
+2020-10-29 01:59:42.708 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-29 02:02:50.689 - [Debug] [Connection] Attacker connected: 209.141.33.215 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 02:02:51.324 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-libssh_0.11
+2020-10-29 02:02:52.297 - [Debug] [Auth] Attacker 209.141.33.215 trying to authenticate with "password"
+2020-10-29 02:02:52.299 - [Debug] [Auto Access] Attacker: 209.141.33.215, Threshold: 1, Attempts: 1
+2020-10-29 02:02:52.299 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-29 02:02:52.299 - [Debug] [Auto Access] Adding the following credentials: "postgres:postgres"
+2020-10-29 02:02:52.796 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 02:02:52.797 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-29 02:02:52.810 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-29 02:02:52.811 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 02:02:52.896 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-29 02:02:53.090 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-29 02:02:53.091 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 02:02:53.092 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 02:02:53.372 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 02:02:53.495 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2020-10-29 02:02:54.269 - [Debug] [Connection] Attacker closed connection
+2020-10-29 02:02:54.311 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-29 02:02:54.312 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-29 02:02:54.341 - [Debug] [Connection] Attacker connected: 209.141.33.215 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 02:02:56.206 - [Debug] [Auth] Attacker 209.141.33.215 trying to authenticate with "password"
+2020-10-29 02:02:56.207 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 02:02:56.209 - [Debug] [Auth] Attacker: 209.141.33.215 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 02:02:56.393 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 02:02:56.556 - [Debug] [Connection] Attacker connected: 209.141.33.215 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 02:02:57.774 - [Debug] [Auth] Attacker 209.141.33.215 trying to authenticate with "password"
+2020-10-29 02:02:57.774 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 02:02:57.775 - [Debug] [Auth] Attacker: 209.141.33.215 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 02:02:57.984 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 02:02:58.080 - [Debug] [Connection] Attacker connected: 209.141.33.215 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 02:03:00.791 - [Debug] [Auth] Attacker 209.141.33.215 trying to authenticate with "password"
+2020-10-29 02:03:00.792 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 02:03:00.793 - [Debug] [Auth] Attacker: 209.141.33.215 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 02:03:00.943 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 02:03:01.031 - [Debug] [Connection] Attacker connected: 209.141.33.215 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 02:03:02.491 - [Debug] [Auth] Attacker 209.141.33.215 trying to authenticate with "password"
+2020-10-29 02:03:02.492 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 02:03:02.492 - [Debug] [Auth] Attacker: 209.141.33.215 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 02:03:02.678 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 02:03:02.771 - [Debug] [Connection] Attacker connected: 209.141.33.215 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 02:03:06.051 - [Debug] [Auth] Attacker 209.141.33.215 trying to authenticate with "password"
+2020-10-29 02:03:06.052 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 02:03:06.053 - [Debug] [Auth] Attacker: 209.141.33.215 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 02:03:06.203 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 02:04:50.047 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-OpenSSH_5.3
+2020-10-29 02:04:51.597 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-29 02:04:51.598 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 02:04:51.878 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-29 02:04:51.878 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 02:04:51.879 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 02:04:52.158 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 02:05:40.743 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.10.1
+2020-10-29 02:05:41.874 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-29 02:05:41.874 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 02:05:42.134 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-29 02:05:42.135 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 02:05:42.136 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 02:05:42.393 - [Debug] [Connection] Attacker closed the connection

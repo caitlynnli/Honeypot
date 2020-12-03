@@ -1,0 +1,29 @@
+2020-10-27 08:55:04.805 - [Info] MITM Version: 1.26
+2020-10-27 08:55:04.821 - [Info] Auto Access Enabled: true
+2020-10-27 08:55:04.822 - [Debug] [Init] Auto Access Barrier: true
+2020-10-27 08:55:04.883 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-27 08:55:45.700 - [Debug] [Connection] Attacker connected: 190.2.137.62 | Client Identification: SSH-2.0-sshlib-0.1
+2020-10-27 08:55:47.229 - [Debug] [Auth] Attacker 190.2.137.62 trying to authenticate with "password"
+2020-10-27 08:55:47.232 - [Debug] [Auto Access] Attacker: 190.2.137.62, Threshold: 1, Attempts: 1
+2020-10-27 08:55:47.232 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-27 08:55:47.236 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-27 08:55:47.412 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-27 08:55:47.412 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-27 08:56:02.710 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-27 08:56:19.474 - [Debug] [Connection] Attacker closed connection
+2020-10-27 08:56:19.490 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-27 08:56:19.492 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-27 08:56:47.715 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-27 08:56:48.281 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-27 08:56:48.282 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-27 08:56:48.497 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-27 08:56:48.497 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-27 08:56:48.498 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 08:56:48.708 - [Debug] [Connection] Attacker closed the connection
+2020-10-27 08:59:12.517 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-27 08:59:13.062 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-27 08:59:13.063 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-27 08:59:13.269 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-27 08:59:13.271 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-27 08:59:13.273 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 08:59:13.480 - [Debug] [Connection] Attacker closed the connection

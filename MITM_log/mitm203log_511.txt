@@ -1,0 +1,24 @@
+2020-10-28 18:49:31.756 - [Info] MITM Version: 1.26
+2020-10-28 18:49:31.764 - [Info] Auto Access Enabled: true
+2020-10-28 18:49:31.764 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 18:49:31.812 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-28 18:49:32.827 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-OpenSSH_6.0
+2020-10-28 18:49:34.275 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 18:49:34.276 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 18:49:34.544 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 18:49:34.546 - [Debug] [Auto Access] Attacker: 195.3.147.47, Threshold: 1, Attempts: 1
+2020-10-28 18:49:34.546 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 18:49:34.547 - [Debug] [Auto Access] Adding the following credentials: "22:master"
+2020-10-28 18:49:35.460 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 18:49:35.460 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 18:49:35.632 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 18:49:37.456 - [Debug] [Connection] Attacker closed connection
+2020-10-28 18:49:37.945 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 18:49:37.946 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 18:53:44.444 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.8.1
+2020-10-28 18:53:45.654 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 18:53:45.654 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 18:53:45.914 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 18:53:45.915 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 18:53:45.916 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 18:53:47.737 - [Debug] [Connection] Attacker closed the connection

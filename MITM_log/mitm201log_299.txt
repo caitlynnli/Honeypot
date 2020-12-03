@@ -1,0 +1,24 @@
+2020-10-27 19:31:08.633 - [Info] MITM Version: 1.26
+2020-10-27 19:31:08.640 - [Info] Auto Access Enabled: true
+2020-10-27 19:31:08.640 - [Debug] [Init] Auto Access Barrier: true
+2020-10-27 19:31:08.661 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-27 19:31:16.114 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-27 19:31:16.723 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-27 19:31:16.724 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-27 19:31:16.939 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-27 19:31:16.941 - [Debug] [Auto Access] Attacker: 141.98.81.141, Threshold: 1, Attempts: 1
+2020-10-27 19:31:16.941 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-27 19:31:16.941 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-27 19:31:17.244 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-27 19:31:17.245 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-27 19:31:32.675 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-27 19:31:33.109 - [Debug] [Connection] Attacker closed connection
+2020-10-27 19:31:34.453 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-27 19:31:34.453 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-27 19:35:37.959 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.15.2
+2020-10-27 19:35:39.094 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-27 19:35:39.094 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-27 19:35:39.356 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-27 19:35:39.357 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-27 19:35:39.358 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 19:35:39.617 - [Debug] [Connection] Attacker closed the connection

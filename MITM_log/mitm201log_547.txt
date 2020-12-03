@@ -1,0 +1,15 @@
+2020-11-11 05:30:26.415 - [Info] MITM Version: 1.26
+2020-11-11 05:30:26.419 - [Info] Auto Access Enabled: true
+2020-11-11 05:30:26.419 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 05:30:26.434 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-11 05:34:24.795 - [Debug] [Connection] Attacker connected: 223.82.204.146 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 05:34:26.402 - [Debug] [Auth] Attacker 223.82.204.146 trying to authenticate with "password"
+2020-11-11 05:34:26.403 - [Debug] [Auto Access] Attacker: 223.82.204.146, Threshold: 1, Attempts: 1
+2020-11-11 05:34:26.403 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 05:34:26.403 - [Debug] [Auto Access] Adding the following credentials: "darwin:darwin"
+2020-11-11 05:34:26.613 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 05:34:26.614 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-11 05:34:38.413 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 05:34:43.941 - [Info] Exiting...
+2020-11-11 05:34:43.941 - [Debug] Cleaning up...
+No auth in progress

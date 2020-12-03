@@ -1,0 +1,27 @@
+2020-11-09 08:14:44.075 - [Info] MITM Version: 1.26
+2020-11-09 08:14:44.079 - [Info] Auto Access Enabled: true
+2020-11-09 08:14:44.079 - [Debug] [Init] Auto Access Barrier: true
+2020-11-09 08:14:44.095 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-09 09:15:47.306 - [Debug] [Connection] Attacker connected: 205.185.115.228 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-09 09:15:47.389 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 10:01:13.960 - [Debug] [Connection] Attacker connected: 45.81.235.58 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-09 10:01:14.056 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 10:20:54.005 - [Debug] [Connection] Attacker connected: 71.1.157.67 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-09 10:20:58.206 - [Debug] [Auth] Attacker 71.1.157.67 trying to authenticate with "password"
+2020-11-09 10:20:58.206 - [Debug] [Auto Access] Attacker: 71.1.157.67, Threshold: 1, Attempts: 1
+2020-11-09 10:20:58.207 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-09 10:20:58.207 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-09 10:20:58.316 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-09 10:20:58.316 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-09 10:20:58.340 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-09 10:20:58.640 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2020-11-09 10:21:00.069 - [Debug] [Connection] Attacker closed connection
+2020-11-09 10:21:00.075 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-09 10:21:00.076 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-09 10:21:00.121 - [Debug] [Connection] Attacker connected: 71.1.157.67 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-09 10:21:05.130 - [Debug] [Auth] Attacker 71.1.157.67 trying to authenticate with "password"
+2020-11-09 10:21:05.130 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-09 10:21:05.131 - [Debug] [Auth] Attacker: 71.1.157.67 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-09 10:21:05.469 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 10:25:59.668 - [Info] Exiting...
+2020-11-09 10:25:59.668 - [Debug] Cleaning up...

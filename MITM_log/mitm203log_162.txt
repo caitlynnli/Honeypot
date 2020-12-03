@@ -1,0 +1,21 @@
+2020-10-25 22:10:44.138 - [Info] MITM Version: 1.26
+2020-10-25 22:10:44.145 - [Info] Auto Access Enabled: true
+2020-10-25 22:10:44.146 - [Debug] [Init] Auto Access Barrier: true
+2020-10-25 22:10:44.172 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-25 22:10:58.557 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-25 22:10:59.915 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-10-25 22:10:59.916 - [Debug] [Auto Access] Attacker: 2.57.122.15, Threshold: 1, Attempts: 1
+2020-10-25 22:10:59.916 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-25 22:10:59.916 - [Debug] [Auto Access] Adding the following credentials: "oracle:oracle"
+2020-10-25 22:11:00.256 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-25 22:11:00.257 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-25 22:11:15.730 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-25 22:11:16.299 - [Debug] [EXEC] Noninteractive mode attacker command: grep 'cpu cores' /proc/cpuinfo | uniq
+2020-10-25 22:11:16.954 - [Debug] [Connection] Attacker closed connection
+2020-10-25 22:11:17.011 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-25 22:11:17.012 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-25 22:11:19.539 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-25 22:11:20.853 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-10-25 22:11:20.854 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 22:11:20.855 - [Debug] [Auth] Attacker: 2.57.122.15 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-25 22:11:21.139 - [Debug] [Connection] Attacker closed the connection

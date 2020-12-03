@@ -1,0 +1,16 @@
+2020-11-20 02:02:14.341 - [Info] MITM Version: 1.26
+2020-11-20 02:02:14.346 - [Info] Auto Access Enabled: true
+2020-11-20 02:02:14.346 - [Debug] [Init] Auto Access Barrier: true
+2020-11-20 02:02:14.360 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-20 02:02:34.054 - [Debug] [Connection] Attacker connected: 177.103.229.58 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 02:02:35.002 - [Debug] [Auth] Attacker 177.103.229.58 trying to authenticate with "password"
+2020-11-20 02:02:35.003 - [Debug] [Auto Access] Attacker: 177.103.229.58, Threshold: 1, Attempts: 1
+2020-11-20 02:02:35.003 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-20 02:02:35.003 - [Debug] [Auto Access] Adding the following credentials: "postgresql:postgresql"
+2020-11-20 02:02:35.222 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-20 02:02:35.222 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-20 02:02:45.015 - [Debug] [Connection] Attacker closed the connection
+2020-11-20 02:02:53.118 - [Info] Exiting...
+2020-11-20 02:02:53.118 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 58.56.140.62

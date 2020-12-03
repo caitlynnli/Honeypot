@@ -1,0 +1,24 @@
+2020-11-03 22:08:53.736 - [Info] MITM Version: 1.26
+2020-11-03 22:08:53.740 - [Info] Auto Access Enabled: true
+2020-11-03 22:08:53.740 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 22:08:53.756 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-03 22:49:57.912 - [Debug] [Connection] Attacker connected: 104.152.59.192 | Client Identification: SSH-2.0-libssh-0.5.2
+2020-11-03 22:49:57.953 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 23:21:02.698 - [Debug] [Connection] Attacker connected: 180.110.248.215 | Client Identification: SSH-2.0-libssh-0.5.2
+2020-11-03 23:21:02.957 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 23:32:45.954 - [Debug] [Connection] Attacker connected: 73.210.198.199 | Client Identification: SSH-2.0-libssh-0.5.2
+2020-11-03 23:32:45.989 - [Debug] [Connection] Attacker closed the connection
+2020-11-04 00:05:00.399 - [Debug] [Connection] Attacker connected: 190.149.175.189 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-11-04 00:05:00.805 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-11-04 00:05:00.806 - [Debug] [Auto Access] Attacker: 190.149.175.189, Threshold: 1, Attempts: 1
+2020-11-04 00:05:00.806 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-04 00:05:00.806 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-04 00:05:00.925 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-04 00:05:00.926 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-04 00:05:00.958 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-04 00:05:01.173 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2020-11-04 00:05:02.480 - [Debug] [Connection] Attacker closed connection
+2020-11-04 00:05:02.487 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-04 00:05:02.487 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-04 00:10:02.274 - [Info] Exiting...
+2020-11-04 00:10:02.275 - [Debug] Cleaning up...

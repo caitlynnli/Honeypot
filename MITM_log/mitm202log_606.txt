@@ -1,0 +1,42 @@
+2020-11-07 06:17:54.432 - [Info] MITM Version: 1.26
+2020-11-07 06:17:54.436 - [Info] Auto Access Enabled: true
+2020-11-07 06:17:54.437 - [Debug] [Init] Auto Access Barrier: true
+2020-11-07 06:17:54.451 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-07 06:18:38.641 - [Debug] [Connection] Attacker connected: 71.219.174.70 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 06:18:44.041 - [Debug] [Auth] Attacker 71.219.174.70 trying to authenticate with "password"
+2020-11-07 06:18:44.042 - [Debug] [Auto Access] Attacker: 71.219.174.70, Threshold: 1, Attempts: 1
+2020-11-07 06:18:44.042 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-07 06:18:44.042 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-07 06:18:44.151 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 06:18:44.151 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-07 06:18:46.033 - [Debug] [Connection] Attacker connected: 115.71.239.208 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-07 06:18:47.253 - [Debug] [Auth] Attacker 115.71.239.208 trying to authenticate with "password"
+2020-11-07 06:18:47.254 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:18:47.255 - [Debug] [Auth] Attacker: 115.71.239.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 06:18:47.674 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 06:18:54.034 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 06:18:54.072 - [Debug] [Connection] Attacker connected: 71.219.174.70 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 06:18:58.559 - [Debug] [Auth] Attacker 71.219.174.70 trying to authenticate with "password"
+2020-11-07 06:18:58.560 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:18:58.560 - [Debug] [Auth] Attacker: 71.219.174.70 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 06:18:58.689 - [Debug] [Auth] Attacker 71.219.174.70 trying to authenticate with "password"
+2020-11-07 06:18:58.690 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:18:58.690 - [Debug] [Auth] Attacker: 71.219.174.70 has so far made 2 attempts. Remaining: 4 attempts
+2020-11-07 06:18:58.811 - [Debug] [Auth] Attacker 71.219.174.70 trying to authenticate with "password"
+2020-11-07 06:18:58.811 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:18:58.812 - [Debug] [Auth] Attacker: 71.219.174.70 has so far made 3 attempts. Remaining: 3 attempts
+2020-11-07 06:18:58.930 - [Debug] [Auth] Attacker 71.219.174.70 trying to authenticate with "password"
+2020-11-07 06:18:58.930 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:18:58.931 - [Debug] [Auth] Attacker: 71.219.174.70 has so far made 4 attempts. Remaining: 2 attempts
+2020-11-07 06:18:59.050 - [Debug] [Auth] Attacker 71.219.174.70 trying to authenticate with "password"
+2020-11-07 06:18:59.051 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:18:59.051 - [Debug] [Auth] Attacker: 71.219.174.70 has so far made 5 attempts. Remaining: 1 attempts
+2020-11-07 06:18:59.175 - [Debug] [Auth] Attacker 71.219.174.70 trying to authenticate with "password"
+2020-11-07 06:18:59.175 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:18:59.176 - [Debug] [Auth] Attacker: 71.219.174.70 has so far made 6 attempts. Remaining: 0 attempts
+2020-11-07 06:18:59.176 - [Debug] [Connection] Max Login Attempts Reached - Closing connection on attacker
+2020-11-07 06:18:59.176 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 06:18:59.253 - [Debug] [Connection] Attacker connected: 71.219.174.70 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 06:18:59.709 - [Info] Exiting...
+2020-11-07 06:18:59.709 - [Debug] Cleaning up...
+No auth in progress

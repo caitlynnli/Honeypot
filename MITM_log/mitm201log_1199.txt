@@ -1,0 +1,23 @@
+2020-11-21 16:40:12.500 - [Info] MITM Version: 1.26
+2020-11-21 16:40:12.504 - [Info] Auto Access Enabled: true
+2020-11-21 16:40:12.504 - [Debug] [Init] Auto Access Barrier: true
+2020-11-21 16:40:12.517 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-21 16:56:59.596 - [Debug] [Connection] Attacker connected: 71.144.19.146 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 16:56:59.998 - [Debug] [Auth] Attacker 71.144.19.146 trying to authenticate with "password"
+2020-11-21 16:56:59.998 - [Debug] [Auto Access] Attacker: 71.144.19.146, Threshold: 1, Attempts: 1
+2020-11-21 16:56:59.998 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-21 16:56:59.998 - [Debug] [Auto Access] Adding the following credentials: "redmine:redmine"
+2020-11-21 16:57:00.223 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-21 16:57:00.223 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-21 16:57:02.240 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-21 16:57:02.484 - [Debug] [Connection] Attacker connected: 71.144.19.146 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 16:57:02.864 - [Debug] [Auth] Attacker 71.144.19.146 trying to authenticate with "password"
+2020-11-21 16:57:02.864 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-21 16:57:02.865 - [Debug] [Auth] Attacker: 71.144.19.146 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-21 16:57:03.001 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 16:58:03.309 - [Debug] [Connection] Client error on ssh server
+2020-11-21 16:58:03.310 - [Debug] [Connection] Attacker closed connection
+2020-11-21 16:58:03.313 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-21 16:58:03.314 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-21 17:02:03.575 - [Info] Exiting...
+2020-11-21 17:02:03.575 - [Debug] Cleaning up...

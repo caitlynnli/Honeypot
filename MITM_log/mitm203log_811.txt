@@ -1,0 +1,91 @@
+2020-11-10 10:33:41.872 - [Info] MITM Version: 1.26
+2020-11-10 10:33:41.876 - [Info] Auto Access Enabled: true
+2020-11-10 10:33:41.876 - [Debug] [Init] Auto Access Barrier: true
+2020-11-10 10:33:41.890 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-10 10:57:17.828 - [Debug] [Connection] Attacker connected: 45.87.43.117 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-10 10:57:17.913 - [Debug] [Connection] Attacker closed the connection
+2020-11-10 11:14:10.327 - [Debug] [Connection] Attacker connected: 167.248.133.51 | Client Identification: SSH-2.0-Go
+2020-11-10 11:14:25.327 - [Debug] [Connection] Attacker closed the connection
+2020-11-10 11:26:41.034 - [Debug] [Connection] Attacker connected: 45.14.224.99 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-10 11:26:41.132 - [Debug] [Connection] Attacker closed the connection
+2020-11-10 11:26:41.306 - [Debug] [Connection] Attacker connected: 45.14.224.99 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-10 11:26:41.389 - [Debug] [Connection] Attacker closed the connection
+2020-11-10 11:31:50.341 - [Debug] [Connection] Attacker connected: 68.226.254.76 | Client Identification: SSH-2.0-libssh-0.5.2
+2020-11-10 11:31:50.399 - [Debug] [Connection] Attacker closed the connection
+2020-11-10 11:50:07.348 - [Debug] [Connection] Attacker connected: 171.249.225.133 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-10 11:50:09.053 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "none"
+2020-11-10 11:50:09.054 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-10 11:50:09.645 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "password"
+2020-11-10 11:50:09.645 - [Debug] [Auto Access] Attacker: 171.249.225.133, Threshold: 1, Attempts: 1
+2020-11-10 11:50:09.646 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-10 11:50:09.646 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-10 11:50:09.759 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 11:50:09.759 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 11:50:09.781 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 11:50:24.671 - [Debug] [Connection] Attacker connected: 171.249.225.133 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-10 11:50:26.477 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "none"
+2020-11-10 11:50:26.477 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-10 11:50:27.083 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "password"
+2020-11-10 11:50:27.083 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 11:50:27.083 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 11:50:27.099 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 11:50:36.270 - [Debug] [Connection] Attacker connected: 171.249.225.133 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-10 11:50:37.990 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "none"
+2020-11-10 11:50:37.990 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-10 11:50:38.579 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "password"
+2020-11-10 11:50:38.579 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 11:50:38.580 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 11:50:38.593 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 11:50:50.484 - [Debug] [Connection] Attacker connected: 171.249.225.133 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-10 11:50:52.181 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "none"
+2020-11-10 11:50:52.181 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-10 11:50:52.763 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "password"
+2020-11-10 11:50:52.763 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 11:50:52.763 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 11:50:52.777 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 11:51:03.434 - [Debug] [Connection] Attacker connected: 171.249.225.133 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-10 11:51:05.084 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "none"
+2020-11-10 11:51:05.084 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-10 11:51:05.648 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "password"
+2020-11-10 11:51:05.649 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 11:51:05.649 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 11:51:05.661 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 11:51:16.647 - [Debug] [Connection] Attacker connected: 171.249.225.133 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-10 11:51:18.306 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "none"
+2020-11-10 11:51:18.306 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-10 11:51:18.878 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "password"
+2020-11-10 11:51:18.878 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 11:51:18.878 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 11:51:18.892 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 11:52:13.883 - [Debug] [Connection] Attacker connected: 171.249.225.133 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-10 11:52:15.521 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "none"
+2020-11-10 11:52:15.521 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-10 11:52:16.082 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "password"
+2020-11-10 11:52:16.083 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 11:52:16.083 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 11:52:16.097 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 11:52:27.141 - [Debug] [Connection] Attacker connected: 171.249.225.133 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-10 11:52:28.821 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "none"
+2020-11-10 11:52:28.821 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-10 11:52:29.401 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "password"
+2020-11-10 11:52:29.402 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 11:52:29.402 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 11:52:29.415 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 11:55:11.093 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 11:55:11.093 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 11:55:11.097 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 11:55:11.097 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 11:55:11.101 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 11:55:11.101 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 11:55:11.106 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 11:55:11.106 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 11:55:11.110 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 11:55:11.111 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 11:55:11.115 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 11:55:11.115 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 11:55:11.121 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 11:55:11.121 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 11:55:11.124 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 11:55:11.124 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 11:55:11.155 - [Info] Exiting...
+2020-11-10 11:55:11.155 - [Debug] Cleaning up...

@@ -1,0 +1,41 @@
+2020-10-29 06:10:39.200 - [Info] MITM Version: 1.26
+2020-10-29 06:10:39.207 - [Info] Auto Access Enabled: true
+2020-10-29 06:10:39.207 - [Debug] [Init] Auto Access Barrier: true
+2020-10-29 06:10:39.233 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-29 06:11:29.089 - [Debug] [Connection] Attacker connected: 107.189.11.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 06:11:30.617 - [Debug] [Auth] Attacker 107.189.11.208 trying to authenticate with "password"
+2020-10-29 06:11:30.618 - [Debug] [Auto Access] Attacker: 107.189.11.208, Threshold: 1, Attempts: 1
+2020-10-29 06:11:30.619 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-29 06:11:30.619 - [Debug] [Auto Access] Adding the following credentials: "postgres:postgres"
+2020-10-29 06:11:30.959 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 06:11:30.959 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-29 06:11:31.014 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-29 06:11:31.502 - [Debug] [EXEC] Noninteractive mode attacker command: grep 'cpu cores' /proc/cpuinfo | uniq
+2020-10-29 06:11:32.261 - [Debug] [Connection] Attacker closed connection
+2020-10-29 06:11:32.311 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-29 06:11:32.311 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-29 06:12:21.821 - [Debug] [Connection] Attacker connected: 107.189.11.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 06:12:23.276 - [Debug] [Auth] Attacker 107.189.11.208 trying to authenticate with "password"
+2020-10-29 06:12:23.277 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 06:12:23.279 - [Debug] [Auth] Attacker: 107.189.11.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 06:12:23.516 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 06:13:15.274 - [Debug] [Connection] Attacker connected: 107.189.11.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 06:13:16.662 - [Debug] [Auth] Attacker 107.189.11.208 trying to authenticate with "password"
+2020-10-29 06:13:16.663 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 06:13:16.663 - [Debug] [Auth] Attacker: 107.189.11.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 06:13:16.891 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 06:14:09.905 - [Debug] [Connection] Attacker connected: 107.189.11.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 06:14:11.012 - [Debug] [Auth] Attacker 107.189.11.208 trying to authenticate with "password"
+2020-10-29 06:14:11.012 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 06:14:11.013 - [Debug] [Auth] Attacker: 107.189.11.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 06:14:11.248 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 06:15:02.183 - [Debug] [Connection] Attacker connected: 107.189.11.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 06:15:03.690 - [Debug] [Auth] Attacker 107.189.11.208 trying to authenticate with "password"
+2020-10-29 06:15:03.692 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 06:15:03.693 - [Debug] [Auth] Attacker: 107.189.11.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 06:15:04.122 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 06:15:57.620 - [Debug] [Connection] Attacker connected: 107.189.11.208 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 06:15:59.553 - [Debug] [Auth] Attacker 107.189.11.208 trying to authenticate with "password"
+2020-10-29 06:15:59.554 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-29 06:15:59.555 - [Debug] [Auth] Attacker: 107.189.11.208 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 06:15:59.964 - [Debug] [Connection] Attacker closed the connection

@@ -1,0 +1,30 @@
+2020-11-12 17:21:24.798 - [Info] MITM Version: 1.26
+2020-11-12 17:21:24.802 - [Info] Auto Access Enabled: true
+2020-11-12 17:21:24.802 - [Debug] [Init] Auto Access Barrier: true
+2020-11-12 17:21:24.817 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-12 17:21:32.294 - [Debug] [Connection] Attacker connected: 186.47.213.34 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 17:21:33.877 - [Debug] [Auth] Attacker 186.47.213.34 trying to authenticate with "password"
+2020-11-12 17:21:33.878 - [Debug] [Auto Access] Attacker: 186.47.213.34, Threshold: 1, Attempts: 1
+2020-11-12 17:21:33.878 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-12 17:21:33.878 - [Debug] [Auto Access] Adding the following credentials: "tony:tony"
+2020-11-12 17:21:34.100 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-12 17:21:34.100 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-12 17:21:43.295 - [Debug] [Connection] Attacker connected: 211.38.132.36 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 17:21:44.715 - [Debug] [Auth] Attacker 211.38.132.36 trying to authenticate with "password"
+2020-11-12 17:21:44.716 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 17:21:44.716 - [Debug] [Auth] Attacker: 211.38.132.36 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 17:21:45.205 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 17:21:45.888 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 17:21:46.555 - [Debug] [Connection] Attacker connected: 122.114.73.130 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 17:21:47.633 - [Debug] [Connection] Attacker connected: 128.199.143.157 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 17:21:48.143 - [Debug] [Auth] Attacker 122.114.73.130 trying to authenticate with "password"
+2020-11-12 17:21:48.143 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 17:21:48.144 - [Debug] [Auth] Attacker: 122.114.73.130 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 17:21:48.681 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 17:21:49.306 - [Debug] [Auth] Attacker 128.199.143.157 trying to authenticate with "password"
+2020-11-12 17:21:49.307 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 17:21:49.307 - [Debug] [Auth] Attacker: 128.199.143.157 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 17:21:49.878 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 17:21:50.838 - [Info] Exiting...
+2020-11-12 17:21:50.838 - [Debug] Cleaning up...
+No auth in progress

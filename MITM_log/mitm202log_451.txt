@@ -1,0 +1,25 @@
+2020-11-03 03:22:40.486 - [Info] MITM Version: 1.26
+2020-11-03 03:22:40.490 - [Info] Auto Access Enabled: true
+2020-11-03 03:22:40.490 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 03:22:40.505 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-03 03:23:01.807 - [Debug] [Connection] Attacker connected: 1.202.77.210 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 03:23:03.279 - [Debug] [Auth] Attacker 1.202.77.210 trying to authenticate with "password"
+2020-11-03 03:23:03.279 - [Debug] [Auto Access] Attacker: 1.202.77.210, Threshold: 1, Attempts: 1
+2020-11-03 03:23:03.280 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 03:23:03.280 - [Debug] [Auto Access] Adding the following credentials: "root:Pass@w0rd321"
+2020-11-03 03:23:03.395 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 03:23:03.395 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-03 03:23:06.480 - [Debug] [Connection] Attacker connected: 188.166.191.195 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 03:23:08.038 - [Debug] [Auth] Attacker 188.166.191.195 trying to authenticate with "password"
+2020-11-03 03:23:08.038 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 03:23:08.039 - [Debug] [Auth] Attacker: 188.166.191.195 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 03:23:08.570 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 03:23:11.483 - [Debug] [Connection] Attacker connected: 45.55.41.113 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 03:23:11.632 - [Debug] [Auth] Attacker 45.55.41.113 trying to authenticate with "password"
+2020-11-03 03:23:11.632 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 03:23:11.633 - [Debug] [Auth] Attacker: 45.55.41.113 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 03:23:11.692 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 03:23:13.289 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 03:23:18.717 - [Info] Exiting...
+2020-11-03 03:23:18.717 - [Debug] Cleaning up...
+No auth in progress

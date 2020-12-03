@@ -1,0 +1,18 @@
+2020-10-28 06:11:58.952 - [Info] MITM Version: 1.26
+2020-10-28 06:11:58.958 - [Info] Auto Access Enabled: true
+2020-10-28 06:11:58.958 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 06:11:58.978 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-28 06:12:01.361 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 06:12:03.025 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 06:12:03.025 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 06:12:03.589 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 06:12:03.590 - [Debug] [Auto Access] Attacker: 171.235.45.115, Threshold: 1, Attempts: 1
+2020-10-28 06:12:03.590 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 06:12:03.590 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-28 06:12:03.756 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 06:12:03.756 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 06:12:13.592 - [Debug] [Connection] Client error on ssh server
+2020-10-28 06:12:13.593 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 06:12:19.212 - [Info] Exiting...
+2020-10-28 06:12:19.212 - [Debug] Cleaning up...
+No auth in progress

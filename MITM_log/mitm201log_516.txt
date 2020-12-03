@@ -1,0 +1,32 @@
+2020-11-02 23:46:29.025 - [Info] MITM Version: 1.26
+2020-11-02 23:46:29.038 - [Info] Auto Access Enabled: true
+2020-11-02 23:46:29.038 - [Debug] [Init] Auto Access Barrier: true
+2020-11-02 23:46:29.062 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-02 23:46:56.022 - [Debug] [Connection] Attacker connected: 128.199.170.33 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-02 23:46:57.591 - [Debug] [Auth] Attacker 128.199.170.33 trying to authenticate with "password"
+2020-11-02 23:46:57.592 - [Debug] [Auto Access] Attacker: 128.199.170.33, Threshold: 1, Attempts: 1
+2020-11-02 23:46:57.592 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-02 23:46:57.592 - [Debug] [Auto Access] Adding the following credentials: "root:passwords"
+2020-11-02 23:46:57.769 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-02 23:46:57.769 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-02 23:46:57.802 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-02 23:46:58.825 - [Debug] [Connection] Attacker connected: 128.199.170.33 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-02 23:47:00.377 - [Debug] [Auth] Attacker 128.199.170.33 trying to authenticate with "password"
+2020-11-02 23:47:00.378 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-02 23:47:00.378 - [Debug] [Auth] Attacker: 128.199.170.33 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-02 23:47:00.906 - [Debug] [Connection] Attacker closed the connection
+2020-11-02 23:47:01.401 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-02 23:48:09.878 - [Debug] [Connection] Attacker connected: 119.96.193.238 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-02 23:48:12.236 - [Debug] [Auth] Attacker 119.96.193.238 trying to authenticate with "password"
+2020-11-02 23:48:12.237 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-02 23:48:12.237 - [Debug] [Auth] Attacker: 119.96.193.238 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-02 23:48:15.225 - [Debug] [Connection] Attacker closed the connection
+2020-11-02 23:51:31.051 - [Debug] [Connection] Attacker connected: 161.35.121.130 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-02 23:51:31.202 - [Debug] [Auth] Attacker 161.35.121.130 trying to authenticate with "password"
+2020-11-02 23:51:31.203 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-02 23:51:31.203 - [Debug] [Auth] Attacker: 161.35.121.130 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-02 23:51:31.265 - [Debug] [Connection] Attacker closed the connection
+2020-11-02 23:52:00.880 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-02 23:52:00.881 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-02 23:52:00.942 - [Info] Exiting...
+2020-11-02 23:52:00.942 - [Debug] Cleaning up...

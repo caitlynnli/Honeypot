@@ -1,0 +1,24 @@
+2020-10-29 04:41:02.684 - [Info] MITM Version: 1.26
+2020-10-29 04:41:02.691 - [Info] Auto Access Enabled: true
+2020-10-29 04:41:02.691 - [Debug] [Init] Auto Access Barrier: true
+2020-10-29 04:41:02.718 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-29 04:43:26.499 - [Debug] [Connection] Attacker connected: 141.98.81.154 | Client Identification: SSH-2.0-Go
+2020-10-29 04:43:27.082 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "none"
+2020-10-29 04:43:27.083 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 04:43:27.303 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "password"
+2020-10-29 04:43:27.304 - [Debug] [Auto Access] Attacker: 141.98.81.154, Threshold: 1, Attempts: 1
+2020-10-29 04:43:27.304 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-29 04:43:27.309 - [Debug] [Auto Access] Adding the following credentials: "admin:admin"
+2020-10-29 04:43:27.851 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 04:43:27.852 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-29 04:43:27.934 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-29 04:43:28.377 - [Debug] [Connection] Attacker closed connection
+2020-10-29 04:43:29.019 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-29 04:43:29.020 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-29 04:46:11.783 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-29 04:46:12.769 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-29 04:46:12.770 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 04:46:13.024 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-29 04:46:13.026 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-29 04:46:13.028 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 04:46:13.264 - [Debug] [Connection] Attacker closed the connection

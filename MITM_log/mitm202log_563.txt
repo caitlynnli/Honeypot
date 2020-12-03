@@ -1,0 +1,20 @@
+2020-11-03 14:53:20.795 - [Info] MITM Version: 1.26
+2020-11-03 14:53:20.798 - [Info] Auto Access Enabled: true
+2020-11-03 14:53:20.799 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 14:53:20.813 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-03 14:53:32.068 - [Debug] [Connection] Attacker connected: 119.45.26.117 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 14:53:33.088 - [Debug] [Connection] Attacker connected: 165.227.62.103 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 14:53:33.629 - [Debug] [Auth] Attacker 165.227.62.103 trying to authenticate with "password"
+2020-11-03 14:53:33.630 - [Debug] [Auto Access] Attacker: 165.227.62.103, Threshold: 1, Attempts: 1
+2020-11-03 14:53:33.630 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 14:53:33.630 - [Debug] [Auto Access] Adding the following credentials: "root:Huawei@1234"
+2020-11-03 14:53:33.744 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 14:53:33.745 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-03 14:53:33.748 - [Debug] [Auth] Attacker 119.45.26.117 trying to authenticate with "password"
+2020-11-03 14:53:33.748 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 14:53:33.749 - [Debug] [Auth] Attacker: 119.45.26.117 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 14:53:34.304 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 14:53:45.638 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 14:53:49.243 - [Info] Exiting...
+2020-11-03 14:53:49.243 - [Debug] Cleaning up...
+No auth in progress

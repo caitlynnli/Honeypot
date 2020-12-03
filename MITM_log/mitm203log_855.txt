@@ -1,0 +1,43 @@
+2020-11-13 20:05:15.087 - [Info] MITM Version: 1.26
+2020-11-13 20:05:15.091 - [Info] Auto Access Enabled: true
+2020-11-13 20:05:15.091 - [Debug] [Init] Auto Access Barrier: true
+2020-11-13 20:05:15.105 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-13 20:05:45.021 - [Debug] [Connection] Attacker connected: 206.81.27.163 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-13 20:05:45.926 - [Debug] [Auth] Attacker 206.81.27.163 trying to authenticate with "password"
+2020-11-13 20:05:45.927 - [Debug] [Auto Access] Attacker: 206.81.27.163, Threshold: 1, Attempts: 1
+2020-11-13 20:05:45.927 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-13 20:05:45.927 - [Debug] [Auto Access] Adding the following credentials: "ubuntu:ubuntu"
+2020-11-13 20:05:46.137 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-13 20:05:46.138 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-13 20:06:03.057 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-13 20:06:03.608 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a 
+2020-11-13 20:06:04.098 - [Debug] [Connection] Attacker closed connection
+2020-11-13 20:06:04.108 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-13 20:06:04.109 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-13 20:06:47.331 - [Debug] [Connection] Attacker connected: 206.81.27.163 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-13 20:06:48.557 - [Debug] [Auth] Attacker 206.81.27.163 trying to authenticate with "password"
+2020-11-13 20:06:48.558 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-13 20:06:48.558 - [Debug] [Auth] Attacker: 206.81.27.163 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-13 20:06:48.826 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 20:07:51.558 - [Debug] [Connection] Attacker connected: 206.81.27.163 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-13 20:07:52.432 - [Debug] [Auth] Attacker 206.81.27.163 trying to authenticate with "password"
+2020-11-13 20:07:52.433 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-13 20:07:52.433 - [Debug] [Auth] Attacker: 206.81.27.163 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-13 20:07:52.610 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 20:08:50.539 - [Debug] [Connection] Attacker connected: 206.81.27.163 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-13 20:08:51.416 - [Debug] [Auth] Attacker 206.81.27.163 trying to authenticate with "password"
+2020-11-13 20:08:51.417 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-13 20:08:51.417 - [Debug] [Auth] Attacker: 206.81.27.163 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-13 20:08:51.594 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 20:09:50.397 - [Debug] [Connection] Attacker connected: 206.81.27.163 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-13 20:09:51.305 - [Debug] [Auth] Attacker 206.81.27.163 trying to authenticate with "password"
+2020-11-13 20:09:51.306 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-13 20:09:51.306 - [Debug] [Auth] Attacker: 206.81.27.163 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-13 20:09:51.483 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 20:10:59.305 - [Debug] [Connection] Attacker connected: 206.81.27.163 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-13 20:11:00.163 - [Debug] [Auth] Attacker 206.81.27.163 trying to authenticate with "password"
+2020-11-13 20:11:00.164 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-13 20:11:00.164 - [Debug] [Auth] Attacker: 206.81.27.163 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-13 20:11:00.391 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 20:11:04.438 - [Info] Exiting...
+2020-11-13 20:11:04.439 - [Debug] Cleaning up...

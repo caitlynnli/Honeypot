@@ -1,0 +1,25 @@
+2020-11-11 03:31:15.126 - [Info] MITM Version: 1.26
+2020-11-11 03:31:15.130 - [Info] Auto Access Enabled: true
+2020-11-11 03:31:15.130 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 03:31:15.143 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-11 03:31:45.839 - [Debug] [Connection] Attacker connected: 151.80.183.134 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 03:31:45.960 - [Debug] [Connection] Attacker connected: 159.65.222.152 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 03:31:46.113 - [Debug] [Auth] Attacker 159.65.222.152 trying to authenticate with "password"
+2020-11-11 03:31:46.114 - [Debug] [Auto Access] Attacker: 159.65.222.152, Threshold: 1, Attempts: 1
+2020-11-11 03:31:46.114 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 03:31:46.114 - [Debug] [Auto Access] Adding the following credentials: "eric:eric"
+2020-11-11 03:31:46.334 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 03:31:46.334 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-11 03:31:46.503 - [Debug] [Auth] Attacker 151.80.183.134 trying to authenticate with "password"
+2020-11-11 03:31:46.504 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-11 03:31:46.504 - [Debug] [Auth] Attacker: 151.80.183.134 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-11 03:31:46.670 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 03:31:56.119 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 03:31:57.839 - [Debug] [Connection] Attacker connected: 68.183.156.109 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 03:31:57.990 - [Debug] [Auth] Attacker 68.183.156.109 trying to authenticate with "password"
+2020-11-11 03:31:57.990 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-11 03:31:57.991 - [Debug] [Auth] Attacker: 68.183.156.109 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-11 03:31:58.054 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 03:32:04.284 - [Info] Exiting...
+2020-11-11 03:32:04.285 - [Debug] Cleaning up...
+No auth in progress

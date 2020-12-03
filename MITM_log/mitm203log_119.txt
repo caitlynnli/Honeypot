@@ -1,0 +1,36 @@
+2020-10-25 13:45:25.818 - [Info] MITM Version: 1.26
+2020-10-25 13:45:25.825 - [Info] Auto Access Enabled: true
+2020-10-25 13:45:25.826 - [Debug] [Init] Auto Access Barrier: true
+2020-10-25 13:45:25.846 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-25 13:56:08.494 - [Debug] [Connection] Attacker connected: 183.83.217.190 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2
+2020-10-25 13:56:08.818 - [Debug] [Connection] Attacker connected: 183.83.217.190 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2
+2020-10-25 13:56:09.878 - [Debug] [Auth] Attacker 183.83.217.190 trying to authenticate with "none"
+2020-10-25 13:56:09.879 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-25 13:56:10.262 - [Debug] [Auth] Attacker 183.83.217.190 trying to authenticate with "none"
+2020-10-25 13:56:10.263 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-25 13:56:10.353 - [Debug] [Auth] Attacker 183.83.217.190 trying to authenticate with "password"
+2020-10-25 13:56:10.355 - [Debug] [Auto Access] Attacker: 183.83.217.190, Threshold: 1, Attempts: 1
+2020-10-25 13:56:10.355 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-25 13:56:10.356 - [Debug] [Auto Access] Adding the following credentials: "pi:raspberry"
+2020-10-25 13:56:10.942 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-25 13:56:10.943 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-25 13:56:10.948 - [Debug] [Auth] Attacker 183.83.217.190 trying to authenticate with "password"
+2020-10-25 13:56:10.949 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-25 13:56:10.949 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-25 13:56:26.457 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-25 13:56:26.467 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-25 13:56:27.328 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/aG7uNL94
+2020-10-25 13:56:27.361 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/aG7uNL94
+2020-10-25 13:56:55.628 - [Debug] [Connection] Attacker closed connection
+2020-10-25 13:56:55.633 - [Debug] [Connection] Attacker closed connection
+2020-10-25 13:56:55.635 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-25 13:56:55.636 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-25 13:56:55.640 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-25 13:56:55.640 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-25 13:57:57.640 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-25 13:57:58.317 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-25 13:57:58.318 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-25 13:57:58.536 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-25 13:57:58.538 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 13:57:58.539 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-25 13:57:58.758 - [Debug] [Connection] Attacker closed the connection

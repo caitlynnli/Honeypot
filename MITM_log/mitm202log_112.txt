@@ -1,0 +1,36 @@
+2020-10-28 01:38:18.001 - [Info] MITM Version: 1.26
+2020-10-28 01:38:18.009 - [Info] Auto Access Enabled: true
+2020-10-28 01:38:18.009 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 01:38:18.042 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-28 01:39:48.304 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-OpenSSH_4.3
+2020-10-28 01:39:49.630 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 01:39:49.630 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 01:39:49.889 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 01:39:49.890 - [Debug] [Auto Access] Attacker: 195.3.147.47, Threshold: 1, Attempts: 1
+2020-10-28 01:39:49.891 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 01:39:49.891 - [Debug] [Auto Access] Adding the following credentials: "ubnt:client"
+2020-10-28 01:39:50.199 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 01:39:50.199 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-28 01:39:50.247 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 01:39:52.074 - [Debug] [Connection] Attacker closed connection
+2020-10-28 01:39:52.115 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 01:39:52.116 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 01:41:15.366 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-PuTTY_Release_0.67
+2020-10-28 01:41:16.961 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 01:41:16.962 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 01:41:17.222 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 01:41:17.224 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 01:41:17.225 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 01:41:17.482 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 01:42:22.474 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-OpenSSH_5.3
+2020-10-28 01:42:23.916 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 01:42:23.917 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 01:42:24.176 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 01:42:24.178 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 01:42:24.179 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 01:42:24.436 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 01:44:10.396 - [Debug] [Connection] Attacker connected: 185.2.81.183 | Client Identification: SSH-2.0-sshlib-0.1
+2020-10-28 01:44:11.981 - [Debug] [Auth] Attacker 185.2.81.183 trying to authenticate with "password"
+2020-10-28 01:44:11.983 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 01:44:11.984 - [Debug] [Auth] Attacker: 185.2.81.183 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 01:44:12.210 - [Debug] [Connection] Attacker closed the connection

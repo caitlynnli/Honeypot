@@ -1,0 +1,18 @@
+2020-11-15 01:45:59.943 - [Info] MITM Version: 1.26
+2020-11-15 01:45:59.947 - [Info] Auto Access Enabled: true
+2020-11-15 01:45:59.947 - [Debug] [Init] Auto Access Barrier: true
+2020-11-15 01:45:59.960 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-15 01:47:24.336 - [Debug] [Connection] Attacker connected: 122.228.19.79 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-15 01:47:44.156 - [Debug] [Connection] Attacker closed the connection
+2020-11-15 01:49:07.004 - [Debug] [Connection] Attacker connected: 110.43.49.148 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-15 01:49:09.671 - [Debug] [Auth] Attacker 110.43.49.148 trying to authenticate with "password"
+2020-11-15 01:49:09.671 - [Debug] [Auto Access] Attacker: 110.43.49.148, Threshold: 1, Attempts: 1
+2020-11-15 01:49:09.672 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-15 01:49:09.672 - [Debug] [Auto Access] Adding the following credentials: "jenkins:password"
+2020-11-15 01:49:09.886 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-15 01:49:09.886 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-15 01:49:21.672 - [Debug] [Connection] Attacker closed the connection
+2020-11-15 01:49:27.153 - [Info] Exiting...
+2020-11-15 01:49:27.153 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 35.188.49.176

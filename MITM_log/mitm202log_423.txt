@@ -1,0 +1,41 @@
+2020-11-03 00:28:15.714 - [Info] MITM Version: 1.26
+2020-11-03 00:28:15.718 - [Info] Auto Access Enabled: true
+2020-11-03 00:28:15.718 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 00:28:15.731 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-03 00:29:09.006 - [Debug] [Connection] Attacker connected: 202.179.76.187 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:29:10.282 - [Debug] [Auth] Attacker 202.179.76.187 trying to authenticate with "password"
+2020-11-03 00:29:10.283 - [Debug] [Auto Access] Attacker: 202.179.76.187, Threshold: 1, Attempts: 1
+2020-11-03 00:29:10.283 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 00:29:10.285 - [Debug] [Auto Access] Adding the following credentials: "root:zaq1@3456789"
+2020-11-03 00:29:10.397 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 00:29:10.397 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-03 00:29:10.424 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-03 00:29:11.257 - [Debug] [Connection] Attacker connected: 202.179.76.187 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:29:12.543 - [Debug] [Auth] Attacker 202.179.76.187 trying to authenticate with "password"
+2020-11-03 00:29:12.543 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 00:29:12.544 - [Debug] [Auth] Attacker: 202.179.76.187 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:29:12.983 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:29:13.383 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-03 00:31:31.494 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-PuTTY_Release_0.58
+2020-11-03 00:31:32.533 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-11-03 00:31:32.533 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 00:31:32.813 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-11-03 00:31:32.813 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 00:31:32.814 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:31:33.093 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:33:02.570 - [Debug] [Connection] Attacker connected: 177.43.94.109 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:33:03.613 - [Debug] [Auth] Attacker 177.43.94.109 trying to authenticate with "password"
+2020-11-03 00:33:03.613 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:33:03.614 - [Debug] [Auth] Attacker: 177.43.94.109 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:33:03.972 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:34:06.544 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-WinSCP_release_5.2.7
+2020-11-03 00:34:07.622 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-11-03 00:34:07.622 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 00:34:07.904 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-11-03 00:34:07.907 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:34:07.907 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:34:08.185 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:34:11.695 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-03 00:34:11.696 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-03 00:34:11.740 - [Info] Exiting...
+2020-11-03 00:34:11.740 - [Debug] Cleaning up...

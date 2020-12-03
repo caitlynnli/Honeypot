@@ -1,0 +1,23 @@
+2020-11-09 21:13:16.475 - [Info] MITM Version: 1.26
+2020-11-09 21:13:16.479 - [Info] Auto Access Enabled: true
+2020-11-09 21:13:16.479 - [Debug] [Init] Auto Access Barrier: true
+2020-11-09 21:13:16.492 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-09 21:47:35.242 - [Debug] [Connection] Attacker connected: 120.224.50.233 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-11-09 21:47:37.060 - [Debug] [Auth] Attacker 120.224.50.233 trying to authenticate with "password"
+2020-11-09 21:47:37.060 - [Debug] [Auto Access] Attacker: 120.224.50.233, Threshold: 1, Attempts: 1
+2020-11-09 21:47:37.063 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-09 21:47:37.063 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-09 21:47:37.179 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-09 21:47:37.179 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-09 21:47:37.209 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-09 21:47:38.295 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2020-11-09 21:47:42.960 - [Debug] [Connection] Attacker closed connection
+2020-11-09 21:47:42.965 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-09 21:47:42.965 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-09 21:47:43.227 - [Debug] [Connection] Attacker connected: 120.224.50.233 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-11-09 21:47:44.889 - [Debug] [Auth] Attacker 120.224.50.233 trying to authenticate with "password"
+2020-11-09 21:47:44.891 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-09 21:47:44.892 - [Debug] [Auth] Attacker: 120.224.50.233 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-09 21:47:45.423 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 21:52:38.546 - [Info] Exiting...
+2020-11-09 21:52:38.546 - [Debug] Cleaning up...

@@ -1,0 +1,22 @@
+2020-11-11 08:48:36.622 - [Info] MITM Version: 1.26
+2020-11-11 08:48:36.626 - [Info] Auto Access Enabled: true
+2020-11-11 08:48:36.627 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 08:48:36.641 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-11 09:02:39.866 - [Debug] [Connection] Attacker connected: 174.138.27.165 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 09:02:41.544 - [Debug] [Auth] Attacker 174.138.27.165 trying to authenticate with "password"
+2020-11-11 09:02:41.544 - [Debug] [Auto Access] Attacker: 174.138.27.165, Threshold: 1, Attempts: 1
+2020-11-11 09:02:41.545 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 09:02:41.545 - [Debug] [Auto Access] Adding the following credentials: "root:videoflow"
+2020-11-11 09:02:41.659 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 09:02:41.659 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-11 09:02:43.597 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-11 09:02:44.638 - [Debug] [Connection] Attacker connected: 174.138.27.165 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 09:02:46.191 - [Debug] [Auth] Attacker 174.138.27.165 trying to authenticate with "password"
+2020-11-11 09:02:46.192 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-11 09:02:46.192 - [Debug] [Auth] Attacker: 174.138.27.165 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-11 09:02:46.724 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 09:02:47.272 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-11 09:07:44.895 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-11 09:07:44.896 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-11 09:07:44.954 - [Info] Exiting...
+2020-11-11 09:07:44.954 - [Debug] Cleaning up...

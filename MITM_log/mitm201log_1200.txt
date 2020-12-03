@@ -1,0 +1,37 @@
+2020-11-21 17:02:23.363 - [Info] MITM Version: 1.26
+2020-11-21 17:02:23.367 - [Info] Auto Access Enabled: true
+2020-11-21 17:02:23.368 - [Debug] [Init] Auto Access Barrier: true
+2020-11-21 17:02:23.380 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-21 17:36:35.092 - [Debug] [Connection] Attacker connected: 139.162.247.102 | Client Identification: SSH-2.0-Nmap-SSH2-Hostkey
+2020-11-21 17:36:35.722 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 17:36:35.913 - [Debug] [Connection] Attacker connected: 139.162.247.102 | Client Identification: SSH-2.0-Nmap-SSH2-Hostkey
+2020-11-21 17:36:36.491 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 17:36:36.703 - [Debug] [Connection] Attacker connected: 139.162.247.102 | Client Identification: SSH-2.0-Nmap-SSH2-Hostkey
+2020-11-21 17:36:37.321 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 17:36:37.528 - [Debug] [Connection] Attacker connected: 139.162.247.102 | Client Identification: SSH-2.0-Nmap-SSH2-Hostkey
+2020-11-21 17:36:37.624 - [Debug] [Connection] Client error on ssh server
+2020-11-21 17:36:37.624 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 17:36:37.886 - [Debug] [Connection] Attacker connected: 139.162.247.102 | Client Identification: SSH-2.0-Nmap-SSH2-Hostkey
+2020-11-21 17:36:37.969 - [Debug] [Connection] Client error on ssh server
+2020-11-21 17:36:37.969 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 17:36:38.246 - [Debug] [Connection] Attacker connected: 139.162.247.102 | Client Identification: SSH-2.0-Nmap-SSH2-Hostkey
+2020-11-21 17:36:38.324 - [Debug] [Connection] Client error on ssh server
+2020-11-21 17:36:38.325 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 17:39:01.778 - [Debug] [Connection] Attacker connected: 106.52.122.203 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 17:39:03.388 - [Debug] [Auth] Attacker 106.52.122.203 trying to authenticate with "password"
+2020-11-21 17:39:03.389 - [Debug] [Auto Access] Attacker: 106.52.122.203, Threshold: 1, Attempts: 1
+2020-11-21 17:39:03.389 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-21 17:39:03.389 - [Debug] [Auto Access] Adding the following credentials: "nazrul:password123"
+2020-11-21 17:39:03.617 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-21 17:39:03.617 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-21 17:39:05.659 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-21 17:39:07.292 - [Debug] [Connection] Attacker connected: 106.52.122.203 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 17:39:08.896 - [Debug] [Auth] Attacker 106.52.122.203 trying to authenticate with "password"
+2020-11-21 17:39:08.896 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-21 17:39:08.897 - [Debug] [Auth] Attacker: 106.52.122.203 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-21 17:39:09.445 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 17:39:09.951 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-21 17:44:06.927 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-21 17:44:06.927 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-21 17:44:06.986 - [Info] Exiting...
+2020-11-21 17:44:06.986 - [Debug] Cleaning up...

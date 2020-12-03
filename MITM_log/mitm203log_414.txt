@@ -1,0 +1,23 @@
+2020-10-28 01:14:25.082 - [Info] MITM Version: 1.26
+2020-10-28 01:14:25.096 - [Info] Auto Access Enabled: true
+2020-10-28 01:14:25.097 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 01:14:25.128 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-28 01:15:20.125 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 01:15:21.781 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 01:15:21.781 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 01:15:22.347 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 01:15:22.349 - [Debug] [Auto Access] Attacker: 171.235.45.115, Threshold: 1, Attempts: 1
+2020-10-28 01:15:22.349 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 01:15:22.349 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-28 01:15:22.504 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 01:15:22.504 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 01:15:22.548 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 01:15:33.004 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 01:15:34.658 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 01:15:34.659 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 01:15:35.222 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 01:15:35.224 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 01:15:35.224 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 01:15:35.270 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 01:18:26.619 - [Debug] [Connection] Attacker connected: 92.118.160.21 | Client Identification: SSH-2.0-ZGrab ZGrab SSH Survey
+2020-10-28 01:18:30.225 - [Debug] [Connection] Attacker closed the connection

@@ -1,0 +1,24 @@
+2020-11-20 06:11:28.014 - [Info] MITM Version: 1.26
+2020-11-20 06:11:28.019 - [Info] Auto Access Enabled: true
+2020-11-20 06:11:28.019 - [Debug] [Init] Auto Access Barrier: true
+2020-11-20 06:11:28.039 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-20 06:12:13.075 - [Debug] [Connection] Attacker connected: 167.99.235.21 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 06:12:13.230 - [Debug] [Auth] Attacker 167.99.235.21 trying to authenticate with "password"
+2020-11-20 06:12:13.231 - [Debug] [Auto Access] Attacker: 167.99.235.21, Threshold: 1, Attempts: 1
+2020-11-20 06:12:13.231 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-20 06:12:13.231 - [Debug] [Auto Access] Adding the following credentials: "felix:felix"
+2020-11-20 06:12:13.452 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-20 06:12:13.452 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-20 06:12:15.534 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-20 06:12:15.622 - [Debug] [Connection] Attacker connected: 167.99.235.21 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 06:12:15.773 - [Debug] [Auth] Attacker 167.99.235.21 trying to authenticate with "password"
+2020-11-20 06:12:15.773 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-20 06:12:15.774 - [Debug] [Auth] Attacker: 167.99.235.21 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-20 06:12:15.835 - [Debug] [Connection] Attacker closed the connection
+2020-11-20 06:12:15.882 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-20 06:13:16.604 - [Debug] [Connection] Client error on ssh server
+2020-11-20 06:13:16.605 - [Debug] [Connection] Attacker closed connection
+2020-11-20 06:13:16.609 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-20 06:13:16.610 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-20 06:17:16.828 - [Info] Exiting...
+2020-11-20 06:17:16.828 - [Debug] Cleaning up...

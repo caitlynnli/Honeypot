@@ -1,0 +1,27 @@
+2020-11-12 18:02:54.090 - [Info] MITM Version: 1.26
+2020-11-12 18:02:54.094 - [Info] Auto Access Enabled: true
+2020-11-12 18:02:54.094 - [Debug] [Init] Auto Access Barrier: true
+2020-11-12 18:02:54.112 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-12 18:04:04.938 - [Debug] [Connection] Attacker connected: 165.227.163.85 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 18:04:05.484 - [Debug] [Connection] Attacker connected: 45.14.150.133 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 18:04:05.577 - [Debug] [Auth] Attacker 165.227.163.85 trying to authenticate with "password"
+2020-11-12 18:04:05.578 - [Debug] [Auto Access] Attacker: 165.227.163.85, Threshold: 1, Attempts: 1
+2020-11-12 18:04:05.578 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-12 18:04:05.578 - [Debug] [Auto Access] Adding the following credentials: "root:pa55word"
+2020-11-12 18:04:05.698 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-12 18:04:05.698 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-12 18:04:07.180 - [Debug] [Auth] Attacker 45.14.150.133 trying to authenticate with "password"
+2020-11-12 18:04:07.181 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-12 18:04:07.182 - [Debug] [Auth] Attacker: 45.14.150.133 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 18:04:07.633 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 18:04:08.333 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-12 18:04:08.696 - [Debug] [Connection] Attacker connected: 165.227.163.85 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 18:04:09.346 - [Debug] [Auth] Attacker 165.227.163.85 trying to authenticate with "password"
+2020-11-12 18:04:09.347 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 18:04:09.347 - [Debug] [Auth] Attacker: 165.227.163.85 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 18:04:09.534 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 18:04:09.715 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-12 18:09:09.665 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-12 18:09:09.665 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-12 18:09:09.725 - [Info] Exiting...
+2020-11-12 18:09:09.725 - [Debug] Cleaning up...

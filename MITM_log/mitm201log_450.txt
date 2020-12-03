@@ -1,0 +1,22 @@
+2020-10-29 04:14:10.952 - [Info] MITM Version: 1.26
+2020-10-29 04:14:10.959 - [Info] Auto Access Enabled: true
+2020-10-29 04:14:10.960 - [Debug] [Init] Auto Access Barrier: true
+2020-10-29 04:14:10.983 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-29 04:29:26.004 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-29 04:29:26.589 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-29 04:29:26.590 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 04:29:26.811 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-29 04:29:26.813 - [Debug] [Auto Access] Attacker: 141.98.81.141, Threshold: 1, Attempts: 1
+2020-10-29 04:29:26.813 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-29 04:29:26.814 - [Debug] [Auto Access] Adding the following credentials: "admin:admin"
+2020-10-29 04:29:27.482 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 04:29:27.483 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-29 04:29:27.598 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-29 04:29:28.045 - [Debug] [Connection] Attacker closed connection
+2020-10-29 04:29:29.239 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-29 04:29:29.240 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-29 04:32:03.987 - [Debug] [Connection] Attacker connected: 190.2.137.62 | Client Identification: SSH-2.0-sshlib-0.1
+2020-10-29 04:32:05.225 - [Debug] [Auth] Attacker 190.2.137.62 trying to authenticate with "password"
+2020-10-29 04:32:05.226 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-29 04:32:05.227 - [Debug] [Auth] Attacker: 190.2.137.62 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 04:32:05.451 - [Debug] [Connection] Attacker closed the connection

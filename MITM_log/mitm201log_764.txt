@@ -1,0 +1,24 @@
+2020-11-14 14:25:13.659 - [Info] MITM Version: 1.26
+2020-11-14 14:25:13.663 - [Info] Auto Access Enabled: true
+2020-11-14 14:25:13.663 - [Debug] [Init] Auto Access Barrier: true
+2020-11-14 14:25:13.678 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-14 14:41:48.917 - [Debug] [Connection] Attacker connected: 181.111.181.50 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-14 14:41:50.034 - [Debug] [Auth] Attacker 181.111.181.50 trying to authenticate with "password"
+2020-11-14 14:41:50.035 - [Debug] [Auto Access] Attacker: 181.111.181.50, Threshold: 1, Attempts: 1
+2020-11-14 14:41:50.035 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-14 14:41:50.035 - [Debug] [Auto Access] Adding the following credentials: "joyce:joyce123"
+2020-11-14 14:41:50.262 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 14:41:50.262 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 14:41:52.745 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 14:41:53.322 - [Debug] [Connection] Attacker connected: 188.128.39.127 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-14 14:41:53.469 - [Debug] [Connection] Attacker connected: 181.111.181.50 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-14 14:41:54.586 - [Debug] [Auth] Attacker 181.111.181.50 trying to authenticate with "password"
+2020-11-14 14:41:54.586 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-14 14:41:54.587 - [Debug] [Auth] Attacker: 181.111.181.50 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 14:41:54.971 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 14:41:55.313 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-14 14:42:02.027 - [Debug] [Connection] Attacker closed connection
+2020-11-14 14:42:02.031 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 14:42:02.031 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 14:46:54.037 - [Info] Exiting...
+2020-11-14 14:46:54.037 - [Debug] Cleaning up...

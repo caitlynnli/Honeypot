@@ -1,0 +1,22 @@
+2020-10-26 14:38:29.562 - [Info] MITM Version: 1.26
+2020-10-26 14:38:29.569 - [Info] Auto Access Enabled: true
+2020-10-26 14:38:29.569 - [Debug] [Init] Auto Access Barrier: true
+2020-10-26 14:38:29.592 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-26 14:39:34.727 - [Debug] [Connection] Attacker connected: 185.2.81.183 | Client Identification: SSH-2.0-sshlib-0.1
+2020-10-26 14:39:36.223 - [Debug] [Auth] Attacker 185.2.81.183 trying to authenticate with "password"
+2020-10-26 14:39:36.224 - [Debug] [Auto Access] Attacker: 185.2.81.183, Threshold: 1, Attempts: 1
+2020-10-26 14:39:36.225 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-26 14:39:36.225 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-26 14:39:36.386 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-26 14:39:36.386 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-26 14:39:51.760 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-26 14:40:08.422 - [Debug] [Connection] Attacker closed connection
+2020-10-26 14:40:08.438 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-26 14:40:08.439 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-26 14:43:05.640 - [Debug] [Connection] Attacker connected: 141.98.81.154 | Client Identification: SSH-2.0-Go
+2020-10-26 14:43:06.220 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "none"
+2020-10-26 14:43:06.221 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-26 14:43:06.441 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "password"
+2020-10-26 14:43:06.442 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-26 14:43:06.444 - [Debug] [Auth] Attacker: 141.98.81.154 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 14:43:06.661 - [Debug] [Connection] Attacker closed the connection

@@ -1,0 +1,15 @@
+2020-10-26 10:32:35.740 - [Info] MITM Version: 1.26
+2020-10-26 10:32:35.747 - [Info] Auto Access Enabled: true
+2020-10-26 10:32:35.747 - [Debug] [Init] Auto Access Barrier: true
+2020-10-26 10:32:35.771 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-26 10:32:54.927 - [Debug] [Connection] Attacker connected: 103.133.107.7 | Client Identification: SSH-2.0-paramiko_2.7.2
+2020-10-26 10:32:56.717 - [Debug] [Auth] Attacker 103.133.107.7 trying to authenticate with "password"
+2020-10-26 10:32:56.718 - [Debug] [Auto Access] Attacker: 103.133.107.7, Threshold: 1, Attempts: 1
+2020-10-26 10:32:56.718 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-26 10:32:56.721 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-26 10:32:56.879 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-26 10:32:56.880 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-26 10:33:12.340 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-26 10:33:13.088 - [Debug] [Connection] Attacker closed connection
+2020-10-26 10:33:13.238 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-26 10:33:13.239 - [Debug] [LXC] Container's OpenSSH server closed connection

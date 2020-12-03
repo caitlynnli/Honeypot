@@ -1,0 +1,24 @@
+2020-11-16 01:36:32.789 - [Info] MITM Version: 1.26
+2020-11-16 01:36:32.793 - [Info] Auto Access Enabled: true
+2020-11-16 01:36:32.793 - [Debug] [Init] Auto Access Barrier: true
+2020-11-16 01:36:32.806 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-16 01:41:28.424 - [Debug] [Connection] Attacker connected: 220.186.164.91 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-16 01:41:34.494 - [Debug] [Auth] Attacker 220.186.164.91 trying to authenticate with "password"
+2020-11-16 01:41:34.495 - [Debug] [Auto Access] Attacker: 220.186.164.91, Threshold: 1, Attempts: 1
+2020-11-16 01:41:34.495 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-16 01:41:34.495 - [Debug] [Auto Access] Adding the following credentials: "!@12qwqwqw:!@12qwqwqw"
+2020-11-16 01:41:34.747 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-16 01:41:34.747 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-16 01:41:37.301 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-16 01:41:38.965 - [Debug] [Connection] Attacker connected: 220.186.164.91 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-16 01:41:40.611 - [Debug] [Auth] Attacker 220.186.164.91 trying to authenticate with "password"
+2020-11-16 01:41:40.611 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-16 01:41:40.612 - [Debug] [Auth] Attacker: 220.186.164.91 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-16 01:41:41.178 - [Debug] [Connection] Attacker closed the connection
+2020-11-16 01:41:41.730 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-16 01:45:26.547 - [Debug] [Connection] Client error on ssh server
+2020-11-16 01:45:26.547 - [Debug] [Connection] Attacker closed connection
+2020-11-16 01:45:26.552 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-16 01:45:26.552 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-16 01:46:38.675 - [Info] Exiting...
+2020-11-16 01:46:38.675 - [Debug] Cleaning up...

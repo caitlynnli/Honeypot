@@ -1,0 +1,54 @@
+2020-11-03 12:27:38.843 - [Info] MITM Version: 1.26
+2020-11-03 12:27:38.848 - [Info] Auto Access Enabled: true
+2020-11-03 12:27:38.849 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 12:27:38.865 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-03 12:28:13.875 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-OpenSSH_6.0
+2020-11-03 12:28:14.549 - [Debug] [Connection] Attacker connected: 111.229.120.31 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:28:14.856 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-11-03 12:28:14.856 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:28:15.115 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-11-03 12:28:15.116 - [Debug] [Auto Access] Attacker: 195.3.147.47, Threshold: 1, Attempts: 1
+2020-11-03 12:28:15.116 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 12:28:15.116 - [Debug] [Auto Access] Adding the following credentials: "backup:backup"
+2020-11-03 12:28:15.224 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 12:28:15.225 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-03 12:28:16.459 - [Debug] [Auth] Attacker 111.229.120.31 trying to authenticate with "password"
+2020-11-03 12:28:16.460 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:28:16.460 - [Debug] [Auth] Attacker: 111.229.120.31 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:28:17.073 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:28:30.657 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-03 12:28:32.445 - [Debug] [Connection] Attacker closed connection
+2020-11-03 12:28:32.450 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-03 12:28:32.451 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-03 12:28:53.524 - [Debug] [Connection] Attacker connected: 190.2.137.62 | Client Identification: SSH-2.0-sshlib-0.1
+2020-11-03 12:28:54.489 - [Debug] [Auth] Attacker 190.2.137.62 trying to authenticate with "password"
+2020-11-03 12:28:54.489 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:28:54.490 - [Debug] [Auth] Attacker: 190.2.137.62 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:28:54.705 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:29:10.755 - [Debug] [Connection] Attacker connected: 109.236.91.85 | Client Identification: SSH-2.0-WinSCP_release_5.7.4
+2020-11-03 12:29:11.678 - [Debug] [Auth] Attacker 109.236.91.85 trying to authenticate with "none"
+2020-11-03 12:29:11.678 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:29:11.897 - [Debug] [Auth] Attacker 109.236.91.85 trying to authenticate with "password"
+2020-11-03 12:29:11.898 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 12:29:11.898 - [Debug] [Auth] Attacker: 109.236.91.85 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:29:12.115 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:29:36.919 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-WinSCP_release_5.7.5
+2020-11-03 12:29:37.897 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-11-03 12:29:37.897 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:29:38.155 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-11-03 12:29:38.155 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 12:29:38.156 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:29:38.415 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:30:07.558 - [Debug] [Connection] Attacker connected: 101.75.215.139 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:30:09.338 - [Debug] [Auth] Attacker 101.75.215.139 trying to authenticate with "password"
+2020-11-03 12:30:09.339 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:30:09.339 - [Debug] [Auth] Attacker: 101.75.215.139 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:30:09.958 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:32:32.448 - [Debug] [Connection] Attacker connected: 111.229.120.31 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:32:59.652 - [Debug] [Connection] Attacker connected: 101.75.215.139 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:33:01.243 - [Debug] [Auth] Attacker 101.75.215.139 trying to authenticate with "password"
+2020-11-03 12:33:01.243 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:33:01.244 - [Debug] [Auth] Attacker: 101.75.215.139 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:33:01.795 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:33:31.963 - [Info] Exiting...
+2020-11-03 12:33:31.964 - [Debug] Cleaning up...

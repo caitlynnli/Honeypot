@@ -1,0 +1,22 @@
+2020-11-21 13:13:59.423 - [Info] MITM Version: 1.26
+2020-11-21 13:13:59.427 - [Info] Auto Access Enabled: true
+2020-11-21 13:13:59.427 - [Debug] [Init] Auto Access Barrier: true
+2020-11-21 13:13:59.440 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-21 13:16:38.934 - [Debug] [Connection] Attacker connected: 106.12.194.204 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 13:16:40.527 - [Debug] [Auth] Attacker 106.12.194.204 trying to authenticate with "password"
+2020-11-21 13:16:40.528 - [Debug] [Auto Access] Attacker: 106.12.194.204, Threshold: 1, Attempts: 1
+2020-11-21 13:16:40.528 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-21 13:16:40.528 - [Debug] [Auto Access] Adding the following credentials: "teamspeak5:ts5"
+2020-11-21 13:16:40.754 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-21 13:16:40.754 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-21 13:16:42.560 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-21 13:16:44.319 - [Debug] [Connection] Attacker connected: 106.12.194.204 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 13:16:45.896 - [Debug] [Auth] Attacker 106.12.194.204 trying to authenticate with "password"
+2020-11-21 13:16:45.896 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-21 13:16:45.897 - [Debug] [Auth] Attacker: 106.12.194.204 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-21 13:16:46.436 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 13:16:46.955 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-21 13:21:43.795 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-21 13:21:43.796 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-21 13:21:43.853 - [Info] Exiting...
+2020-11-21 13:21:43.853 - [Debug] Cleaning up...

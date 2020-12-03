@@ -1,0 +1,36 @@
+2020-11-06 21:17:10.089 - [Info] MITM Version: 1.26
+2020-11-06 21:17:10.093 - [Info] Auto Access Enabled: true
+2020-11-06 21:17:10.093 - [Debug] [Init] Auto Access Barrier: true
+2020-11-06 21:17:10.105 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-06 21:32:37.556 - [Debug] [Connection] Attacker connected: 101.86.133.244 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-11-06 21:32:39.246 - [Debug] [Auth] Attacker 101.86.133.244 trying to authenticate with "password"
+2020-11-06 21:32:39.249 - [Debug] [Auto Access] Attacker: 101.86.133.244, Threshold: 1, Attempts: 1
+2020-11-06 21:32:39.249 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-06 21:32:39.249 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-06 21:32:39.356 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-06 21:32:39.356 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-06 21:32:49.247 - [Debug] [Connection] Attacker closed the connection
+2020-11-06 21:32:49.542 - [Debug] [Connection] Attacker connected: 101.86.133.244 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-11-06 21:32:51.111 - [Debug] [Auth] Attacker 101.86.133.244 trying to authenticate with "password"
+2020-11-06 21:32:51.112 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-06 21:32:51.113 - [Debug] [Auth] Attacker: 101.86.133.244 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-06 21:32:52.164 - [Debug] [Auth] Attacker 101.86.133.244 trying to authenticate with "password"
+2020-11-06 21:32:52.165 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-06 21:32:52.166 - [Debug] [Auth] Attacker: 101.86.133.244 has so far made 2 attempts. Remaining: 4 attempts
+2020-11-06 21:32:52.679 - [Debug] [Auth] Attacker 101.86.133.244 trying to authenticate with "password"
+2020-11-06 21:32:52.679 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-06 21:32:52.680 - [Debug] [Auth] Attacker: 101.86.133.244 has so far made 3 attempts. Remaining: 3 attempts
+2020-11-06 21:32:53.187 - [Debug] [Auth] Attacker 101.86.133.244 trying to authenticate with "password"
+2020-11-06 21:32:53.187 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-06 21:32:53.187 - [Debug] [Auth] Attacker: 101.86.133.244 has so far made 4 attempts. Remaining: 2 attempts
+2020-11-06 21:32:53.695 - [Debug] [Auth] Attacker 101.86.133.244 trying to authenticate with "password"
+2020-11-06 21:32:53.696 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-06 21:32:53.696 - [Debug] [Auth] Attacker: 101.86.133.244 has so far made 5 attempts. Remaining: 1 attempts
+2020-11-06 21:32:54.225 - [Debug] [Auth] Attacker 101.86.133.244 trying to authenticate with "password"
+2020-11-06 21:32:54.225 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-06 21:32:54.226 - [Debug] [Auth] Attacker: 101.86.133.244 has so far made 6 attempts. Remaining: 0 attempts
+2020-11-06 21:32:54.226 - [Debug] [Connection] Max Login Attempts Reached - Closing connection on attacker
+2020-11-06 21:32:54.226 - [Debug] [Connection] Attacker closed the connection
+2020-11-06 21:32:54.717 - [Info] Exiting...
+2020-11-06 21:32:54.718 - [Debug] Cleaning up...
+No auth in progress

@@ -1,0 +1,32 @@
+2020-11-12 21:30:41.892 - [Info] MITM Version: 1.26
+2020-11-12 21:30:41.896 - [Info] Auto Access Enabled: true
+2020-11-12 21:30:41.896 - [Debug] [Init] Auto Access Barrier: true
+2020-11-12 21:30:41.911 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-13 02:20:42.167 - [Debug] [Connection] Attacker connected: 54.153.86.214 | Client Identification: SSH-2.0-paramiko_2.1.3
+2020-11-13 02:20:43.563 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 02:20:44.081 - [Debug] [Connection] Attacker connected: 54.153.86.214 | Client Identification: SSH-2.0-paramiko_2.1.3
+2020-11-13 02:20:44.149 - [Debug] [Connection] Client error on ssh server
+2020-11-13 02:20:44.149 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 02:20:44.560 - [Debug] [Connection] Attacker connected: 54.153.86.214 | Client Identification: SSH-2.0-paramiko_2.1.3
+2020-11-13 02:20:45.313 - [Debug] [Connection] Client error on ssh server
+2020-11-13 02:20:45.313 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 02:20:46.703 - [Debug] [Connection] Attacker connected: 54.153.86.214 | Client Identification: SSH-2.0-paramiko_2.1.3
+2020-11-13 02:20:47.933 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 02:20:48.314 - [Debug] [Connection] Attacker connected: 54.153.86.214 | Client Identification: SSH-2.0-paramiko_2.1.3
+2020-11-13 02:20:49.444 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 03:15:17.853 - [Debug] [Connection] Attacker connected: 162.142.125.54 | Client Identification: SSH-2.0-Go
+2020-11-13 03:15:32.853 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 05:04:21.479 - [Debug] [Connection] Attacker connected: 103.207.36.205 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-13 05:04:22.951 - [Debug] [Auth] Attacker 103.207.36.205 trying to authenticate with "none"
+2020-11-13 05:04:22.951 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-13 05:04:23.466 - [Debug] [Auth] Attacker 103.207.36.205 trying to authenticate with "password"
+2020-11-13 05:04:23.467 - [Debug] [Auto Access] Attacker: 103.207.36.205, Threshold: 1, Attempts: 1
+2020-11-13 05:04:23.467 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-13 05:04:23.467 - [Debug] [Auto Access] Adding the following credentials: "admin:admin"
+2020-11-13 05:04:23.679 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-13 05:04:23.679 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-13 05:04:25.846 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-13 05:09:27.130 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-13 05:09:27.131 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-13 05:09:27.185 - [Info] Exiting...
+2020-11-13 05:09:27.185 - [Debug] Cleaning up...

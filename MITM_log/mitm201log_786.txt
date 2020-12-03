@@ -1,0 +1,40 @@
+2020-11-14 19:21:11.367 - [Info] MITM Version: 1.26
+2020-11-14 19:21:11.371 - [Info] Auto Access Enabled: true
+2020-11-14 19:21:11.371 - [Debug] [Init] Auto Access Barrier: true
+2020-11-14 19:21:11.383 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-14 19:21:12.398 - [Debug] [Connection] Attacker connected: 116.102.11.220 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-14 19:21:14.053 - [Debug] [Auth] Attacker 116.102.11.220 trying to authenticate with "none"
+2020-11-14 19:21:14.054 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-14 19:21:14.623 - [Debug] [Auth] Attacker 116.102.11.220 trying to authenticate with "password"
+2020-11-14 19:21:14.623 - [Debug] [Auto Access] Attacker: 116.102.11.220, Threshold: 1, Attempts: 1
+2020-11-14 19:21:14.624 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-14 19:21:14.624 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-14 19:21:14.733 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 19:21:14.733 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 19:21:24.627 - [Debug] [Connection] Client error on ssh server
+2020-11-14 19:21:24.627 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 19:21:28.380 - [Debug] [Connection] Attacker connected: 116.102.11.220 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-14 19:21:30.103 - [Debug] [Auth] Attacker 116.102.11.220 trying to authenticate with "none"
+2020-11-14 19:21:30.103 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-14 19:21:30.660 - [Debug] [Auth] Attacker 116.102.11.220 trying to authenticate with "password"
+2020-11-14 19:21:30.661 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 19:21:30.661 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 19:21:38.016 - [Debug] [Connection] Attacker connected: 116.102.11.220 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-14 19:21:39.626 - [Debug] [Auth] Attacker 116.102.11.220 trying to authenticate with "none"
+2020-11-14 19:21:39.626 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-14 19:21:40.219 - [Debug] [Auth] Attacker 116.102.11.220 trying to authenticate with "password"
+2020-11-14 19:21:40.220 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 19:21:40.220 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 19:21:40.664 - [Debug] [Connection] Client error on ssh server
+2020-11-14 19:21:40.664 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 19:21:44.740 - [Debug] [Auth] Attacker authentication error: Error: Timed out while waiting for handshake
+2020-11-14 19:21:44.740 - [Debug] [Auth] Attacker: 116.102.11.220 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 19:21:44.740 - [Debug] [Auth] Attacker authentication error: Error: Timed out while waiting for handshake
+2020-11-14 19:21:44.740 - [Debug] [Auth] Attacker: 116.102.11.220 has so far made 2 attempts. Remaining: 4 attempts
+2020-11-14 19:21:44.741 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 19:21:50.214 - [Debug] [Connection] Client error on ssh server
+2020-11-14 19:21:50.214 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 19:21:57.004 - [Info] Exiting...
+2020-11-14 19:21:57.004 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 159.65.136.44

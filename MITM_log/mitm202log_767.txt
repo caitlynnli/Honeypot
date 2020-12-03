@@ -1,0 +1,15 @@
+2020-11-11 06:40:46.542 - [Info] MITM Version: 1.26
+2020-11-11 06:40:46.546 - [Info] Auto Access Enabled: true
+2020-11-11 06:40:46.547 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 06:40:46.561 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-11 06:47:22.264 - [Debug] [Connection] Attacker connected: 117.220.170.193 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 06:47:23.784 - [Debug] [Auth] Attacker 117.220.170.193 trying to authenticate with "password"
+2020-11-11 06:47:23.785 - [Debug] [Auto Access] Attacker: 117.220.170.193, Threshold: 1, Attempts: 1
+2020-11-11 06:47:23.785 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 06:47:23.785 - [Debug] [Auto Access] Adding the following credentials: "taiga:taiga"
+2020-11-11 06:47:24.008 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 06:47:24.009 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-11 06:47:35.793 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 06:47:40.971 - [Info] Exiting...
+2020-11-11 06:47:40.971 - [Debug] Cleaning up...
+No auth in progress

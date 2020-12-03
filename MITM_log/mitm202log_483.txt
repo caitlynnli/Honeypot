@@ -1,0 +1,44 @@
+2020-11-03 06:38:58.177 - [Info] MITM Version: 1.26
+2020-11-03 06:38:58.181 - [Info] Auto Access Enabled: true
+2020-11-03 06:38:58.182 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 06:38:58.196 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-03 06:39:02.171 - [Debug] [Connection] Attacker connected: 49.157.28.50 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 06:39:04.590 - [Debug] [Auth] Attacker 49.157.28.50 trying to authenticate with "password"
+2020-11-03 06:39:04.591 - [Debug] [Auto Access] Attacker: 49.157.28.50, Threshold: 1, Attempts: 1
+2020-11-03 06:39:04.592 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 06:39:04.592 - [Debug] [Auto Access] Adding the following credentials: "root:Zzxxcc123"
+2020-11-03 06:39:04.707 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 06:39:04.707 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-03 06:39:20.125 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-03 06:39:21.890 - [Debug] [Connection] Attacker closed connection
+2020-11-03 06:39:21.898 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-03 06:39:21.898 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-03 06:41:49.335 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-WinSCP_release_5.1.3
+2020-11-03 06:41:50.366 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-11-03 06:41:50.366 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 06:41:50.646 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-11-03 06:41:50.646 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 06:41:50.646 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 06:41:50.926 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 06:42:20.416 - [Debug] [Connection] Attacker connected: 106.54.253.152 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 06:42:22.901 - [Debug] [Auth] Attacker 106.54.253.152 trying to authenticate with "password"
+2020-11-03 06:42:22.901 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 06:42:22.902 - [Debug] [Auth] Attacker: 106.54.253.152 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 06:42:23.500 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 06:42:33.191 - [Debug] [Connection] Attacker connected: 111.67.201.13 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 06:42:36.293 - [Debug] [Auth] Attacker 111.67.201.13 trying to authenticate with "password"
+2020-11-03 06:42:36.294 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 06:42:36.294 - [Debug] [Auth] Attacker: 111.67.201.13 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 06:42:36.908 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 06:43:24.032 - [Debug] [Connection] Attacker connected: 201.182.33.124 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 06:43:24.954 - [Debug] [Auth] Attacker 201.182.33.124 trying to authenticate with "password"
+2020-11-03 06:43:24.954 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 06:43:24.955 - [Debug] [Auth] Attacker: 201.182.33.124 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 06:43:25.265 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 06:44:02.402 - [Debug] [Connection] Attacker connected: 49.157.28.50 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 06:44:05.600 - [Debug] [Auth] Attacker 49.157.28.50 trying to authenticate with "password"
+2020-11-03 06:44:05.601 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 06:44:05.601 - [Debug] [Auth] Attacker: 49.157.28.50 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 06:44:06.200 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 06:44:21.423 - [Info] Exiting...
+2020-11-03 06:44:21.423 - [Debug] Cleaning up...

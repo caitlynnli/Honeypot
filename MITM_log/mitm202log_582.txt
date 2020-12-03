@@ -1,0 +1,26 @@
+2020-11-07 03:27:52.437 - [Info] MITM Version: 1.26
+2020-11-07 03:27:52.441 - [Info] Auto Access Enabled: true
+2020-11-07 03:27:52.441 - [Debug] [Init] Auto Access Barrier: true
+2020-11-07 03:27:52.460 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-07 03:27:56.890 - [Debug] [Connection] Attacker connected: 142.93.121.47 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-07 03:27:57.037 - [Debug] [Auth] Attacker 142.93.121.47 trying to authenticate with "password"
+2020-11-07 03:27:57.038 - [Debug] [Auto Access] Attacker: 142.93.121.47, Threshold: 1, Attempts: 1
+2020-11-07 03:27:57.038 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-07 03:27:57.038 - [Debug] [Auto Access] Adding the following credentials: "root:spiderman"
+2020-11-07 03:27:57.149 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 03:27:57.149 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-07 03:28:07.048 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 03:28:07.150 - [Debug] [Connection] Attacker connected: 94.200.179.62 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-07 03:28:08.497 - [Debug] [Auth] Attacker 94.200.179.62 trying to authenticate with "password"
+2020-11-07 03:28:08.498 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 03:28:08.499 - [Debug] [Auth] Attacker: 94.200.179.62 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 03:28:08.765 - [Debug] [Connection] Attacker connected: 58.64.215.150 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-07 03:28:08.957 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 03:28:10.291 - [Debug] [Auth] Attacker 58.64.215.150 trying to authenticate with "password"
+2020-11-07 03:28:10.291 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 03:28:10.292 - [Debug] [Auth] Attacker: 58.64.215.150 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 03:28:10.791 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 03:28:11.301 - [Debug] [Connection] Attacker connected: 148.70.132.213 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-07 03:28:12.604 - [Info] Exiting...
+2020-11-07 03:28:12.605 - [Debug] Cleaning up...
+No auth in progress

@@ -1,0 +1,33 @@
+2020-11-09 10:26:19.346 - [Info] MITM Version: 1.26
+2020-11-09 10:26:19.350 - [Info] Auto Access Enabled: true
+2020-11-09 10:26:19.350 - [Debug] [Init] Auto Access Barrier: true
+2020-11-09 10:26:19.366 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-09 10:52:51.835 - [Debug] [Connection] Attacker connected: 23.152.32.242 | Client Identification: SSH-2.0-Go
+2020-11-09 10:53:01.830 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 11:22:36.211 - [Debug] [Connection] Attacker connected: 207.244.232.105 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-09 11:22:36.242 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 14:06:48.925 - [Debug] [Connection] Attacker connected: 45.87.43.115 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-09 14:06:49.008 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 15:45:09.725 - [Debug] [Connection] Attacker connected: 74.120.14.36 | Client Identification: SSH-2.0-Go
+2020-11-09 15:45:24.724 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 16:48:44.547 - [Debug] [Connection] Attacker connected: 45.87.43.117 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-09 16:48:44.631 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 16:51:32.799 - [Debug] [Connection] Attacker connected: 75.167.204.48 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-09 16:51:36.305 - [Debug] [Auth] Attacker 75.167.204.48 trying to authenticate with "password"
+2020-11-09 16:51:36.305 - [Debug] [Auto Access] Attacker: 75.167.204.48, Threshold: 1, Attempts: 1
+2020-11-09 16:51:36.306 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-09 16:51:36.306 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-09 16:51:36.413 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-09 16:51:36.414 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-09 16:51:36.436 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-09 16:51:36.927 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2020-11-09 16:51:39.059 - [Debug] [Connection] Attacker closed connection
+2020-11-09 16:51:39.064 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-09 16:51:39.065 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-09 16:51:39.189 - [Debug] [Connection] Attacker connected: 75.167.204.48 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-09 16:51:43.247 - [Debug] [Auth] Attacker 75.167.204.48 trying to authenticate with "password"
+2020-11-09 16:51:43.247 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-09 16:51:43.248 - [Debug] [Auth] Attacker: 75.167.204.48 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-09 16:51:43.497 - [Debug] [Connection] Attacker closed the connection
+2020-11-09 16:56:37.700 - [Info] Exiting...
+2020-11-09 16:56:37.701 - [Debug] Cleaning up...

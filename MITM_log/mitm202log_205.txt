@@ -1,0 +1,42 @@
+2020-10-28 14:12:40.871 - [Info] MITM Version: 1.26
+2020-10-28 14:12:40.878 - [Info] Auto Access Enabled: true
+2020-10-28 14:12:40.878 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 14:12:40.904 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-28 14:15:40.155 - [Debug] [Connection] Attacker connected: 67.5.13.198 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-10-28 14:15:44.449 - [Debug] [Auth] Attacker 67.5.13.198 trying to authenticate with "password"
+2020-10-28 14:15:44.450 - [Debug] [Auto Access] Attacker: 67.5.13.198, Threshold: 1, Attempts: 1
+2020-10-28 14:15:44.450 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 14:15:44.450 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-28 14:15:44.720 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 14:15:44.720 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-28 14:15:44.805 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 14:15:45.273 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2020-10-28 14:15:48.823 - [Debug] [Connection] Attacker closed connection
+2020-10-28 14:15:48.842 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 14:15:48.843 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 14:15:48.915 - [Debug] [Connection] Attacker connected: 67.5.13.198 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-10-28 14:15:52.333 - [Debug] [Auth] Attacker 67.5.13.198 trying to authenticate with "password"
+2020-10-28 14:15:52.335 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 14:15:52.337 - [Debug] [Auth] Attacker: 67.5.13.198 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 14:15:52.579 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 14:16:27.263 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-PuTTY_Release_0.65
+2020-10-28 14:16:28.923 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 14:16:28.924 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 14:16:29.183 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 14:16:29.184 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 14:16:29.185 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 14:16:31.006 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 14:17:13.429 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-PuTTY_Release_0.62
+2020-10-28 14:17:15.005 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 14:17:15.006 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 14:17:15.265 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 14:17:15.266 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Container user is disabled
+2020-10-28 14:17:15.266 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 14:17:17.098 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 14:17:51.915 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.12.4
+2020-10-28 14:17:53.308 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 14:17:53.309 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 14:17:53.578 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 14:17:53.578 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 14:17:53.579 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 14:17:55.418 - [Debug] [Connection] Attacker closed the connection

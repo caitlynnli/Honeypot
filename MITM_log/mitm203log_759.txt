@@ -1,0 +1,25 @@
+2020-11-07 06:51:06.588 - [Info] MITM Version: 1.26
+2020-11-07 06:51:06.592 - [Info] Auto Access Enabled: true
+2020-11-07 06:51:06.593 - [Debug] [Init] Auto Access Barrier: true
+2020-11-07 06:51:06.605 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-07 06:52:01.288 - [Debug] [Connection] Attacker connected: 67.5.100.1 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 06:52:05.233 - [Debug] [Auth] Attacker 67.5.100.1 trying to authenticate with "password"
+2020-11-07 06:52:05.235 - [Debug] [Auto Access] Attacker: 67.5.100.1, Threshold: 1, Attempts: 1
+2020-11-07 06:52:05.235 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-07 06:52:05.236 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-07 06:52:05.342 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 06:52:05.342 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-07 06:52:15.255 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 06:52:15.457 - [Debug] [Connection] Attacker connected: 67.5.100.1 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 06:52:19.098 - [Debug] [Auth] Attacker 67.5.100.1 trying to authenticate with "password"
+2020-11-07 06:52:19.099 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:52:19.099 - [Debug] [Auth] Attacker: 67.5.100.1 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 06:52:19.570 - [Debug] [Auth] Attacker 67.5.100.1 trying to authenticate with "password"
+2020-11-07 06:52:19.571 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:52:19.571 - [Debug] [Auth] Attacker: 67.5.100.1 has so far made 2 attempts. Remaining: 4 attempts
+2020-11-07 06:52:20.288 - [Debug] [Auth] Attacker 67.5.100.1 trying to authenticate with "password"
+2020-11-07 06:52:20.288 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:52:20.288 - [Debug] [Auth] Attacker: 67.5.100.1 has so far made 3 attempts. Remaining: 3 attempts
+2020-11-07 06:52:20.667 - [Info] Exiting...
+2020-11-07 06:52:20.667 - [Debug] Cleaning up...
+No auth in progress

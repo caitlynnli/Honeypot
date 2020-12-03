@@ -1,0 +1,25 @@
+2020-11-12 17:15:37.134 - [Info] MITM Version: 1.26
+2020-11-12 17:15:37.139 - [Info] Auto Access Enabled: true
+2020-11-12 17:15:37.139 - [Debug] [Init] Auto Access Barrier: true
+2020-11-12 17:15:37.162 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-12 17:15:44.291 - [Debug] [Connection] Attacker connected: 121.122.109.35 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 17:15:45.913 - [Debug] [Auth] Attacker 121.122.109.35 trying to authenticate with "password"
+2020-11-12 17:15:45.914 - [Debug] [Auto Access] Attacker: 121.122.109.35, Threshold: 1, Attempts: 1
+2020-11-12 17:15:45.914 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-12 17:15:45.914 - [Debug] [Auto Access] Adding the following credentials: "rochelle:rochelle1"
+2020-11-12 17:15:46.142 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-12 17:15:46.142 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-12 17:15:53.761 - [Debug] [Connection] Attacker connected: 165.227.163.85 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 17:15:54.405 - [Debug] [Auth] Attacker 165.227.163.85 trying to authenticate with "password"
+2020-11-12 17:15:54.405 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-12 17:15:54.406 - [Debug] [Auth] Attacker: 165.227.163.85 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 17:15:54.594 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 17:15:55.622 - [Debug] [Connection] Attacker connected: 79.137.77.131 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-12 17:15:55.922 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 17:15:56.259 - [Debug] [Auth] Attacker 79.137.77.131 trying to authenticate with "password"
+2020-11-12 17:15:56.260 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-12 17:15:56.260 - [Debug] [Auth] Attacker: 79.137.77.131 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 17:15:56.483 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 17:16:03.825 - [Info] Exiting...
+2020-11-12 17:16:03.825 - [Debug] Cleaning up...
+No auth in progress

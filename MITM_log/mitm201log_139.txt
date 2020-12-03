@@ -1,0 +1,22 @@
+2020-10-26 08:55:19.739 - [Info] MITM Version: 1.26
+2020-10-26 08:55:19.745 - [Info] Auto Access Enabled: true
+2020-10-26 08:55:19.746 - [Debug] [Init] Auto Access Barrier: true
+2020-10-26 08:55:19.769 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-26 09:03:25.618 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-26 09:03:26.200 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-26 09:03:26.201 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-26 09:03:26.418 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-26 09:03:26.421 - [Debug] [Auto Access] Attacker: 141.98.81.141, Threshold: 1, Attempts: 1
+2020-10-26 09:03:26.421 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-26 09:03:26.421 - [Debug] [Auto Access] Adding the following credentials: "root:admin"
+2020-10-26 09:03:26.748 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-26 09:03:26.749 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-26 09:03:42.214 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-26 09:03:42.656 - [Debug] [Connection] Attacker closed connection
+2020-10-26 09:03:43.745 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-26 09:03:43.746 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-26 09:03:51.561 - [Debug] [Connection] Attacker connected: 190.2.137.62 | Client Identification: SSH-2.0-sshlib-0.1
+2020-10-26 09:03:53.099 - [Debug] [Auth] Attacker 190.2.137.62 trying to authenticate with "password"
+2020-10-26 09:03:53.100 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 09:03:53.101 - [Debug] [Auth] Attacker: 190.2.137.62 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 09:03:53.313 - [Debug] [Connection] Attacker closed the connection

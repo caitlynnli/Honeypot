@@ -1,0 +1,21 @@
+2020-11-16 12:24:12.543 - [Info] MITM Version: 1.26
+2020-11-16 12:24:12.547 - [Info] Auto Access Enabled: true
+2020-11-16 12:24:12.547 - [Debug] [Init] Auto Access Barrier: true
+2020-11-16 12:24:12.562 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-16 13:18:44.024 - [Debug] [Connection] Attacker connected: 68.175.64.215 | Client Identification: SSH-2.0-libssh-0.5.2
+2020-11-16 13:18:44.057 - [Debug] [Connection] Attacker closed the connection
+2020-11-16 13:34:01.364 - [Debug] [Connection] Attacker connected: 89.216.47.154 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-16 13:34:02.130 - [Debug] [Auth] Attacker 89.216.47.154 trying to authenticate with "password"
+2020-11-16 13:34:02.131 - [Debug] [Auto Access] Attacker: 89.216.47.154, Threshold: 1, Attempts: 1
+2020-11-16 13:34:02.131 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-16 13:34:02.131 - [Debug] [Auto Access] Adding the following credentials: "root:Qaz"
+2020-11-16 13:34:02.259 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-16 13:34:02.260 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-16 13:34:04.703 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-16 13:34:05.375 - [Debug] [Connection] Attacker connected: 89.216.47.154 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-16 13:35:04.772 - [Debug] [Connection] Client error on ssh server
+2020-11-16 13:35:04.773 - [Debug] [Connection] Attacker closed connection
+2020-11-16 13:35:04.778 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-16 13:35:04.778 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-16 13:39:06.034 - [Info] Exiting...
+2020-11-16 13:39:06.034 - [Debug] Cleaning up...

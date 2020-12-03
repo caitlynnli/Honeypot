@@ -1,0 +1,25 @@
+2020-11-13 02:43:45.969 - [Info] MITM Version: 1.26
+2020-11-13 02:43:45.973 - [Info] Auto Access Enabled: true
+2020-11-13 02:43:45.973 - [Debug] [Init] Auto Access Barrier: true
+2020-11-13 02:43:45.987 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-13 02:43:54.669 - [Debug] [Connection] Attacker connected: 54.38.65.55 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 02:43:55.272 - [Debug] [Auth] Attacker 54.38.65.55 trying to authenticate with "password"
+2020-11-13 02:43:55.272 - [Debug] [Auto Access] Attacker: 54.38.65.55, Threshold: 1, Attempts: 1
+2020-11-13 02:43:55.273 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-13 02:43:55.273 - [Debug] [Auto Access] Adding the following credentials: "root:passwordx"
+2020-11-13 02:43:55.381 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-13 02:43:55.381 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-13 02:43:57.531 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-13 02:43:57.919 - [Debug] [Connection] Attacker connected: 54.38.65.55 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 02:43:58.113 - [Debug] [Connection] Attacker connected: 182.61.21.209 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 02:44:57.599 - [Debug] [Connection] Client error on ssh server
+2020-11-13 02:44:57.600 - [Debug] [Connection] Attacker closed connection
+2020-11-13 02:44:57.605 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-13 02:44:57.605 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-13 02:47:06.988 - [Debug] [Connection] Attacker connected: 14.63.162.98 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 02:47:08.638 - [Debug] [Auth] Attacker 14.63.162.98 trying to authenticate with "password"
+2020-11-13 02:47:08.638 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-13 02:47:08.639 - [Debug] [Auth] Attacker: 14.63.162.98 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-13 02:47:09.031 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 02:48:58.900 - [Info] Exiting...
+2020-11-13 02:48:58.901 - [Debug] Cleaning up...

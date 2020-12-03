@@ -1,0 +1,33 @@
+2020-11-07 01:19:30.866 - [Info] MITM Version: 1.26
+2020-11-07 01:19:30.870 - [Info] Auto Access Enabled: true
+2020-11-07 01:19:30.870 - [Debug] [Init] Auto Access Barrier: true
+2020-11-07 01:19:30.884 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-07 01:59:31.960 - [Debug] [Connection] Attacker connected: 199.19.226.83 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-07 01:59:32.036 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 03:53:48.115 - [Debug] [Connection] Attacker connected: 45.83.65.87 | Client Identification: SSH-2.0-ZGrab ZGrab SSH Survey
+2020-11-07 03:53:48.323 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 04:05:11.389 - [Debug] [Connection] Attacker connected: 199.19.226.83 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-07 04:05:11.465 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 04:20:16.636 - [Debug] [Connection] Attacker connected: 165.227.193.43 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-07 04:20:16.650 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 05:33:16.757 - [Debug] [Connection] Attacker connected: 209.141.43.226 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-07 05:33:16.829 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 06:19:14.556 - [Debug] [Connection] Attacker connected: 71.220.34.186 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 06:19:18.342 - [Debug] [Auth] Attacker 71.220.34.186 trying to authenticate with "password"
+2020-11-07 06:19:18.343 - [Debug] [Auto Access] Attacker: 71.220.34.186, Threshold: 1, Attempts: 1
+2020-11-07 06:19:18.343 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-07 06:19:18.343 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-07 06:19:18.456 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 06:19:18.456 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-07 06:19:18.482 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-07 06:19:18.984 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2020-11-07 06:19:20.334 - [Debug] [Connection] Attacker closed connection
+2020-11-07 06:19:20.342 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-07 06:19:20.342 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-07 06:19:20.387 - [Debug] [Connection] Attacker connected: 71.220.34.186 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 06:19:24.545 - [Debug] [Auth] Attacker 71.220.34.186 trying to authenticate with "password"
+2020-11-07 06:19:24.546 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 06:19:24.546 - [Debug] [Auth] Attacker: 71.220.34.186 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 06:19:24.694 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 06:24:19.864 - [Info] Exiting...
+2020-11-07 06:24:19.864 - [Debug] Cleaning up...

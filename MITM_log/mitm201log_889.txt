@@ -1,0 +1,16 @@
+2020-11-17 19:17:43.324 - [Info] MITM Version: 1.26
+2020-11-17 19:17:43.329 - [Info] Auto Access Enabled: true
+2020-11-17 19:17:43.329 - [Debug] [Init] Auto Access Barrier: true
+2020-11-17 19:17:43.343 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-17 19:20:22.060 - [Debug] [Connection] Attacker connected: 138.68.4.8 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-17 19:20:22.614 - [Debug] [Auth] Attacker 138.68.4.8 trying to authenticate with "password"
+2020-11-17 19:20:22.615 - [Debug] [Auto Access] Attacker: 138.68.4.8, Threshold: 1, Attempts: 1
+2020-11-17 19:20:22.615 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-17 19:20:22.615 - [Debug] [Auto Access] Adding the following credentials: "estralita:estralita"
+2020-11-17 19:20:22.876 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-17 19:20:22.876 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-17 19:20:34.633 - [Debug] [Connection] Attacker closed the connection
+2020-11-17 19:20:40.443 - [Info] Exiting...
+2020-11-17 19:20:40.443 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 116.196.119.146

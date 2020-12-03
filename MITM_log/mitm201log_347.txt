@@ -1,0 +1,23 @@
+2020-10-28 05:39:53.207 - [Info] MITM Version: 1.26
+2020-10-28 05:39:53.213 - [Info] Auto Access Enabled: true
+2020-10-28 05:39:53.214 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 05:39:53.238 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-28 05:43:11.777 - [Debug] [Connection] Attacker connected: 162.142.125.49 | Client Identification: SSH-2.0-Go
+2020-10-28 05:43:12.045 - [Debug] [Connection] Attacker connected: 190.149.175.189 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-10-28 05:43:12.460 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-28 05:43:12.462 - [Debug] [Auto Access] Attacker: 190.149.175.189, Threshold: 1, Attempts: 1
+2020-10-28 05:43:12.463 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 05:43:12.463 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-28 05:43:12.816 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 05:43:12.817 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-28 05:43:12.921 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 05:43:13.139 - [Debug] [EXEC] Noninteractive mode attacker command: /ip cloud print
+2020-10-28 05:43:15.243 - [Debug] [Connection] Attacker closed connection
+2020-10-28 05:43:15.303 - [Debug] [Connection] Attacker connected: 190.149.175.189 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-10-28 05:43:15.309 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 05:43:15.311 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 05:43:15.727 - [Debug] [Auth] Attacker 190.149.175.189 trying to authenticate with "password"
+2020-10-28 05:43:15.729 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 05:43:15.731 - [Debug] [Auth] Attacker: 190.149.175.189 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 05:43:15.843 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 05:43:26.760 - [Debug] [Connection] Attacker closed the connection

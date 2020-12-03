@@ -1,0 +1,16 @@
+2020-11-18 13:47:06.666 - [Info] MITM Version: 1.26
+2020-11-18 13:47:06.671 - [Info] Auto Access Enabled: true
+2020-11-18 13:47:06.671 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 13:47:06.685 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-18 13:48:16.185 - [Debug] [Connection] Attacker connected: 45.4.5.221 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 13:48:17.081 - [Debug] [Auth] Attacker 45.4.5.221 trying to authenticate with "password"
+2020-11-18 13:48:17.081 - [Debug] [Auto Access] Attacker: 45.4.5.221, Threshold: 1, Attempts: 1
+2020-11-18 13:48:17.081 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 13:48:17.082 - [Debug] [Auto Access] Adding the following credentials: "xgridagent:xgridagent"
+2020-11-18 13:48:17.317 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 13:48:17.317 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-18 13:48:29.093 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 13:48:33.987 - [Info] Exiting...
+2020-11-18 13:48:33.987 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 218.89.222.16

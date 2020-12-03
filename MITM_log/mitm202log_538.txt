@@ -1,0 +1,79 @@
+2020-11-03 12:21:53.142 - [Info] MITM Version: 1.26
+2020-11-03 12:21:53.146 - [Info] Auto Access Enabled: true
+2020-11-03 12:21:53.147 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 12:21:53.159 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-03 12:22:01.075 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-WinSCP_release_3.8.1
+2020-11-03 12:22:02.122 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-11-03 12:22:02.122 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:22:02.413 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-11-03 12:22:02.414 - [Debug] [Auto Access] Attacker: 193.105.134.45, Threshold: 1, Attempts: 1
+2020-11-03 12:22:02.414 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 12:22:02.414 - [Debug] [Auto Access] Adding the following credentials: "admin:<Any pass>"
+2020-11-03 12:22:02.627 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 12:22:02.628 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-03 12:22:17.916 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-03 12:22:18.702 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-PuTTY_KiTTY
+2020-11-03 12:22:19.206 - [Debug] [Connection] Attacker closed connection
+2020-11-03 12:22:19.210 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-03 12:22:19.210 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-03 12:22:19.723 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-11-03 12:22:19.723 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:22:20.003 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-11-03 12:22:20.003 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 12:22:20.004 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:22:20.283 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:22:58.923 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-paramiko_2.1.2
+2020-11-03 12:22:59.958 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-11-03 12:22:59.958 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:23:00.239 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-11-03 12:23:00.239 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 12:23:00.240 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:23:00.521 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:23:19.038 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.16.1
+2020-11-03 12:23:20.022 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-11-03 12:23:20.022 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:23:20.282 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-11-03 12:23:20.282 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:23:20.283 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:23:20.542 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:23:21.223 - [Debug] [Connection] Attacker connected: 115.151.100.10 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:23:23.786 - [Debug] [Auth] Attacker 115.151.100.10 trying to authenticate with "password"
+2020-11-03 12:23:23.786 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:23:23.787 - [Debug] [Auth] Attacker: 115.151.100.10 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:23:24.391 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:23:25.509 - [Debug] [Connection] Attacker connected: 128.199.120.132 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:23:27.120 - [Debug] [Auth] Attacker 128.199.120.132 trying to authenticate with "password"
+2020-11-03 12:23:27.120 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:23:27.121 - [Debug] [Auth] Attacker: 128.199.120.132 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:23:27.614 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:24:21.698 - [Debug] [Connection] Attacker connected: 111.229.120.31 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:24:23.642 - [Debug] [Auth] Attacker 111.229.120.31 trying to authenticate with "password"
+2020-11-03 12:24:23.643 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:24:23.643 - [Debug] [Auth] Attacker: 111.229.120.31 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:24:24.298 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:24:52.604 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-paramiko_1.15.1
+2020-11-03 12:24:53.633 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-11-03 12:24:53.633 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:24:53.903 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-11-03 12:24:53.904 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 12:24:53.904 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:24:54.183 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:24:55.369 - [Debug] [Connection] Attacker connected: 49.233.80.20 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:25:03.675 - [Debug] [Auth] Attacker 49.233.80.20 trying to authenticate with "password"
+2020-11-03 12:25:03.675 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:25:03.675 - [Debug] [Auth] Attacker: 49.233.80.20 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:25:04.263 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:25:07.391 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-OpenSSH_6.2
+2020-11-03 12:25:08.412 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-11-03 12:25:08.412 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:25:08.683 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-11-03 12:25:08.683 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 12:25:08.683 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:25:08.952 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:27:03.346 - [Debug] [Connection] Attacker connected: 128.199.120.132 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:27:04.907 - [Debug] [Auth] Attacker 128.199.120.132 trying to authenticate with "password"
+2020-11-03 12:27:04.907 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:27:04.908 - [Debug] [Auth] Attacker: 128.199.120.132 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:27:05.566 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:27:19.195 - [Info] Exiting...
+2020-11-03 12:27:19.195 - [Debug] Cleaning up...

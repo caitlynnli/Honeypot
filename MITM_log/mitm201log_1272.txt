@@ -1,0 +1,16 @@
+2020-11-26 07:41:20.634 - [Info] MITM Version: 1.26
+2020-11-26 07:41:20.644 - [Info] Auto Access Enabled: true
+2020-11-26 07:41:20.645 - [Debug] [Init] Auto Access Barrier: true
+2020-11-26 07:41:20.664 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-26 07:41:28.698 - [Debug] [Connection] Attacker connected: 149.56.108.38 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-26 07:41:28.895 - [Debug] [Auth] Attacker 149.56.108.38 trying to authenticate with "password"
+2020-11-26 07:41:28.895 - [Debug] [Auto Access] Attacker: 149.56.108.38, Threshold: 1, Attempts: 1
+2020-11-26 07:41:28.895 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-26 07:41:28.895 - [Debug] [Auto Access] Adding the following credentials: "cpanel:cpanel123321"
+2020-11-26 07:41:29.118 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-26 07:41:29.118 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-26 07:41:38.901 - [Debug] [Connection] Attacker closed the connection
+2020-11-26 07:41:46.327 - [Info] Exiting...
+2020-11-26 07:41:46.327 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 106.52.178.166

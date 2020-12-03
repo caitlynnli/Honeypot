@@ -1,0 +1,65 @@
+2020-10-28 08:40:35.839 - [Info] MITM Version: 1.26
+2020-10-28 08:40:35.848 - [Info] Auto Access Enabled: true
+2020-10-28 08:40:35.848 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 08:40:35.868 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-28 08:43:31.327 - [Debug] [Connection] Attacker connected: 185.2.81.183 | Client Identification: SSH-2.0-sshlib-0.1
+2020-10-28 08:43:32.743 - [Debug] [Auth] Attacker 185.2.81.183 trying to authenticate with "password"
+2020-10-28 08:43:32.745 - [Debug] [Auto Access] Attacker: 185.2.81.183, Threshold: 1, Attempts: 1
+2020-10-28 08:43:32.745 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 08:43:32.745 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-28 08:43:32.927 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 08:43:32.927 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-28 08:43:32.981 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 08:43:50.088 - [Debug] [Connection] Attacker closed connection
+2020-10-28 08:43:50.096 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 08:43:50.096 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 08:46:06.901 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 08:46:08.574 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 08:46:08.574 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 08:46:09.137 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 08:46:09.139 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 08:46:09.139 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-28 08:46:09.187 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 08:46:27.547 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 08:46:29.909 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 08:46:29.909 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 08:46:30.475 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 08:46:30.476 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 08:46:30.476 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-28 08:46:30.499 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 08:46:40.084 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 08:46:41.766 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 08:46:41.766 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 08:46:43.536 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 08:46:43.538 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 08:46:43.538 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-28 08:46:43.589 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 08:46:55.217 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 08:46:56.926 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 08:46:56.927 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 08:46:57.505 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 08:46:57.506 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 08:46:57.507 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-28 08:46:57.551 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 08:47:06.762 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 08:47:08.707 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 08:47:08.707 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 08:47:09.911 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 08:47:09.912 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 08:47:09.912 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-28 08:47:09.934 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 08:47:49.634 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 08:47:51.345 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 08:47:51.346 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 08:47:51.896 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 08:47:51.897 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 08:47:51.897 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-28 08:47:51.941 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 08:48:05.776 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 08:48:07.530 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 08:48:07.531 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 08:48:08.117 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 08:48:08.119 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 08:48:08.119 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-28 08:48:08.153 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 08:48:31.620 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54

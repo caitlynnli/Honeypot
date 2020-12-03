@@ -1,0 +1,28 @@
+2020-11-22 05:28:46.607 - [Info] MITM Version: 1.26
+2020-11-22 05:28:46.611 - [Info] Auto Access Enabled: true
+2020-11-22 05:28:46.611 - [Debug] [Init] Auto Access Barrier: true
+2020-11-22 05:28:46.626 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-22 05:30:23.564 - [Debug] [Connection] Attacker connected: 18.140.51.231 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-22 05:30:24.995 - [Debug] [Auth] Attacker 18.140.51.231 trying to authenticate with "password"
+2020-11-22 05:30:24.995 - [Debug] [Auto Access] Attacker: 18.140.51.231, Threshold: 1, Attempts: 1
+2020-11-22 05:30:24.995 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-22 05:30:24.995 - [Debug] [Auto Access] Adding the following credentials: "katalinux:katalinux"
+2020-11-22 05:30:25.221 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-22 05:30:25.222 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-22 05:30:26.764 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-22 05:31:25.277 - [Debug] [Connection] Attacker connected: 200.233.163.65 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-22 05:31:26.247 - [Debug] [Auth] Attacker 200.233.163.65 trying to authenticate with "password"
+2020-11-22 05:31:26.248 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-22 05:31:26.248 - [Debug] [Auth] Attacker: 200.233.163.65 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-22 05:31:26.585 - [Debug] [Connection] Attacker closed the connection
+2020-11-22 05:31:26.830 - [Debug] [Connection] Client error on ssh server
+2020-11-22 05:31:26.831 - [Debug] [Connection] Attacker closed connection
+2020-11-22 05:31:26.834 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-22 05:31:26.834 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-22 05:35:21.294 - [Debug] [Connection] Attacker connected: 200.233.163.65 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-22 05:35:22.267 - [Debug] [Auth] Attacker 200.233.163.65 trying to authenticate with "password"
+2020-11-22 05:35:22.267 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-22 05:35:22.268 - [Debug] [Auth] Attacker: 200.233.163.65 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-22 05:35:22.604 - [Debug] [Connection] Attacker closed the connection
+2020-11-22 05:35:28.072 - [Info] Exiting...
+2020-11-22 05:35:28.073 - [Debug] Cleaning up...

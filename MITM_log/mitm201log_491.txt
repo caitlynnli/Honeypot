@@ -1,0 +1,21 @@
+2020-10-29 12:17:40.900 - [Info] MITM Version: 1.26
+2020-10-29 12:17:40.906 - [Info] Auto Access Enabled: true
+2020-10-29 12:17:40.906 - [Debug] [Init] Auto Access Barrier: true
+2020-10-29 12:17:40.929 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-29 12:18:17.921 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-29 12:18:19.519 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-29 12:18:19.520 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 12:18:20.075 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-29 12:18:20.077 - [Debug] [Auto Access] Attacker: 171.235.45.115, Threshold: 1, Attempts: 1
+2020-10-29 12:18:20.078 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-29 12:18:20.078 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-29 12:18:20.414 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 12:18:20.415 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-29 12:18:20.521 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-29 12:18:34.294 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-29 12:18:35.967 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-29 12:18:35.967 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 12:18:36.552 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-29 12:18:36.554 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 12:18:36.554 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-29 12:18:36.604 - [Debug] [LXC-Auth] Attacker authenticated and is inside container

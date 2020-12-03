@@ -1,0 +1,26 @@
+2020-11-20 04:46:50.242 - [Info] MITM Version: 1.26
+2020-11-20 04:46:50.246 - [Info] Auto Access Enabled: true
+2020-11-20 04:46:50.246 - [Debug] [Init] Auto Access Barrier: true
+2020-11-20 04:46:50.264 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-20 04:47:26.029 - [Debug] [Connection] Attacker connected: 167.99.235.21 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 04:47:26.197 - [Debug] [Auth] Attacker 167.99.235.21 trying to authenticate with "password"
+2020-11-20 04:47:26.198 - [Debug] [Auto Access] Attacker: 167.99.235.21, Threshold: 1, Attempts: 1
+2020-11-20 04:47:26.198 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-20 04:47:26.198 - [Debug] [Auto Access] Adding the following credentials: "exploit:exploit"
+2020-11-20 04:47:26.408 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-20 04:47:26.408 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-20 04:47:27.967 - [Debug] [Connection] Attacker connected: 108.190.190.48 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 04:47:28.309 - [Debug] [Auth] Attacker 108.190.190.48 trying to authenticate with "password"
+2020-11-20 04:47:28.310 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-20 04:47:28.310 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-20 04:47:36.224 - [Debug] [Connection] Attacker closed the connection
+2020-11-20 04:47:37.086 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-20 04:47:37.291 - [Debug] [Connection] Attacker connected: 108.190.190.48 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 04:47:37.625 - [Debug] [Auth] Attacker 108.190.190.48 trying to authenticate with "password"
+2020-11-20 04:47:37.626 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-20 04:47:37.626 - [Debug] [Auth] Attacker: 108.190.190.48 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-20 04:47:37.754 - [Debug] [Connection] Attacker closed the connection
+2020-11-20 04:47:37.831 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-20 04:47:43.298 - [Info] Exiting...
+2020-11-20 04:47:43.298 - [Debug] Cleaning up...
+No auth in progress

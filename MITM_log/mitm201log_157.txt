@@ -1,0 +1,22 @@
+2020-10-26 12:52:06.167 - [Info] MITM Version: 1.26
+2020-10-26 12:52:06.173 - [Info] Auto Access Enabled: true
+2020-10-26 12:52:06.174 - [Debug] [Init] Auto Access Barrier: true
+2020-10-26 12:52:06.200 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-26 13:03:51.424 - [Debug] [Connection] Attacker connected: 190.2.137.62 | Client Identification: SSH-2.0-sshlib-0.1
+2020-10-26 13:03:52.556 - [Debug] [Auth] Attacker 190.2.137.62 trying to authenticate with "password"
+2020-10-26 13:03:52.557 - [Debug] [Auto Access] Attacker: 190.2.137.62, Threshold: 1, Attempts: 1
+2020-10-26 13:03:52.557 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-26 13:03:52.557 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-26 13:03:52.711 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-26 13:03:52.712 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-26 13:04:08.125 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-26 13:04:25.223 - [Debug] [Connection] Attacker closed connection
+2020-10-26 13:04:25.231 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-26 13:04:25.231 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-26 13:07:48.245 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-26 13:07:48.827 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-26 13:07:48.828 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-26 13:07:49.047 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-26 13:07:49.049 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 13:07:49.050 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 13:07:49.267 - [Debug] [Connection] Attacker closed the connection

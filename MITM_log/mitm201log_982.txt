@@ -1,0 +1,27 @@
+2020-11-18 15:04:44.239 - [Info] MITM Version: 1.26
+2020-11-18 15:04:44.243 - [Info] Auto Access Enabled: true
+2020-11-18 15:04:44.244 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 15:04:44.256 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-18 15:06:33.175 - [Debug] [Connection] Attacker connected: 103.76.175.130 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 15:06:33.919 - [Debug] [Connection] Attacker connected: 103.137.113.34 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 15:06:34.802 - [Debug] [Auth] Attacker 103.76.175.130 trying to authenticate with "password"
+2020-11-18 15:06:34.802 - [Debug] [Auto Access] Attacker: 103.76.175.130, Threshold: 1, Attempts: 1
+2020-11-18 15:06:34.804 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 15:06:34.805 - [Debug] [Auto Access] Adding the following credentials: "josh:josh"
+2020-11-18 15:06:35.045 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 15:06:35.045 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-18 15:06:35.201 - [Debug] [Auth] Attacker 103.137.113.34 trying to authenticate with "password"
+2020-11-18 15:06:35.201 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 15:06:35.202 - [Debug] [Auth] Attacker: 103.137.113.34 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 15:06:35.637 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 15:06:42.550 - [Debug] [Connection] Attacker connected: 162.142.125.54 | Client Identification: SSH-2.0-Go
+2020-11-18 15:06:46.492 - [Debug] [Connection] Attacker connected: 106.13.99.107 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 15:06:46.814 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 15:06:47.954 - [Debug] [Auth] Attacker 106.13.99.107 trying to authenticate with "password"
+2020-11-18 15:06:47.954 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 15:06:47.955 - [Debug] [Auth] Attacker: 106.13.99.107 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 15:06:48.454 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 15:06:51.800 - [Info] Exiting...
+2020-11-18 15:06:51.800 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 121.18.88.186

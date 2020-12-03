@@ -1,0 +1,35 @@
+2020-11-07 13:29:55.883 - [Info] MITM Version: 1.26
+2020-11-07 13:29:55.887 - [Info] Auto Access Enabled: true
+2020-11-07 13:29:55.888 - [Debug] [Init] Auto Access Barrier: true
+2020-11-07 13:29:55.902 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-07 13:36:48.036 - [Debug] [Connection] Attacker connected: 185.239.242.191 | Client Identification: SSH-2.0-libssh-0.1
+2020-11-07 13:36:48.166 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 13:39:10.451 - [Debug] [Connection] Attacker connected: 82.64.46.144 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2
+2020-11-07 13:39:10.454 - [Debug] [Connection] Attacker connected: 82.64.46.144 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2
+2020-11-07 13:39:11.086 - [Debug] [Auth] Attacker 82.64.46.144 trying to authenticate with "none"
+2020-11-07 13:39:11.087 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-07 13:39:11.134 - [Debug] [Auth] Attacker 82.64.46.144 trying to authenticate with "none"
+2020-11-07 13:39:11.134 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-07 13:39:11.308 - [Debug] [Auth] Attacker 82.64.46.144 trying to authenticate with "password"
+2020-11-07 13:39:11.308 - [Debug] [Auto Access] Attacker: 82.64.46.144, Threshold: 1, Attempts: 1
+2020-11-07 13:39:11.308 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-07 13:39:11.308 - [Debug] [Auto Access] Adding the following credentials: "pi:raspberryraspberry993311"
+2020-11-07 13:39:11.527 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 13:39:11.528 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-07 13:39:11.531 - [Debug] [Auth] Attacker 82.64.46.144 trying to authenticate with "password"
+2020-11-07 13:39:11.531 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 13:39:11.531 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-07 13:39:26.916 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-07 13:39:26.919 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-07 13:39:27.343 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/HNC5KENS
+2020-11-07 13:39:27.401 - [Debug] [EXEC] Noninteractive mode attacker command: scp -t /tmp/HNC5KENS
+2020-11-07 13:40:27.987 - [Debug] [Connection] Client error on ssh server
+2020-11-07 13:40:27.987 - [Debug] [Connection] Client error on ssh server
+2020-11-07 13:40:27.988 - [Debug] [Connection] Attacker closed connection
+2020-11-07 13:40:27.988 - [Debug] [Connection] Attacker closed connection
+2020-11-07 13:40:27.995 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-07 13:40:27.995 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-07 13:40:27.996 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-07 13:40:27.996 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-07 13:44:28.229 - [Info] Exiting...
+2020-11-07 13:44:28.229 - [Debug] Cleaning up...

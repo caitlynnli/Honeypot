@@ -1,0 +1,21 @@
+2020-11-20 05:30:03.690 - [Info] MITM Version: 1.26
+2020-11-20 05:30:03.694 - [Info] Auto Access Enabled: true
+2020-11-20 05:30:03.694 - [Debug] [Init] Auto Access Barrier: true
+2020-11-20 05:30:03.707 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-20 05:30:42.311 - [Debug] [Connection] Attacker connected: 167.99.235.21 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 05:30:42.483 - [Debug] [Auth] Attacker 167.99.235.21 trying to authenticate with "password"
+2020-11-20 05:30:42.484 - [Debug] [Auto Access] Attacker: 167.99.235.21, Threshold: 1, Attempts: 1
+2020-11-20 05:30:42.484 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-20 05:30:42.486 - [Debug] [Auto Access] Adding the following credentials: "wordpress:wordpress123"
+2020-11-20 05:30:42.702 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-20 05:30:42.702 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-20 05:30:50.794 - [Debug] [Connection] Attacker connected: 178.16.174.0 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-20 05:30:51.368 - [Debug] [Auth] Attacker 178.16.174.0 trying to authenticate with "password"
+2020-11-20 05:30:51.369 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-20 05:30:51.369 - [Debug] [Auth] Attacker: 178.16.174.0 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-20 05:30:51.572 - [Debug] [Connection] Attacker closed the connection
+2020-11-20 05:30:52.492 - [Debug] [Connection] Attacker closed the connection
+2020-11-20 05:31:00.122 - [Info] Exiting...
+2020-11-20 05:31:00.122 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 108.190.190.48

@@ -1,0 +1,24 @@
+2020-10-26 22:18:13.185 - [Info] MITM Version: 1.26
+2020-10-26 22:18:13.199 - [Info] Auto Access Enabled: true
+2020-10-26 22:18:13.200 - [Debug] [Init] Auto Access Barrier: true
+2020-10-26 22:18:13.255 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-26 22:24:25.643 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-PuTTY_KiTTY
+2020-10-26 22:24:27.121 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-26 22:24:27.122 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-26 22:24:27.400 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-26 22:24:27.403 - [Debug] [Auto Access] Attacker: 193.105.134.45, Threshold: 1, Attempts: 1
+2020-10-26 22:24:27.404 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-26 22:24:27.404 - [Debug] [Auto Access] Adding the following credentials: "admin:2222"
+2020-10-26 22:24:27.954 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-26 22:24:27.954 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-26 22:24:28.012 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-26 22:24:29.133 - [Debug] [Connection] Attacker closed connection
+2020-10-26 22:24:29.138 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-26 22:24:29.139 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-26 22:28:23.147 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-26 22:28:25.291 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-26 22:28:25.292 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-26 22:28:25.616 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-26 22:28:25.617 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-26 22:28:25.619 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 22:28:26.249 - [Debug] [Connection] Attacker closed the connection

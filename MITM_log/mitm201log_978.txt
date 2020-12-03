@@ -1,0 +1,23 @@
+2020-11-18 13:53:54.932 - [Info] MITM Version: 1.26
+2020-11-18 13:53:54.936 - [Info] Auto Access Enabled: true
+2020-11-18 13:53:54.936 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 13:53:54.949 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-18 14:23:46.032 - [Debug] [Connection] Attacker connected: 162.243.55.188 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 14:23:50.260 - [Debug] [Auth] Attacker 162.243.55.188 trying to authenticate with "password"
+2020-11-18 14:23:50.261 - [Debug] [Auto Access] Attacker: 162.243.55.188, Threshold: 1, Attempts: 1
+2020-11-18 14:23:50.261 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 14:23:50.261 - [Debug] [Auto Access] Adding the following credentials: "adila:adila"
+2020-11-18 14:23:50.475 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 14:23:50.475 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-18 14:23:51.881 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-18 14:23:51.935 - [Debug] [Connection] Attacker connected: 162.243.55.188 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 14:24:51.939 - [Debug] [Connection] Client error on ssh server
+2020-11-18 14:24:51.940 - [Debug] [Connection] Attacker closed connection
+2020-11-18 14:24:51.945 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-18 14:24:51.945 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-18 14:25:15.043 - [Debug] [Auth] Attacker 162.243.55.188 trying to authenticate with "password"
+2020-11-18 14:25:15.043 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 14:25:15.044 - [Debug] [Auth] Attacker: 162.243.55.188 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 14:25:15.975 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 14:28:53.287 - [Info] Exiting...
+2020-11-18 14:28:53.287 - [Debug] Cleaning up...

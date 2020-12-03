@@ -1,0 +1,25 @@
+2020-10-29 00:52:59.674 - [Info] MITM Version: 1.26
+2020-10-29 00:52:59.680 - [Info] Auto Access Enabled: true
+2020-10-29 00:52:59.681 - [Debug] [Init] Auto Access Barrier: true
+2020-10-29 00:52:59.704 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-29 01:08:09.708 - [Debug] [Connection] Attacker connected: 141.98.81.154 | Client Identification: SSH-2.0-Go
+2020-10-29 01:08:10.286 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "none"
+2020-10-29 01:08:10.287 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 01:08:10.505 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "password"
+2020-10-29 01:08:10.506 - [Debug] [Auto Access] Attacker: 141.98.81.154, Threshold: 1, Attempts: 1
+2020-10-29 01:08:10.507 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-29 01:08:10.507 - [Debug] [Auto Access] Adding the following credentials: "root:admin"
+2020-10-29 01:08:10.677 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 01:08:10.677 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-29 01:08:10.717 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-29 01:08:11.151 - [Debug] [Connection] Attacker closed connection
+2020-10-29 01:08:11.544 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-29 01:08:11.545 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-29 01:12:58.728 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-29 01:13:00.377 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-29 01:13:00.377 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 01:13:00.936 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-29 01:13:00.937 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-29 01:13:00.939 - [Debug] [Auth] Attacker: 171.235.45.115 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 01:13:01.507 - [Debug] [Connection] Client error on ssh server
+2020-10-29 01:13:01.508 - [Debug] [Connection] Attacker closed the connection

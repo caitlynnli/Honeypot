@@ -1,0 +1,22 @@
+2020-11-18 04:51:41.088 - [Info] MITM Version: 1.26
+2020-11-18 04:51:41.092 - [Info] Auto Access Enabled: true
+2020-11-18 04:51:41.092 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 04:51:41.108 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-18 04:51:53.531 - [Debug] [Connection] Attacker connected: 114.108.150.156 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 04:51:54.992 - [Debug] [Auth] Attacker 114.108.150.156 trying to authenticate with "password"
+2020-11-18 04:51:54.993 - [Debug] [Auto Access] Attacker: 114.108.150.156, Threshold: 1, Attempts: 1
+2020-11-18 04:51:54.993 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 04:51:54.993 - [Debug] [Auto Access] Adding the following credentials: "stanna:stanna"
+2020-11-18 04:51:55.205 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 04:51:55.206 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-18 04:52:05.007 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 04:52:08.316 - [Debug] [Connection] Attacker connected: 202.153.37.194 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 04:52:09.666 - [Debug] [Auth] Attacker 202.153.37.194 trying to authenticate with "password"
+2020-11-18 04:52:09.667 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 04:52:09.668 - [Debug] [Auth] Attacker: 202.153.37.194 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 04:52:10.128 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 04:52:11.194 - [Debug] [Connection] Attacker connected: 150.158.176.98 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 04:52:12.280 - [Info] Exiting...
+2020-11-18 04:52:12.280 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 165.22.50.164

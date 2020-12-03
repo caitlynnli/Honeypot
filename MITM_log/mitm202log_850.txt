@@ -1,0 +1,18 @@
+2020-11-13 15:27:52.390 - [Info] MITM Version: 1.26
+2020-11-13 15:27:52.395 - [Info] Auto Access Enabled: true
+2020-11-13 15:27:52.395 - [Debug] [Init] Auto Access Barrier: true
+2020-11-13 15:27:52.419 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-13 15:28:39.015 - [Debug] [Connection] Attacker connected: 119.29.72.216 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 15:28:40.636 - [Debug] [Auth] Attacker 119.29.72.216 trying to authenticate with "password"
+2020-11-13 15:28:40.637 - [Debug] [Auto Access] Attacker: 119.29.72.216, Threshold: 1, Attempts: 1
+2020-11-13 15:28:40.639 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-13 15:28:40.639 - [Debug] [Auto Access] Adding the following credentials: "root:kedacom"
+2020-11-13 15:28:40.749 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-13 15:28:40.750 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-13 15:28:43.112 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-13 15:29:43.182 - [Debug] [Connection] Client error on ssh server
+2020-11-13 15:29:43.183 - [Debug] [Connection] Attacker closed connection
+2020-11-13 15:29:43.189 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-13 15:29:43.190 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-13 15:33:44.427 - [Info] Exiting...
+2020-11-13 15:33:44.428 - [Debug] Cleaning up...

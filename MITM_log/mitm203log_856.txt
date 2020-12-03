@@ -1,0 +1,25 @@
+2020-11-13 20:11:24.466 - [Info] MITM Version: 1.26
+2020-11-13 20:11:24.470 - [Info] Auto Access Enabled: true
+2020-11-13 20:11:24.471 - [Debug] [Init] Auto Access Barrier: true
+2020-11-13 20:11:24.484 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-13 20:16:19.322 - [Debug] [Connection] Attacker connected: 42.112.46.168 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-13 20:16:20.998 - [Debug] [Auth] Attacker 42.112.46.168 trying to authenticate with "none"
+2020-11-13 20:16:20.998 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-13 20:16:21.809 - [Debug] [Auth] Attacker 42.112.46.168 trying to authenticate with "password"
+2020-11-13 20:16:21.810 - [Debug] [Auto Access] Attacker: 42.112.46.168, Threshold: 1, Attempts: 1
+2020-11-13 20:16:21.810 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-13 20:16:21.810 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-13 20:16:21.930 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-13 20:16:21.930 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-13 20:16:31.590 - [Debug] [Connection] Client error on ssh server
+2020-11-13 20:16:31.590 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 20:16:37.436 - [Debug] [Connection] Attacker connected: 42.112.46.168 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-13 20:16:39.111 - [Debug] [Auth] Attacker 42.112.46.168 trying to authenticate with "none"
+2020-11-13 20:16:39.111 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-13 20:16:39.696 - [Debug] [Auth] Attacker 42.112.46.168 trying to authenticate with "password"
+2020-11-13 20:16:39.696 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-13 20:16:39.697 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-13 20:16:40.271 - [Info] Exiting...
+2020-11-13 20:16:40.271 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 206.81.27.163

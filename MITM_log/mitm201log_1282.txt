@@ -1,0 +1,25 @@
+2020-11-27 15:11:35.479 - [Info] MITM Version: 1.26
+2020-11-27 15:11:35.484 - [Info] Auto Access Enabled: true
+2020-11-27 15:11:35.484 - [Debug] [Init] Auto Access Barrier: true
+2020-11-27 15:11:35.499 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-27 15:12:02.034 - [Debug] [Connection] Attacker connected: 114.247.226.19 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-27 15:12:03.602 - [Debug] [Auth] Attacker 114.247.226.19 trying to authenticate with "password"
+2020-11-27 15:12:03.603 - [Debug] [Auto Access] Attacker: 114.247.226.19, Threshold: 1, Attempts: 1
+2020-11-27 15:12:03.603 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-27 15:12:03.603 - [Debug] [Auto Access] Adding the following credentials: "gpadmin:zaq1xsw2cde3"
+2020-11-27 15:12:03.818 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-27 15:12:03.819 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-27 15:12:12.336 - [Debug] [Connection] Attacker connected: 203.213.66.170 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-27 15:12:13.611 - [Debug] [Connection] Attacker closed the connection
+2020-11-27 15:12:13.824 - [Debug] [Auth] Attacker 203.213.66.170 trying to authenticate with "password"
+2020-11-27 15:12:13.825 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-27 15:12:13.825 - [Debug] [Auth] Attacker: 203.213.66.170 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-27 15:12:14.333 - [Debug] [Connection] Attacker closed the connection
+2020-11-27 15:12:18.569 - [Debug] [Connection] Attacker connected: 191.234.168.151 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-27 15:12:20.780 - [Debug] [Auth] Attacker 191.234.168.151 trying to authenticate with "password"
+2020-11-27 15:12:20.781 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-27 15:12:20.781 - [Debug] [Auth] Attacker: 191.234.168.151 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-27 15:12:21.268 - [Info] Exiting...
+2020-11-27 15:12:21.268 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 81.69.255.66

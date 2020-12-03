@@ -1,0 +1,33 @@
+2020-11-18 02:48:26.089 - [Info] MITM Version: 1.26
+2020-11-18 02:48:26.093 - [Info] Auto Access Enabled: true
+2020-11-18 02:48:26.093 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 02:48:26.107 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-18 02:48:28.400 - [Debug] [Connection] Attacker connected: 167.99.88.37 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 02:48:29.043 - [Debug] [Auth] Attacker 167.99.88.37 trying to authenticate with "password"
+2020-11-18 02:48:29.044 - [Debug] [Auto Access] Attacker: 167.99.88.37, Threshold: 1, Attempts: 1
+2020-11-18 02:48:29.044 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 02:48:29.046 - [Debug] [Auto Access] Adding the following credentials: "student:123456"
+2020-11-18 02:48:29.260 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 02:48:29.260 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-18 02:48:37.934 - [Debug] [Connection] Attacker connected: 128.199.246.104 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 02:48:39.053 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 02:48:39.650 - [Debug] [Auth] Attacker 128.199.246.104 trying to authenticate with "password"
+2020-11-18 02:48:39.650 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 02:48:39.651 - [Debug] [Auth] Attacker: 128.199.246.104 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 02:48:40.149 - [Debug] [Connection] Attacker connected: 51.77.215.0 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 02:48:40.228 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 02:48:40.776 - [Debug] [Auth] Attacker 51.77.215.0 trying to authenticate with "password"
+2020-11-18 02:48:40.776 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 02:48:40.776 - [Debug] [Auth] Attacker: 51.77.215.0 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 02:48:41.009 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 02:48:42.896 - [Debug] [Connection] Attacker connected: 106.54.191.247 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 02:48:45.004 - [Debug] [Auth] Attacker 106.54.191.247 trying to authenticate with "password"
+2020-11-18 02:48:45.005 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 02:48:45.005 - [Debug] [Auth] Attacker: 106.54.191.247 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 02:48:45.540 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 02:48:45.956 - [Debug] [Connection] Attacker connected: 107.21.91.127 | Client Identification: SSH-2.0-paramiko_2.4.2
+2020-11-18 02:48:46.029 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 02:48:46.478 - [Info] Exiting...
+2020-11-18 02:48:46.478 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 165.22.50.164

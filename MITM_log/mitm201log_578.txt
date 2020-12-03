@@ -1,0 +1,24 @@
+2020-11-11 11:01:55.382 - [Info] MITM Version: 1.26
+2020-11-11 11:01:55.386 - [Info] Auto Access Enabled: true
+2020-11-11 11:01:55.386 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 11:01:55.404 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-11 11:05:01.493 - [Debug] [Connection] Attacker connected: 111.67.204.137 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 11:05:11.049 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 11:08:18.368 - [Debug] [Connection] Attacker connected: 210.251.214.133 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 11:08:19.557 - [Debug] [Auth] Attacker 210.251.214.133 trying to authenticate with "password"
+2020-11-11 11:08:19.558 - [Debug] [Auto Access] Attacker: 210.251.214.133, Threshold: 1, Attempts: 1
+2020-11-11 11:08:19.558 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 11:08:19.558 - [Debug] [Auto Access] Adding the following credentials: "webadmin:webadmin@123"
+2020-11-11 11:08:19.773 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 11:08:19.773 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-11 11:08:21.878 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-11 11:08:22.668 - [Debug] [Connection] Attacker connected: 210.251.214.133 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 11:08:23.889 - [Debug] [Auth] Attacker 210.251.214.133 trying to authenticate with "password"
+2020-11-11 11:08:23.890 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-11 11:08:23.891 - [Debug] [Auth] Attacker: 210.251.214.133 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-11 11:08:24.310 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 11:08:24.679 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-11 11:13:23.139 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-11 11:13:23.140 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-11 11:13:23.197 - [Info] Exiting...
+2020-11-11 11:13:23.197 - [Debug] Cleaning up...

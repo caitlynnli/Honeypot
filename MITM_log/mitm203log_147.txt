@@ -1,0 +1,74 @@
+2020-10-25 19:46:49.916 - [Info] MITM Version: 1.26
+2020-10-25 19:46:49.922 - [Info] Auto Access Enabled: true
+2020-10-25 19:46:49.922 - [Debug] [Init] Auto Access Barrier: true
+2020-10-25 19:46:49.952 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-25 19:46:57.941 - [Debug] [Connection] Attacker connected: 87.241.1.186 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-10-25 19:46:58.655 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:46:58.657 - [Debug] [Auto Access] Attacker: 87.241.1.186, Threshold: 1, Attempts: 1
+2020-10-25 19:46:58.658 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-25 19:46:58.658 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-25 19:46:58.976 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-25 19:46:58.976 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-25 19:47:08.659 - [Debug] [Connection] Attacker closed the connection
+2020-10-25 19:47:08.762 - [Debug] [Connection] Attacker connected: 87.241.1.186 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-10-25 19:47:09.470 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:09.471 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:09.472 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-25 19:47:09.678 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:09.679 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:09.680 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 2 attempts. Remaining: 4 attempts
+2020-10-25 19:47:09.890 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:09.891 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:09.891 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 3 attempts. Remaining: 3 attempts
+2020-10-25 19:47:10.097 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:10.099 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:10.100 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 4 attempts. Remaining: 2 attempts
+2020-10-25 19:47:10.307 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:10.309 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:10.310 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 5 attempts. Remaining: 1 attempts
+2020-10-25 19:47:10.518 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:10.519 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:10.520 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 6 attempts. Remaining: 0 attempts
+2020-10-25 19:47:10.521 - [Debug] [Connection] Max Login Attempts Reached - Closing connection on attacker
+2020-10-25 19:47:10.522 - [Debug] [Connection] Attacker closed the connection
+2020-10-25 19:47:10.732 - [Debug] [Connection] Attacker connected: 87.241.1.186 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-10-25 19:47:11.443 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:11.444 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:11.445 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-25 19:47:11.653 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:11.654 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:11.655 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 2 attempts. Remaining: 4 attempts
+2020-10-25 19:47:11.863 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:11.864 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:11.865 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 3 attempts. Remaining: 3 attempts
+2020-10-25 19:47:12.071 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:12.073 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:12.074 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 4 attempts. Remaining: 2 attempts
+2020-10-25 19:47:12.280 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:12.281 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-25 19:47:12.283 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 5 attempts. Remaining: 1 attempts
+2020-10-25 19:47:12.490 - [Debug] [Connection] Attacker closed the connection
+2020-10-25 19:47:12.594 - [Debug] [Connection] Attacker connected: 87.241.1.186 | Client Identification: SSH-2.0-libssh2_1.8.2
+2020-10-25 19:47:13.307 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:13.308 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-25 19:47:13.309 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-25 19:47:13.516 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:13.517 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-25 19:47:13.519 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 2 attempts. Remaining: 4 attempts
+2020-10-25 19:47:13.726 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:13.727 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-25 19:47:13.728 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 3 attempts. Remaining: 3 attempts
+2020-10-25 19:47:13.935 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:13.936 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-25 19:47:13.937 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 4 attempts. Remaining: 2 attempts
+2020-10-25 19:47:14.144 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:14.145 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-25 19:47:14.146 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 5 attempts. Remaining: 1 attempts
+2020-10-25 19:47:14.353 - [Debug] [Auth] Attacker 87.241.1.186 trying to authenticate with "password"
+2020-10-25 19:47:14.354 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-25 19:47:14.355 - [Debug] [Auth] Attacker: 87.241.1.186 has so far made 6 attempts. Remaining: 0 attempts
+2020-10-25 19:47:14.355 - [Debug] [Connection] Max Login Attempts Reached - Closing connection on attacker
+2020-10-25 19:47:14.356 - [Debug] [Connection] Attacker closed the connection
+2020-10-25 19:47:14.551 - [Info] Exiting...
+2020-10-25 19:47:14.551 - [Debug] Cleaning up...
+No auth in progress

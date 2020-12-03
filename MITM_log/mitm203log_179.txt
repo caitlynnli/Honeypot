@@ -1,0 +1,25 @@
+2020-10-26 01:06:00.483 - [Info] MITM Version: 1.26
+2020-10-26 01:06:00.489 - [Info] Auto Access Enabled: true
+2020-10-26 01:06:00.490 - [Debug] [Init] Auto Access Barrier: true
+2020-10-26 01:06:00.517 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-26 01:17:37.543 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-26 01:17:41.684 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-26 01:17:41.685 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-26 01:17:41.903 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-26 01:17:41.905 - [Debug] [Auto Access] Attacker: 141.98.81.141, Threshold: 1, Attempts: 1
+2020-10-26 01:17:41.906 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-26 01:17:41.906 - [Debug] [Auto Access] Adding the following credentials: "admin:admin"
+2020-10-26 01:17:42.532 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-26 01:17:42.533 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-26 01:17:58.082 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-26 01:17:58.525 - [Debug] [Connection] Attacker closed connection
+2020-10-26 01:17:59.736 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-26 01:17:59.736 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-26 01:20:44.518 - [Debug] [Connection] Attacker connected: 141.98.9.163 | Client Identification: SSH-2.0-OpenSSH_7.3
+2020-10-26 01:20:46.442 - [Debug] [Auth] Attacker 141.98.9.163 trying to authenticate with "password"
+2020-10-26 01:20:46.444 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-26 01:20:46.444 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-26 01:20:46.486 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-26 01:20:46.698 - [Debug] [Connection] Attacker closed connection
+2020-10-26 01:20:47.611 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-26 01:20:47.612 - [Debug] [LXC] Container's OpenSSH server closed connection

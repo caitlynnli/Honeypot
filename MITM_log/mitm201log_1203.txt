@@ -1,0 +1,24 @@
+2020-11-21 18:39:33.698 - [Info] MITM Version: 1.26
+2020-11-21 18:39:33.702 - [Info] Auto Access Enabled: true
+2020-11-21 18:39:33.702 - [Debug] [Init] Auto Access Barrier: true
+2020-11-21 18:39:33.715 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-21 18:47:23.820 - [Debug] [Connection] Attacker connected: 192.81.209.72 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 18:47:23.970 - [Debug] [Auth] Attacker 192.81.209.72 trying to authenticate with "password"
+2020-11-21 18:47:23.971 - [Debug] [Auto Access] Attacker: 192.81.209.72, Threshold: 1, Attempts: 1
+2020-11-21 18:47:23.971 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-21 18:47:23.971 - [Debug] [Auto Access] Adding the following credentials: "dev:dev123"
+2020-11-21 18:47:24.207 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-21 18:47:24.207 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-21 18:47:25.919 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-21 18:47:26.004 - [Debug] [Connection] Attacker connected: 192.81.209.72 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 18:47:26.159 - [Debug] [Auth] Attacker 192.81.209.72 trying to authenticate with "password"
+2020-11-21 18:47:26.159 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-21 18:47:26.160 - [Debug] [Auth] Attacker: 192.81.209.72 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-21 18:47:26.223 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 18:47:26.245 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-21 18:48:26.986 - [Debug] [Connection] Client error on ssh server
+2020-11-21 18:48:26.987 - [Debug] [Connection] Attacker closed connection
+2020-11-21 18:48:26.991 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-21 18:48:26.993 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-21 18:52:27.211 - [Info] Exiting...
+2020-11-21 18:52:27.211 - [Debug] Cleaning up...

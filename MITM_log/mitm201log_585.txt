@@ -1,0 +1,17 @@
+2020-11-11 13:13:18.524 - [Info] MITM Version: 1.26
+2020-11-11 13:13:18.528 - [Info] Auto Access Enabled: true
+2020-11-11 13:13:18.528 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 13:13:18.541 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-11 13:21:19.418 - [Debug] [Connection] Attacker connected: 92.118.160.57 | Client Identification: SSH-2.0-ZGrab ZGrab SSH Survey
+2020-11-11 13:21:22.955 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 13:43:10.221 - [Debug] [Connection] Attacker connected: 150.136.169.139 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 13:43:10.330 - [Debug] [Auth] Attacker 150.136.169.139 trying to authenticate with "password"
+2020-11-11 13:43:10.331 - [Debug] [Auto Access] Attacker: 150.136.169.139, Threshold: 1, Attempts: 1
+2020-11-11 13:43:10.331 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 13:43:10.331 - [Debug] [Auto Access] Adding the following credentials: "admin1:123456"
+2020-11-11 13:43:10.532 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 13:43:10.533 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-11 13:43:22.342 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 13:43:28.453 - [Info] Exiting...
+2020-11-11 13:43:28.453 - [Debug] Cleaning up...
+No auth in progress

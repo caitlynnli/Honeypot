@@ -1,0 +1,24 @@
+2020-10-28 05:24:18.976 - [Info] MITM Version: 1.26
+2020-10-28 05:24:18.982 - [Info] Auto Access Enabled: true
+2020-10-28 05:24:18.983 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 05:24:19.006 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-28 05:25:42.157 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-JSCH_0.1.48
+2020-10-28 05:25:43.681 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-28 05:25:43.682 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 05:25:43.971 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-28 05:25:43.972 - [Debug] [Auto Access] Attacker: 193.105.134.45, Threshold: 1, Attempts: 1
+2020-10-28 05:25:43.972 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 05:25:43.972 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-28 05:25:44.158 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 05:25:44.159 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-28 05:25:59.618 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 05:26:00.759 - [Debug] [Connection] Attacker closed connection
+2020-10-28 05:26:01.139 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 05:26:01.140 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 05:30:58.392 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-libssh-0.6.0
+2020-10-28 05:30:59.515 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 05:30:59.515 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 05:30:59.775 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 05:30:59.776 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 05:30:59.777 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 05:31:00.036 - [Debug] [Connection] Attacker closed the connection

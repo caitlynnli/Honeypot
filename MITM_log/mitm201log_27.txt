@@ -1,0 +1,22 @@
+2020-10-24 07:50:20.241 - [Info] MITM Version: 1.26
+2020-10-24 07:50:20.249 - [Info] Auto Access Enabled: true
+2020-10-24 07:50:20.249 - [Debug] [Init] Auto Access Barrier: true
+2020-10-24 07:50:20.273 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-24 08:01:33.969 - [Debug] [Connection] Attacker connected: 141.98.10.210 | Client Identification: SSH-2.0-OpenSSH_7.3
+2020-10-24 08:01:35.853 - [Debug] [Auth] Attacker 141.98.10.210 trying to authenticate with "password"
+2020-10-24 08:01:35.856 - [Debug] [Auto Access] Attacker: 141.98.10.210, Threshold: 1, Attempts: 1
+2020-10-24 08:01:35.856 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-24 08:01:35.861 - [Debug] [Auto Access] Adding the following credentials: "root:admin"
+2020-10-24 08:01:36.200 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-24 08:01:36.201 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-24 08:01:51.511 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-24 08:01:51.921 - [Debug] [Connection] Attacker closed connection
+2020-10-24 08:01:52.416 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-24 08:01:52.416 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-24 08:04:05.791 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-OpenSSH_5.3
+2020-10-24 08:04:06.982 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-24 08:04:06.983 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 08:04:07.242 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-24 08:04:07.243 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-24 08:04:07.244 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 08:04:07.504 - [Debug] [Connection] Attacker closed the connection

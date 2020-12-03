@@ -1,0 +1,19 @@
+2020-11-07 21:53:02.405 - [Info] MITM Version: 1.26
+2020-11-07 21:53:02.409 - [Info] Auto Access Enabled: true
+2020-11-07 21:53:02.410 - [Debug] [Init] Auto Access Barrier: true
+2020-11-07 21:53:02.423 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-07 22:01:15.072 - [Debug] [Connection] Attacker connected: 71.233.192.189 | Client Identification: SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2
+2020-11-07 22:01:32.979 - [Debug] [Auth] Attacker 71.233.192.189 trying to authenticate with "none"
+2020-11-07 22:01:32.979 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-07 22:01:33.082 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 22:03:46.476 - [Debug] [Connection] Attacker connected: 2.181.229.98 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-07 22:03:47.763 - [Debug] [Auth] Attacker 2.181.229.98 trying to authenticate with "password"
+2020-11-07 22:03:47.764 - [Debug] [Auto Access] Attacker: 2.181.229.98, Threshold: 1, Attempts: 1
+2020-11-07 22:03:47.764 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-07 22:03:47.764 - [Debug] [Auto Access] Adding the following credentials: "root:Hetzner$1"
+2020-11-07 22:03:47.871 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 22:03:47.871 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-07 22:03:59.774 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 22:04:03.255 - [Info] Exiting...
+2020-11-07 22:04:03.255 - [Debug] Cleaning up...
+No auth in progress

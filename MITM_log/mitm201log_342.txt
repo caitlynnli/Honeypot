@@ -1,0 +1,24 @@
+2020-10-28 04:13:32.385 - [Info] MITM Version: 1.26
+2020-10-28 04:13:32.392 - [Info] Auto Access Enabled: true
+2020-10-28 04:13:32.392 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 04:13:32.416 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-28 04:28:06.174 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-28 04:28:06.829 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-28 04:28:06.830 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 04:28:07.136 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-28 04:28:07.137 - [Debug] [Auto Access] Attacker: 141.98.81.141, Threshold: 1, Attempts: 1
+2020-10-28 04:28:07.137 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 04:28:07.137 - [Debug] [Auto Access] Adding the following credentials: "root:admin"
+2020-10-28 04:28:07.311 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 04:28:07.311 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-28 04:28:07.366 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 04:28:09.073 - [Debug] [Connection] Attacker closed connection
+2020-10-28 04:28:09.113 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 04:28:09.113 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 04:31:25.440 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-28 04:31:26.026 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-28 04:31:26.027 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 04:31:26.251 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-28 04:31:26.252 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 04:31:26.252 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 04:31:26.487 - [Debug] [Connection] Attacker closed the connection

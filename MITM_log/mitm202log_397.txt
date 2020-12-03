@@ -1,0 +1,26 @@
+2020-10-29 14:31:33.513 - [Info] MITM Version: 1.26
+2020-10-29 14:31:33.537 - [Info] Auto Access Enabled: true
+2020-10-29 14:31:33.539 - [Debug] [Init] Auto Access Barrier: true
+2020-10-29 14:31:33.596 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-29 14:34:59.933 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-OpenSSH_5.2
+2020-10-29 14:35:01.371 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-29 14:35:01.372 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 14:35:01.661 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-29 14:35:01.662 - [Debug] [Auto Access] Attacker: 193.105.134.45, Threshold: 1, Attempts: 1
+2020-10-29 14:35:01.662 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-29 14:35:01.662 - [Debug] [Auto Access] Adding the following credentials: "ubnt:client"
+2020-10-29 14:35:02.013 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 14:35:02.013 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-29 14:35:13.864 - [Debug] [Connection] Attacker connected: 176.123.7.246 | Client Identification: SSH-2.0-libssh-0.1
+2020-10-29 14:35:14.001 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 14:35:17.577 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-29 14:35:18.700 - [Debug] [Connection] Attacker closed connection
+2020-10-29 14:35:19.226 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-29 14:35:19.227 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-29 14:36:23.963 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-OpenSSH_5.2
+2020-10-29 14:36:25.121 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-29 14:36:25.121 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 14:36:25.391 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-29 14:36:25.392 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 14:36:25.392 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 14:36:25.661 - [Debug] [Connection] Attacker closed the connection

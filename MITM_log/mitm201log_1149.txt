@@ -1,0 +1,26 @@
+2020-11-21 08:02:44.562 - [Info] MITM Version: 1.26
+2020-11-21 08:02:44.566 - [Info] Auto Access Enabled: true
+2020-11-21 08:02:44.566 - [Debug] [Init] Auto Access Barrier: true
+2020-11-21 08:02:44.580 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-21 08:02:47.780 - [Debug] [Connection] Attacker connected: 180.76.238.70 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 08:02:49.990 - [Debug] [Connection] Attacker connected: 180.76.157.174 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 08:02:50.048 - [Debug] [Connection] Attacker connected: 37.59.123.166 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-21 08:02:50.637 - [Debug] [Auth] Attacker 37.59.123.166 trying to authenticate with "password"
+2020-11-21 08:02:50.637 - [Debug] [Auto Access] Attacker: 37.59.123.166, Threshold: 1, Attempts: 1
+2020-11-21 08:02:50.637 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-21 08:02:50.637 - [Debug] [Auto Access] Adding the following credentials: "root:gov123"
+2020-11-21 08:02:50.743 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-21 08:02:50.743 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-21 08:02:51.531 - [Debug] [Auth] Attacker 180.76.238.70 trying to authenticate with "password"
+2020-11-21 08:02:51.531 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-21 08:02:51.532 - [Debug] [Auth] Attacker: 180.76.238.70 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-21 08:02:52.257 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 08:02:56.029 - [Debug] [Auth] Attacker 180.76.157.174 trying to authenticate with "password"
+2020-11-21 08:02:56.029 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-21 08:02:56.030 - [Debug] [Auth] Attacker: 180.76.157.174 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-21 08:02:56.742 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 08:03:00.646 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 08:03:08.112 - [Info] Exiting...
+2020-11-21 08:03:08.112 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 82.196.15.195

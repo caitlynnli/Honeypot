@@ -1,0 +1,24 @@
+2020-10-29 12:27:25.051 - [Info] MITM Version: 1.26
+2020-10-29 12:27:25.067 - [Info] Auto Access Enabled: true
+2020-10-29 12:27:25.068 - [Debug] [Init] Auto Access Barrier: true
+2020-10-29 12:27:25.114 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-29 12:28:29.355 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-WinSCP_release_5.2.7
+2020-10-29 12:28:30.918 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-29 12:28:30.919 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 12:28:31.196 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-29 12:28:31.198 - [Debug] [Auto Access] Attacker: 193.105.134.45, Threshold: 1, Attempts: 1
+2020-10-29 12:28:31.199 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-29 12:28:31.199 - [Debug] [Auto Access] Adding the following credentials: "22:backup"
+2020-10-29 12:28:31.845 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 12:28:31.846 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-29 12:28:31.944 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-29 12:28:33.061 - [Debug] [Connection] Attacker closed connection
+2020-10-29 12:28:33.429 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-29 12:28:33.429 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-29 12:29:18.415 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-libssh-0.6.0
+2020-10-29 12:29:20.015 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-29 12:29:20.016 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 12:29:20.294 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-29 12:29:20.295 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-29 12:29:20.296 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 12:29:20.575 - [Debug] [Connection] Attacker closed the connection

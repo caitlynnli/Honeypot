@@ -1,0 +1,21 @@
+2020-10-24 13:20:48.065 - [Info] MITM Version: 1.26
+2020-10-24 13:20:48.071 - [Info] Auto Access Enabled: true
+2020-10-24 13:20:48.072 - [Debug] [Init] Auto Access Barrier: true
+2020-10-24 13:20:48.122 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-24 13:20:54.680 - [Debug] [Connection] Attacker connected: 45.148.10.28 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 13:20:55.982 - [Debug] [Auth] Attacker 45.148.10.28 trying to authenticate with "password"
+2020-10-24 13:20:55.984 - [Debug] [Auto Access] Attacker: 45.148.10.28, Threshold: 1, Attempts: 1
+2020-10-24 13:20:55.984 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-24 13:20:55.984 - [Debug] [Auto Access] Adding the following credentials: "ts3:ts3"
+2020-10-24 13:20:56.324 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-24 13:20:56.324 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-24 13:21:11.856 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-24 13:21:12.310 - [Debug] [EXEC] Noninteractive mode attacker command: cat /etc/issue; pkill fri; pkill xmrig; pkill xmrigMiner; pkill cnrig;
+2020-10-24 13:21:13.347 - [Debug] [Connection] Attacker closed connection
+2020-10-24 13:21:13.352 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-24 13:21:13.353 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-24 13:21:36.401 - [Debug] [Connection] Attacker connected: 45.148.10.28 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 13:21:37.884 - [Debug] [Auth] Attacker 45.148.10.28 trying to authenticate with "password"
+2020-10-24 13:21:37.885 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-24 13:21:37.887 - [Debug] [Auth] Attacker: 45.148.10.28 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 13:21:38.104 - [Debug] [Connection] Attacker closed the connection

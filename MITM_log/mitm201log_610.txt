@@ -1,0 +1,15 @@
+2020-11-11 18:35:37.693 - [Info] MITM Version: 1.26
+2020-11-11 18:35:37.697 - [Info] Auto Access Enabled: true
+2020-11-11 18:35:37.697 - [Debug] [Init] Auto Access Barrier: true
+2020-11-11 18:35:37.710 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-11 18:36:41.787 - [Debug] [Connection] Attacker connected: 203.217.140.77 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-11 18:36:43.319 - [Debug] [Auth] Attacker 203.217.140.77 trying to authenticate with "password"
+2020-11-11 18:36:43.319 - [Debug] [Auto Access] Attacker: 203.217.140.77, Threshold: 1, Attempts: 1
+2020-11-11 18:36:43.320 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-11 18:36:43.320 - [Debug] [Auto Access] Adding the following credentials: "ftpuser:abc123"
+2020-11-11 18:36:43.533 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-11 18:36:43.533 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-11 18:36:55.336 - [Debug] [Connection] Attacker closed the connection
+2020-11-11 18:37:01.069 - [Info] Exiting...
+2020-11-11 18:37:01.069 - [Debug] Cleaning up...
+No auth in progress

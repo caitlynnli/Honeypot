@@ -1,0 +1,23 @@
+2020-11-08 07:14:16.397 - [Info] MITM Version: 1.26
+2020-11-08 07:14:16.401 - [Info] Auto Access Enabled: true
+2020-11-08 07:14:16.401 - [Debug] [Init] Auto Access Barrier: true
+2020-11-08 07:14:16.425 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-08 07:27:54.496 - [Debug] [Connection] Attacker connected: 129.2.19.206 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-08 07:27:57.062 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "keyboard-interactive"
+2020-11-08 07:27:57.063 - [Debug] [Auth] Attacker authentication error: Keyboard-interactive is not supported
+2020-11-08 07:27:57.063 - [Debug] [Auth] Attacker: 129.2.19.206 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-08 07:27:57.664 - [Debug] [Auth] Attacker 129.2.19.206 trying to authenticate with "password"
+2020-11-08 07:27:57.665 - [Debug] [Auto Access] Attacker: 129.2.19.206, Threshold: 1, Attempts: 1
+2020-11-08 07:27:57.665 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-08 07:27:57.665 - [Debug] [Auto Access] Adding the following credentials: "LIBRSYSISVC:fbsn-WVNdHuaE4uS!GT7mEJa"
+2020-11-08 07:27:57.884 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-08 07:27:57.884 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-08 07:28:13.378 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-08 07:28:13.937 - [Debug] [SHELL] Opened shell for attacker
+2020-11-08 07:29:14.444 - [Debug] [Connection] Client error on ssh server
+2020-11-08 07:29:14.445 - [Debug] [Connection] Attacker closed connection
+2020-11-08 07:29:14.450 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-08 07:29:14.451 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-08 07:29:14.451 - [Debug] [SHELL] Honeypot ended shell
+2020-11-08 07:33:14.612 - [Info] Exiting...
+2020-11-08 07:33:14.613 - [Debug] Cleaning up...

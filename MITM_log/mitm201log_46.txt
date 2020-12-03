@@ -1,0 +1,58 @@
+2020-10-24 13:01:51.985 - [Info] MITM Version: 1.26
+2020-10-24 13:01:51.992 - [Info] Auto Access Enabled: true
+2020-10-24 13:01:51.992 - [Debug] [Init] Auto Access Barrier: true
+2020-10-24 13:01:52.013 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-10-24 13:03:00.211 - [Debug] [Connection] Attacker connected: 45.148.10.28 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 13:03:01.661 - [Debug] [Auth] Attacker 45.148.10.28 trying to authenticate with "password"
+2020-10-24 13:03:01.663 - [Debug] [Auto Access] Attacker: 45.148.10.28, Threshold: 1, Attempts: 1
+2020-10-24 13:03:01.663 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-24 13:03:01.663 - [Debug] [Auto Access] Adding the following credentials: "root:123456"
+2020-10-24 13:03:01.822 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-24 13:03:01.822 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-10-24 13:03:17.143 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-24 13:03:17.554 - [Debug] [EXEC] Noninteractive mode attacker command: cat /etc/issue; pkill fri; pkill xmrig; pkill xmrigMiner; pkill cnrig;
+2020-10-24 13:03:18.501 - [Debug] [Connection] Attacker closed connection
+2020-10-24 13:03:18.513 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-24 13:03:18.514 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-24 13:03:43.951 - [Debug] [Connection] Attacker connected: 45.148.10.28 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 13:03:45.007 - [Debug] [Auth] Attacker 45.148.10.28 trying to authenticate with "password"
+2020-10-24 13:03:45.008 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-24 13:03:45.009 - [Debug] [Auth] Attacker: 45.148.10.28 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 13:03:45.416 - [Debug] [Connection] Attacker closed the connection
+2020-10-24 13:04:27.114 - [Debug] [Connection] Attacker connected: 45.148.10.28 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 13:04:28.187 - [Debug] [Auth] Attacker 45.148.10.28 trying to authenticate with "password"
+2020-10-24 13:04:28.188 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-24 13:04:28.189 - [Debug] [Auth] Attacker: 45.148.10.28 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 13:04:28.415 - [Debug] [Connection] Attacker closed the connection
+2020-10-24 13:04:51.533 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-24 13:04:52.116 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-24 13:04:52.116 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-24 13:04:52.336 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-24 13:04:52.337 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-24 13:04:52.338 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 13:04:52.556 - [Debug] [Connection] Attacker closed the connection
+2020-10-24 13:05:08.643 - [Debug] [Connection] Attacker connected: 45.148.10.28 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 13:05:10.361 - [Debug] [Auth] Attacker 45.148.10.28 trying to authenticate with "password"
+2020-10-24 13:05:10.363 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-24 13:05:10.364 - [Debug] [Auth] Attacker: 45.148.10.28 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 13:05:10.589 - [Debug] [Connection] Attacker closed the connection
+2020-10-24 13:05:50.255 - [Debug] [Connection] Attacker connected: 45.148.10.28 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 13:05:51.848 - [Debug] [Auth] Attacker 45.148.10.28 trying to authenticate with "password"
+2020-10-24 13:05:51.849 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-24 13:05:51.850 - [Debug] [Auth] Attacker: 45.148.10.28 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 13:05:52.074 - [Debug] [Connection] Attacker closed the connection
+2020-10-24 13:06:31.226 - [Debug] [Connection] Attacker connected: 45.148.10.28 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 13:06:32.240 - [Debug] [Auth] Attacker 45.148.10.28 trying to authenticate with "password"
+2020-10-24 13:06:32.241 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-24 13:06:32.242 - [Debug] [Auth] Attacker: 45.148.10.28 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 13:06:32.467 - [Debug] [Connection] Attacker closed the connection
+2020-10-24 13:07:10.823 - [Debug] [Connection] Attacker connected: 45.148.10.28 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 13:07:11.871 - [Debug] [Auth] Attacker 45.148.10.28 trying to authenticate with "password"
+2020-10-24 13:07:11.872 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-24 13:07:11.872 - [Debug] [Auth] Attacker: 45.148.10.28 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 13:07:12.088 - [Debug] [Connection] Attacker closed the connection
+2020-10-24 13:07:50.928 - [Debug] [Connection] Attacker connected: 45.148.10.28 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-24 13:07:52.816 - [Debug] [Auth] Attacker 45.148.10.28 trying to authenticate with "password"
+2020-10-24 13:07:52.817 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-24 13:07:52.819 - [Debug] [Auth] Attacker: 45.148.10.28 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-24 13:07:53.039 - [Debug] [Connection] Attacker closed the connection

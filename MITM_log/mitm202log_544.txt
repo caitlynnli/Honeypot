@@ -1,0 +1,27 @@
+2020-11-03 12:58:01.337 - [Info] MITM Version: 1.26
+2020-11-03 12:58:01.341 - [Info] Auto Access Enabled: true
+2020-11-03 12:58:01.341 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 12:58:01.354 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-03 12:58:34.745 - [Debug] [Connection] Attacker connected: 49.233.80.20 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:58:36.484 - [Debug] [Auth] Attacker 49.233.80.20 trying to authenticate with "password"
+2020-11-03 12:58:36.485 - [Debug] [Auto Access] Attacker: 49.233.80.20, Threshold: 1, Attempts: 1
+2020-11-03 12:58:36.485 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 12:58:36.485 - [Debug] [Auto Access] Adding the following credentials: "root:Daniel"
+2020-11-03 12:58:36.590 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 12:58:36.590 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-03 12:58:40.286 - [Debug] [Connection] Attacker connected: 141.98.81.154 | Client Identification: SSH-2.0-Go
+2020-11-03 12:58:40.882 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "none"
+2020-11-03 12:58:40.882 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 12:58:41.106 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "password"
+2020-11-03 12:58:41.106 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 12:58:41.107 - [Debug] [Auth] Attacker: 141.98.81.154 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:58:41.331 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:58:46.498 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:58:48.880 - [Debug] [Connection] Attacker connected: 119.45.26.117 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 12:58:50.495 - [Debug] [Auth] Attacker 119.45.26.117 trying to authenticate with "password"
+2020-11-03 12:58:50.495 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 12:58:50.496 - [Debug] [Auth] Attacker: 119.45.26.117 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 12:58:51.872 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 12:58:52.092 - [Info] Exiting...
+2020-11-03 12:58:52.092 - [Debug] Cleaning up...
+No auth in progress

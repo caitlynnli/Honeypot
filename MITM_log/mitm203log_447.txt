@@ -1,0 +1,24 @@
+2020-10-28 06:43:59.124 - [Info] MITM Version: 1.26
+2020-10-28 06:43:59.139 - [Info] Auto Access Enabled: true
+2020-10-28 06:43:59.140 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 06:43:59.192 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-28 06:59:10.757 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-28 06:59:11.262 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-28 06:59:11.262 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 06:59:11.483 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-28 06:59:11.485 - [Debug] [Auto Access] Attacker: 141.98.81.141, Threshold: 1, Attempts: 1
+2020-10-28 06:59:11.485 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 06:59:11.485 - [Debug] [Auto Access] Adding the following credentials: "root:admin"
+2020-10-28 06:59:11.684 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 06:59:11.685 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 06:59:11.754 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 06:59:12.195 - [Debug] [Connection] Attacker closed connection
+2020-10-28 06:59:13.108 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 06:59:13.109 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 07:02:13.593 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-OpenSSH_6.2
+2020-10-28 07:02:14.795 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 07:02:14.795 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 07:02:15.055 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 07:02:15.056 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 07:02:15.057 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 07:02:15.316 - [Debug] [Connection] Attacker closed the connection

@@ -1,0 +1,24 @@
+2020-10-23 23:30:29.423 - [Info] MITM Version: 1.26
+2020-10-23 23:30:29.432 - [Info] Auto Access Enabled: true
+2020-10-23 23:30:29.432 - [Debug] [Init] Auto Access Barrier: true
+2020-10-23 23:30:29.454 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-23 23:31:20.213 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-Granados-1.0
+2020-10-23 23:31:21.359 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-23 23:31:21.360 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-23 23:31:21.634 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-23 23:31:21.636 - [Debug] [Auto Access] Attacker: 195.3.147.47, Threshold: 1, Attempts: 1
+2020-10-23 23:31:21.636 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-23 23:31:21.637 - [Debug] [Auto Access] Adding the following credentials: "sshd:service"
+2020-10-23 23:31:21.959 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-23 23:31:21.959 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-23 23:31:37.486 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-23 23:31:39.316 - [Debug] [Connection] Attacker closed connection
+2020-10-23 23:31:39.326 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-23 23:31:39.327 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-23 23:36:23.736 - [Debug] [Connection] Attacker connected: 109.236.91.85 | Client Identification: SSH-2.0-OpenSSH_3.9p1
+2020-10-23 23:36:24.751 - [Debug] [Auth] Attacker 109.236.91.85 trying to authenticate with "none"
+2020-10-23 23:36:24.752 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-23 23:36:24.972 - [Debug] [Auth] Attacker 109.236.91.85 trying to authenticate with "password"
+2020-10-23 23:36:24.973 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-23 23:36:24.973 - [Debug] [Auth] Attacker: 109.236.91.85 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-23 23:36:25.193 - [Debug] [Connection] Attacker closed the connection

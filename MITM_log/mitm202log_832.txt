@@ -1,0 +1,24 @@
+2020-11-13 08:20:39.201 - [Info] MITM Version: 1.26
+2020-11-13 08:20:39.206 - [Info] Auto Access Enabled: true
+2020-11-13 08:20:39.206 - [Debug] [Init] Auto Access Barrier: true
+2020-11-13 08:20:39.227 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-13 08:21:16.746 - [Debug] [Connection] Attacker connected: 188.226.192.115 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 08:21:17.371 - [Debug] [Auth] Attacker 188.226.192.115 trying to authenticate with "password"
+2020-11-13 08:21:17.372 - [Debug] [Auto Access] Attacker: 188.226.192.115, Threshold: 1, Attempts: 1
+2020-11-13 08:21:17.372 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-13 08:21:17.372 - [Debug] [Auto Access] Adding the following credentials: "dima:dima"
+2020-11-13 08:21:17.590 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-13 08:21:17.591 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-13 08:21:19.613 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-13 08:21:20.023 - [Debug] [Connection] Attacker connected: 188.226.192.115 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 08:22:19.683 - [Debug] [Connection] Client error on ssh server
+2020-11-13 08:22:19.684 - [Debug] [Connection] Attacker closed connection
+2020-11-13 08:22:19.691 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-13 08:22:19.692 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-13 08:25:07.010 - [Debug] [Connection] Attacker connected: 116.85.40.181 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 08:25:10.320 - [Debug] [Auth] Attacker 116.85.40.181 trying to authenticate with "password"
+2020-11-13 08:25:10.321 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-13 08:25:10.321 - [Debug] [Auth] Attacker: 116.85.40.181 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-13 08:25:11.003 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 08:26:20.987 - [Info] Exiting...
+2020-11-13 08:26:20.988 - [Debug] Cleaning up...

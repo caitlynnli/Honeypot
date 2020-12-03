@@ -1,0 +1,24 @@
+2020-10-26 07:09:46.467 - [Info] MITM Version: 1.26
+2020-10-26 07:09:46.475 - [Info] Auto Access Enabled: true
+2020-10-26 07:09:46.476 - [Debug] [Init] Auto Access Barrier: true
+2020-10-26 07:09:46.498 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-26 07:25:58.158 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-Granados-1.0
+2020-10-26 07:25:59.791 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-26 07:25:59.792 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-26 07:26:00.071 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-26 07:26:00.074 - [Debug] [Auto Access] Attacker: 193.105.134.45, Threshold: 1, Attempts: 1
+2020-10-26 07:26:00.074 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-26 07:26:00.075 - [Debug] [Auto Access] Adding the following credentials: "22:admin"
+2020-10-26 07:26:00.797 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-26 07:26:00.798 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-26 07:26:00.922 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-26 07:26:02.001 - [Debug] [Connection] Attacker closed connection
+2020-10-26 07:26:02.011 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-26 07:26:02.012 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-26 07:26:41.378 - [Debug] [Connection] Attacker connected: 141.98.81.154 | Client Identification: SSH-2.0-Go
+2020-10-26 07:26:41.976 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "none"
+2020-10-26 07:26:41.976 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-26 07:26:42.200 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "password"
+2020-10-26 07:26:42.201 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-26 07:26:42.202 - [Debug] [Auth] Attacker: 141.98.81.154 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-26 07:26:42.426 - [Debug] [Connection] Attacker closed the connection

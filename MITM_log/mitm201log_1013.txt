@@ -1,0 +1,29 @@
+2020-11-18 18:50:09.384 - [Info] MITM Version: 1.26
+2020-11-18 18:50:09.387 - [Info] Auto Access Enabled: true
+2020-11-18 18:50:09.388 - [Debug] [Init] Auto Access Barrier: true
+2020-11-18 18:50:09.401 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-18 18:54:14.472 - [Debug] [Connection] Attacker connected: 165.227.7.187 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 18:54:15.041 - [Debug] [Auth] Attacker 165.227.7.187 trying to authenticate with "password"
+2020-11-18 18:54:15.042 - [Debug] [Auto Access] Attacker: 165.227.7.187, Threshold: 1, Attempts: 1
+2020-11-18 18:54:15.042 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-18 18:54:15.042 - [Debug] [Auto Access] Adding the following credentials: "angelina:angelina"
+2020-11-18 18:54:15.251 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-18 18:54:15.251 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-18 18:54:17.071 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-18 18:54:17.422 - [Debug] [Connection] Attacker connected: 165.227.7.187 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 18:55:17.138 - [Debug] [Connection] Client error on ssh server
+2020-11-18 18:55:17.139 - [Debug] [Connection] Attacker closed connection
+2020-11-18 18:55:17.144 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-18 18:55:17.144 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-18 18:56:22.401 - [Debug] [Connection] Attacker connected: 180.76.246.38 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 18:56:24.108 - [Debug] [Auth] Attacker 180.76.246.38 trying to authenticate with "password"
+2020-11-18 18:56:24.109 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 18:56:24.110 - [Debug] [Auth] Attacker: 180.76.246.38 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 18:56:24.691 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 18:58:48.836 - [Debug] [Connection] Attacker connected: 180.76.246.38 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-18 18:58:50.540 - [Debug] [Auth] Attacker 180.76.246.38 trying to authenticate with "password"
+2020-11-18 18:58:50.541 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-18 18:58:50.541 - [Debug] [Auth] Attacker: 180.76.246.38 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-18 18:58:51.122 - [Debug] [Connection] Attacker closed the connection
+2020-11-18 18:59:18.299 - [Info] Exiting...
+2020-11-18 18:59:18.300 - [Debug] Cleaning up...

@@ -1,0 +1,22 @@
+2020-11-03 02:30:42.445 - [Info] MITM Version: 1.26
+2020-11-03 02:30:42.452 - [Info] Auto Access Enabled: true
+2020-11-03 02:30:42.453 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 02:30:42.471 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-03 02:30:45.078 - [Debug] [Connection] Attacker connected: 117.114.138.246 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 02:30:47.431 - [Debug] [Auth] Attacker 117.114.138.246 trying to authenticate with "password"
+2020-11-03 02:30:47.432 - [Debug] [Auto Access] Attacker: 117.114.138.246, Threshold: 1, Attempts: 1
+2020-11-03 02:30:47.432 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 02:30:47.432 - [Debug] [Auto Access] Adding the following credentials: "root:1qaz#EDCg"
+2020-11-03 02:30:47.538 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 02:30:47.539 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-03 02:30:48.536 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-WinSCP_release_5.2.7
+2020-11-03 02:30:49.518 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-11-03 02:30:49.518 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 02:30:49.779 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-11-03 02:30:49.779 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 02:30:49.779 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 02:30:50.039 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 02:30:59.441 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 02:31:02.971 - [Info] Exiting...
+2020-11-03 02:31:02.971 - [Debug] Cleaning up...
+No auth in progress

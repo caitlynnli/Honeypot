@@ -1,0 +1,27 @@
+2020-10-25 20:14:49.912 - [Info] MITM Version: 1.26
+2020-10-25 20:14:49.918 - [Info] Auto Access Enabled: true
+2020-10-25 20:14:49.919 - [Debug] [Init] Auto Access Barrier: true
+2020-10-25 20:14:49.941 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-25 20:18:15.758 - [Debug] [Connection] Attacker connected: 141.98.81.154 | Client Identification: SSH-2.0-Go
+2020-10-25 20:18:16.319 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "none"
+2020-10-25 20:18:16.319 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-25 20:18:16.530 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "password"
+2020-10-25 20:18:16.531 - [Debug] [Auto Access] Attacker: 141.98.81.154, Threshold: 1, Attempts: 1
+2020-10-25 20:18:16.531 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-25 20:18:16.531 - [Debug] [Auto Access] Adding the following credentials: "root:admin"
+2020-10-25 20:18:16.703 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-25 20:18:16.704 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-25 20:18:32.217 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-25 20:18:32.640 - [Debug] [Connection] Attacker closed connection
+2020-10-25 20:18:33.031 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-25 20:18:33.031 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-25 20:21:01.702 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_2.0.2
+2020-10-25 20:21:02.842 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-25 20:21:02.842 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-25 20:21:03.103 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-25 20:21:03.105 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-25 20:21:03.105 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-25 20:21:03.154 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-25 20:21:04.974 - [Debug] [Connection] Attacker closed connection
+2020-10-25 20:21:04.984 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-25 20:21:04.984 - [Debug] [LXC] Container's OpenSSH server closed connection

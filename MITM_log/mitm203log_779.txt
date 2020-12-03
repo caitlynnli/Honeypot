@@ -1,0 +1,18 @@
+2020-11-08 01:19:33.368 - [Info] MITM Version: 1.26
+2020-11-08 01:19:33.371 - [Info] Auto Access Enabled: true
+2020-11-08 01:19:33.372 - [Debug] [Init] Auto Access Barrier: true
+2020-11-08 01:19:33.385 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-08 02:25:40.155 - [Debug] [Connection] Attacker connected: 67.205.140.85 | Client Identification: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.1
+2020-11-08 02:25:40.267 - [Debug] [Auth] Attacker 67.205.140.85 trying to authenticate with "none"
+2020-11-08 02:25:40.267 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-08 02:25:40.289 - [Debug] [Auth] Attacker 67.205.140.85 trying to authenticate with "password"
+2020-11-08 02:25:40.290 - [Debug] [Auto Access] Attacker: 67.205.140.85, Threshold: 1, Attempts: 1
+2020-11-08 02:25:40.290 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-08 02:25:40.290 - [Debug] [Auto Access] Adding the following credentials: ".syslog:Hesoyam2005@"
+2020-11-08 02:25:40.501 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-08 02:25:40.501 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-08 02:25:40.524 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-08 02:25:40.611 - [Debug] [EXEC] Noninteractive mode attacker command: "nproc"
+2020-11-08 02:25:41.206 - [Info] Exiting...
+2020-11-08 02:25:41.206 - [Debug] Cleaning up...
+Cannot read property 'write' of undefined

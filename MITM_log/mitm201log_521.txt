@@ -1,0 +1,103 @@
+2020-11-03 00:18:37.158 - [Info] MITM Version: 1.26
+2020-11-03 00:18:37.162 - [Info] Auto Access Enabled: true
+2020-11-03 00:18:37.163 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 00:18:37.175 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-03 00:18:48.877 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-03 00:18:50.043 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-11-03 00:18:50.043 - [Debug] [Auto Access] Attacker: 2.57.122.15, Threshold: 1, Attempts: 1
+2020-11-03 00:18:50.044 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 00:18:50.044 - [Debug] [Auto Access] Adding the following credentials: "root:admin"
+2020-11-03 00:18:50.145 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 00:18:50.146 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-03 00:19:05.660 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-03 00:19:06.222 - [Debug] [EXEC] Noninteractive mode attacker command: grep 'cpu cores' /proc/cpuinfo | uniq
+2020-11-03 00:19:06.551 - [Debug] [Connection] Attacker closed connection
+2020-11-03 00:19:06.556 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-03 00:19:06.556 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-03 00:19:09.255 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-03 00:19:10.455 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-11-03 00:19:10.456 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 00:19:10.456 - [Debug] [Auth] Attacker: 2.57.122.15 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:19:10.738 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:19:29.650 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-03 00:19:30.842 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-11-03 00:19:30.843 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 00:19:30.844 - [Debug] [Auth] Attacker: 2.57.122.15 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:19:31.124 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:19:49.997 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-03 00:19:51.146 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-11-03 00:19:51.147 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:19:51.147 - [Debug] [Auth] Attacker: 2.57.122.15 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:19:51.427 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:20:09.556 - [Debug] [Connection] Attacker connected: 119.96.193.238 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:20:10.082 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-03 00:20:11.231 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-11-03 00:20:11.231 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:20:11.232 - [Debug] [Auth] Attacker: 2.57.122.15 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:20:11.513 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:20:14.301 - [Debug] [Auth] Attacker 119.96.193.238 trying to authenticate with "password"
+2020-11-03 00:20:14.301 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:20:14.302 - [Debug] [Auth] Attacker: 119.96.193.238 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:20:14.901 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:20:30.189 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-03 00:20:31.375 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-11-03 00:20:31.375 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 00:20:31.376 - [Debug] [Auth] Attacker: 2.57.122.15 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:20:31.657 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:20:49.982 - [Debug] [Connection] Attacker connected: 161.35.121.130 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:20:50.132 - [Debug] [Auth] Attacker 161.35.121.130 trying to authenticate with "password"
+2020-11-03 00:20:50.132 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:20:50.133 - [Debug] [Auth] Attacker: 161.35.121.130 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:20:50.196 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:20:50.267 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-03 00:20:51.411 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-11-03 00:20:51.411 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 00:20:51.412 - [Debug] [Auth] Attacker: 2.57.122.15 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:20:51.693 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:20:56.562 - [Debug] [Connection] Attacker connected: 89.22.115.224 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:20:57.277 - [Debug] [Auth] Attacker 89.22.115.224 trying to authenticate with "password"
+2020-11-03 00:20:57.277 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:20:57.278 - [Debug] [Auth] Attacker: 89.22.115.224 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:20:57.526 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:21:10.431 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-03 00:21:11.580 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-11-03 00:21:11.581 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 00:21:11.581 - [Debug] [Auth] Attacker: 2.57.122.15 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:21:11.863 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:21:27.158 - [Debug] [Connection] Attacker connected: 138.68.94.173 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:21:27.814 - [Debug] [Auth] Attacker 138.68.94.173 trying to authenticate with "password"
+2020-11-03 00:21:27.815 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:21:27.815 - [Debug] [Auth] Attacker: 138.68.94.173 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:21:28.054 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:21:30.620 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-03 00:21:31.787 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-11-03 00:21:31.787 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 00:21:31.788 - [Debug] [Auth] Attacker: 2.57.122.15 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:21:32.068 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:21:48.804 - [Debug] [Connection] Attacker connected: 95.167.225.85 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:21:50.304 - [Debug] [Auth] Attacker 95.167.225.85 trying to authenticate with "password"
+2020-11-03 00:21:50.304 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:21:50.304 - [Debug] [Auth] Attacker: 95.167.225.85 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:21:50.536 - [Debug] [Connection] Attacker connected: 2.57.122.15 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-03 00:21:50.668 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:21:51.683 - [Debug] [Auth] Attacker 2.57.122.15 trying to authenticate with "password"
+2020-11-03 00:21:51.683 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 00:21:51.684 - [Debug] [Auth] Attacker: 2.57.122.15 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:21:51.968 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:22:46.620 - [Debug] [Connection] Attacker connected: 125.35.92.130 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:22:48.241 - [Debug] [Connection] Attacker connected: 119.96.193.238 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:22:50.450 - [Debug] [Auth] Attacker 125.35.92.130 trying to authenticate with "password"
+2020-11-03 00:22:50.451 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:22:50.451 - [Debug] [Auth] Attacker: 125.35.92.130 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:22:50.610 - [Debug] [Auth] Attacker 119.96.193.238 trying to authenticate with "password"
+2020-11-03 00:22:50.611 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:22:50.611 - [Debug] [Auth] Attacker: 119.96.193.238 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:22:51.645 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:22:51.758 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:23:43.758 - [Debug] [Connection] Attacker connected: 150.136.136.254 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-03 00:23:43.890 - [Debug] [Auth] Attacker 150.136.136.254 trying to authenticate with "password"
+2020-11-03 00:23:43.890 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-03 00:23:43.890 - [Debug] [Auth] Attacker: 150.136.136.254 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 00:23:43.945 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 00:24:06.984 - [Info] Exiting...
+2020-11-03 00:24:06.984 - [Debug] Cleaning up...

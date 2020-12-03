@@ -1,0 +1,25 @@
+2020-11-21 11:18:48.478 - [Info] MITM Version: 1.26
+2020-11-21 11:18:48.482 - [Info] Auto Access Enabled: true
+2020-11-21 11:18:48.482 - [Debug] [Init] Auto Access Barrier: true
+2020-11-21 11:18:48.498 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-21 11:18:59.518 - [Debug] [Connection] Attacker connected: 171.250.187.119 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-21 11:19:01.075 - [Debug] [Auth] Attacker 171.250.187.119 trying to authenticate with "none"
+2020-11-21 11:19:01.076 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-21 11:19:01.609 - [Debug] [Auth] Attacker 171.250.187.119 trying to authenticate with "password"
+2020-11-21 11:19:01.610 - [Debug] [Auto Access] Attacker: 171.250.187.119, Threshold: 1, Attempts: 1
+2020-11-21 11:19:01.610 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-21 11:19:01.610 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-21 11:19:01.720 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-21 11:19:01.720 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-21 11:19:11.606 - [Debug] [Connection] Client error on ssh server
+2020-11-21 11:19:11.606 - [Debug] [Connection] Attacker closed the connection
+2020-11-21 11:19:12.004 - [Debug] [Connection] Attacker connected: 171.250.187.119 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-11-21 11:19:13.587 - [Debug] [Auth] Attacker 171.250.187.119 trying to authenticate with "none"
+2020-11-21 11:19:13.588 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-21 11:19:14.121 - [Debug] [Auth] Attacker 171.250.187.119 trying to authenticate with "password"
+2020-11-21 11:19:14.121 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-21 11:19:14.121 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-21 11:19:16.296 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-21 11:19:19.342 - [Info] Exiting...
+2020-11-21 11:19:19.343 - [Debug] Cleaning up...
+No auth in progress

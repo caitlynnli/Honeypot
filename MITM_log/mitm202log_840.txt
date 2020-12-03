@@ -1,0 +1,38 @@
+2020-11-13 13:34:36.820 - [Info] MITM Version: 1.26
+2020-11-13 13:34:36.824 - [Info] Auto Access Enabled: true
+2020-11-13 13:34:36.824 - [Debug] [Init] Auto Access Barrier: true
+2020-11-13 13:34:36.838 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-13 13:34:45.685 - [Debug] [Connection] Attacker connected: 140.238.251.206 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 13:34:46.917 - [Debug] [Auth] Attacker 140.238.251.206 trying to authenticate with "password"
+2020-11-13 13:34:46.917 - [Debug] [Auto Access] Attacker: 140.238.251.206, Threshold: 1, Attempts: 1
+2020-11-13 13:34:46.918 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-13 13:34:46.918 - [Debug] [Auto Access] Adding the following credentials: "root:abc@123"
+2020-11-13 13:34:47.159 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-13 13:34:47.159 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-13 13:34:56.926 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 13:35:17.181 - [Debug] [Auth] Attacker authentication error: Error: Timed out while waiting for handshake
+2020-11-13 13:35:17.181 - [Debug] [Auth] Attacker: 140.238.251.206 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-13 13:35:17.181 - [Debug] [Auth] Attacker authentication error: Error: Timed out while waiting for handshake
+2020-11-13 13:35:17.182 - [Debug] [Auth] Attacker: 140.238.251.206 has so far made 2 attempts. Remaining: 4 attempts
+2020-11-13 13:35:17.182 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-13 13:35:42.704 - [Debug] [Connection] Attacker connected: 140.238.251.206 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 13:35:43.949 - [Debug] [Auth] Attacker 140.238.251.206 trying to authenticate with "password"
+2020-11-13 13:35:43.949 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-13 13:35:43.949 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-13 13:35:45.947 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-13 13:35:48.418 - [Debug] [Connection] Attacker connected: 164.132.225.151 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 13:35:49.036 - [Debug] [Auth] Attacker 164.132.225.151 trying to authenticate with "password"
+2020-11-13 13:35:49.036 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-13 13:35:49.037 - [Debug] [Auth] Attacker: 164.132.225.151 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-13 13:35:49.315 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 13:36:46.015 - [Debug] [Connection] Client error on ssh server
+2020-11-13 13:36:46.016 - [Debug] [Connection] Attacker closed connection
+2020-11-13 13:36:46.020 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-13 13:36:46.021 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-13 13:38:12.109 - [Debug] [Connection] Attacker connected: 164.132.225.151 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-13 13:38:12.727 - [Debug] [Auth] Attacker 164.132.225.151 trying to authenticate with "password"
+2020-11-13 13:38:12.728 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-13 13:38:12.728 - [Debug] [Auth] Attacker: 164.132.225.151 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-13 13:38:12.948 - [Debug] [Connection] Attacker closed the connection
+2020-11-13 13:40:47.208 - [Info] Exiting...
+2020-11-13 13:40:47.208 - [Debug] Cleaning up...

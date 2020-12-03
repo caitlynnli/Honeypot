@@ -1,0 +1,24 @@
+2020-10-28 16:03:33.797 - [Info] MITM Version: 1.26
+2020-10-28 16:03:33.803 - [Info] Auto Access Enabled: true
+2020-10-28 16:03:33.803 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 16:03:33.826 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-28 16:04:18.944 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-paramiko_1.16.1
+2020-10-28 16:04:20.387 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-28 16:04:20.388 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 16:04:20.657 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-28 16:04:20.659 - [Debug] [Auto Access] Attacker: 195.3.147.47, Threshold: 1, Attempts: 1
+2020-10-28 16:04:20.659 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 16:04:20.659 - [Debug] [Auto Access] Adding the following credentials: "sshd:service"
+2020-10-28 16:04:20.823 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 16:04:20.824 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-28 16:04:36.167 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 16:04:37.984 - [Debug] [Connection] Attacker closed connection
+2020-10-28 16:04:38.011 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 16:04:38.012 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 16:04:46.892 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-28 16:04:47.479 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-28 16:04:47.479 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 16:04:47.709 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-28 16:04:47.710 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 16:04:47.711 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 16:04:47.930 - [Debug] [Connection] Attacker closed the connection

@@ -1,0 +1,22 @@
+2020-11-16 07:53:02.754 - [Info] MITM Version: 1.26
+2020-11-16 07:53:02.758 - [Info] Auto Access Enabled: true
+2020-11-16 07:53:02.758 - [Debug] [Init] Auto Access Barrier: true
+2020-11-16 07:53:02.772 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-11-16 07:56:45.869 - [Debug] [Connection] Attacker connected: 159.203.103.192 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-16 07:56:46.025 - [Debug] [Auth] Attacker 159.203.103.192 trying to authenticate with "password"
+2020-11-16 07:56:46.026 - [Debug] [Auto Access] Attacker: 159.203.103.192, Threshold: 1, Attempts: 1
+2020-11-16 07:56:46.026 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-16 07:56:46.026 - [Debug] [Auto Access] Adding the following credentials: "Changeme!:Changeme!"
+2020-11-16 07:56:46.237 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-16 07:56:46.237 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-11-16 07:56:55.430 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-16 07:56:55.513 - [Debug] [Connection] Attacker connected: 159.203.103.192 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-16 07:56:55.665 - [Debug] [Auth] Attacker 159.203.103.192 trying to authenticate with "password"
+2020-11-16 07:56:55.665 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-16 07:56:55.666 - [Debug] [Auth] Attacker: 159.203.103.192 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-16 07:56:55.733 - [Debug] [Connection] Attacker closed the connection
+2020-11-16 07:56:55.757 - [Debug] [EXEC] Noninteractive mode attacker command: cat /proc/cpuinfo | grep name | wc -l
+2020-11-16 08:01:56.656 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-16 08:01:56.657 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-16 08:01:56.718 - [Info] Exiting...
+2020-11-16 08:01:56.718 - [Debug] Cleaning up...

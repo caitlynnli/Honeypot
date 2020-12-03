@@ -1,0 +1,16 @@
+2020-11-22 02:10:27.372 - [Info] MITM Version: 1.26
+2020-11-22 02:10:27.376 - [Info] Auto Access Enabled: true
+2020-11-22 02:10:27.376 - [Debug] [Init] Auto Access Barrier: true
+2020-11-22 02:10:27.389 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-22 02:10:44.995 - [Debug] [Connection] Attacker connected: 118.27.11.126 | Client Identification: SSH-2.0-libssh-0.6.3
+2020-11-22 02:10:46.157 - [Debug] [Auth] Attacker 118.27.11.126 trying to authenticate with "password"
+2020-11-22 02:10:46.157 - [Debug] [Auto Access] Attacker: 118.27.11.126, Threshold: 1, Attempts: 1
+2020-11-22 02:10:46.158 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-22 02:10:46.158 - [Debug] [Auto Access] Adding the following credentials: "sphinx:sphinx"
+2020-11-22 02:10:46.376 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-22 02:10:46.376 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-22 02:10:56.172 - [Debug] [Connection] Attacker closed the connection
+2020-11-22 02:11:03.552 - [Info] Exiting...
+2020-11-22 02:11:03.552 - [Debug] Cleaning up...
+No auth in progress
+Attacker IP: 107.171.251.16

@@ -1,0 +1,26 @@
+2020-11-14 22:56:41.217 - [Info] MITM Version: 1.26
+2020-11-14 22:56:41.221 - [Info] Auto Access Enabled: true
+2020-11-14 22:56:41.221 - [Debug] [Init] Auto Access Barrier: true
+2020-11-14 22:56:41.235 - [Info] SSH man-in-the-middle server for 172.20.0.201 listening on 0.0.0.0:10000
+2020-11-14 22:58:38.221 - [Debug] [Connection] Attacker connected: 221.146.116.35 | Client Identification: SSH-2.0-libssh2_1.9.0
+2020-11-14 22:58:40.336 - [Debug] [Auth] Attacker 221.146.116.35 trying to authenticate with "none"
+2020-11-14 22:58:40.337 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-14 22:58:41.196 - [Debug] [Auth] Attacker 221.146.116.35 trying to authenticate with "password"
+2020-11-14 22:58:41.197 - [Debug] [Auto Access] Attacker: 221.146.116.35, Threshold: 1, Attempts: 1
+2020-11-14 22:58:41.197 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-14 22:58:41.199 - [Debug] [Auto Access] Adding the following credentials: "admin:admin"
+2020-11-14 22:58:41.414 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-14 22:58:41.415 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.201
+2020-11-14 22:58:58.078 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-14 22:58:59.572 - [Debug] [Connection] Attacker closed connection
+2020-11-14 22:58:59.577 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-14 22:58:59.577 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-14 22:59:00.317 - [Debug] [Connection] Attacker connected: 221.146.116.35 | Client Identification: SSH-2.0-libssh2_1.9.0
+2020-11-14 22:59:02.960 - [Debug] [Auth] Attacker 221.146.116.35 trying to authenticate with "none"
+2020-11-14 22:59:02.960 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-14 22:59:03.767 - [Debug] [Auth] Attacker 221.146.116.35 trying to authenticate with "password"
+2020-11-14 22:59:03.767 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-14 22:59:03.768 - [Debug] [Auth] Attacker: 221.146.116.35 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-14 22:59:04.663 - [Debug] [Connection] Attacker closed the connection
+2020-11-14 23:03:59.380 - [Info] Exiting...
+2020-11-14 23:03:59.380 - [Debug] Cleaning up...

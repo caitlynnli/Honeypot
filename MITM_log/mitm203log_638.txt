@@ -1,0 +1,28 @@
+2020-11-03 01:44:14.103 - [Info] MITM Version: 1.26
+2020-11-03 01:44:14.107 - [Info] Auto Access Enabled: true
+2020-11-03 01:44:14.107 - [Debug] [Init] Auto Access Barrier: true
+2020-11-03 01:44:14.124 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-03 01:44:30.549 - [Debug] [Connection] Attacker connected: 141.98.81.154 | Client Identification: SSH-2.0-Go
+2020-11-03 01:44:31.041 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "none"
+2020-11-03 01:44:31.041 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 01:44:31.260 - [Debug] [Auth] Attacker 141.98.81.154 trying to authenticate with "password"
+2020-11-03 01:44:31.261 - [Debug] [Auto Access] Attacker: 141.98.81.154, Threshold: 1, Attempts: 1
+2020-11-03 01:44:31.261 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-03 01:44:31.261 - [Debug] [Auto Access] Adding the following credentials: "root:admin"
+2020-11-03 01:44:31.365 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-03 01:44:31.366 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-03 01:44:46.655 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-03 01:44:47.094 - [Debug] [Connection] Attacker closed connection
+2020-11-03 01:44:47.136 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-03 01:44:47.136 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-03 01:46:29.116 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-11-03 01:46:29.679 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-11-03 01:46:29.680 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-11-03 01:46:29.892 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-11-03 01:46:29.892 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-03 01:46:29.893 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-03 01:46:30.103 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 01:49:36.325 - [Debug] [Connection] Attacker connected: 67.209.79.254 | Client Identification: SSH-2.0-libssh-0.5.2
+2020-11-03 01:49:36.362 - [Debug] [Connection] Attacker closed the connection
+2020-11-03 01:49:47.996 - [Info] Exiting...
+2020-11-03 01:49:47.996 - [Debug] Cleaning up...

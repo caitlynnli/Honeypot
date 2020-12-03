@@ -1,0 +1,22 @@
+2020-10-28 11:10:52.523 - [Info] MITM Version: 1.26
+2020-10-28 11:10:52.530 - [Info] Auto Access Enabled: true
+2020-10-28 11:10:52.530 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 11:10:52.586 - [Info] SSH man-in-the-middle server for 172.20.0.202 listening on 0.0.0.0:10001
+2020-10-28 11:17:29.337 - [Debug] [Connection] Attacker connected: 190.2.137.62 | Client Identification: SSH-2.0-sshlib-0.1
+2020-10-28 11:17:31.073 - [Debug] [Auth] Attacker 190.2.137.62 trying to authenticate with "password"
+2020-10-28 11:17:31.075 - [Debug] [Auto Access] Attacker: 190.2.137.62, Threshold: 1, Attempts: 1
+2020-10-28 11:17:31.076 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 11:17:31.076 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-10-28 11:17:31.405 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 11:17:31.406 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.202
+2020-10-28 11:17:31.511 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 11:17:48.070 - [Debug] [Connection] Attacker closed connection
+2020-10-28 11:17:48.081 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 11:17:48.081 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 11:17:54.680 - [Debug] [Connection] Attacker connected: 193.105.134.45 | Client Identification: SSH-2.0-PuTTY_Release_0.67
+2020-10-28 11:17:56.179 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "none"
+2020-10-28 11:17:56.180 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 11:17:56.459 - [Debug] [Auth] Attacker 193.105.134.45 trying to authenticate with "password"
+2020-10-28 11:17:56.461 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 11:17:56.462 - [Debug] [Auth] Attacker: 193.105.134.45 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 11:17:56.742 - [Debug] [Connection] Attacker closed the connection

