@@ -17,6 +17,7 @@ type_1=()
 type_2=()
 type_3=()
 type_4=()
+num_cmd=0
 #cpu=($(echo "${cpu[@]}" | tr ' ' '\n' | sort -u | tr '\n' ' '))
 #uniques=($(for v in "${cpu[@]}"; do echo "$v";done| sort| uniq| xargs))
 #for i in ${cpu[@]} ; do
@@ -35,65 +36,136 @@ while IFS= read -r line; do
 			ipexist=$(cat $line | grep $ip)
 				#echo $ipexist
 				#echo $not_found
+				
 			if [ ! -z "$ipexist" ] ; then
-				#echo $ip
+				echo $ip
 				cmds=$(cat $line | grep "Noninteractive mode attacker command")
 				if [ ! -z "$cmds" ]; then
 					content=$(cat $line | grep "Noninteractive mode attacker command" | cut -d':' -f4 | tr ';' '\n' | sort | uniq -c)
 				fi
 			
 				if [ ! -z "$content" ]; then
-					echo $content
+					#echo $content
+					num_cmd=0
 					#hascmd=$($content | grep "scp")
 					if [[ $content =~ .*"wget" ]] ; then
 						type_3+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"perl" ]] ; then
 						type_3+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"pkill" ]] ; then
 						type_4+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"scp" ]] ; then
 						type_1+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"/ip cloud print" ]] ; then
 						type_1+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"rm -rf bot.pl" ]] ; then
 						type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					elif [[ $content =~ .*"rm" ]] ; then
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"uname" ]] ; then
 						type_2+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"cpu" ]] ; then
 						type_2+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"curl" ]] ; then
 						type_3+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"system" ]] ; then
 						type_3+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"echo" ]] ; then
 						type_1+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"nproc" ]] ; then
 						type_1+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"release" ]] ; then
 						type_2+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"nc" ]] ; then
 						type_1+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"HISTFILE" ]] ; then
 						type_1+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
 					if [[ $content =~ .*"rm -f *sh" ]] ; then
 						type_4+=($ip)
+						num_cmd=$((num_cmd+1))
 					fi
-	
+					if [[ $content =~ .*"cd" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"cat /etc/issue" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"history" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"fbsn" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"sudo" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"hostname" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"PS1" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"ls" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"lscpu" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"lscpuy" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"halt" ]] ; then
+						#type_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+					if [[ $content =~ .*"echo" ]] ; then
+						#ype_4+=($ip)
+						num_cmd=$((num_cmd+1))
+					fi
+
+
+					echo $ip
+					echo $num_cmd
 					#ct_log=$(( ct_log + 1 ))
 				#	cmds1=$(cat $file | grep "line from reader")
 				#	cmds2=$(cat $file | grep "Noninteractive mode attacker command")
